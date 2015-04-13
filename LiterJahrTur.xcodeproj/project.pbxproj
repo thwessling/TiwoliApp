@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F798D3321ADC3849006121B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798D3311ADC3849006121B8 /* AppDelegate.swift */; };
+		F798D3341ADC3849006121B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798D3331ADC3849006121B8 /* ViewController.swift */; };
+		F798D3371ADC3849006121B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F798D3351ADC3849006121B8 /* Main.storyboard */; };
+		F798D3391ADC3849006121B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F798D3381ADC3849006121B8 /* Images.xcassets */; };
+		F798D33C1ADC3849006121B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F798D33A1ADC3849006121B8 /* LaunchScreen.xib */; };
+		F798D3481ADC3849006121B8 /* LiterJahrTurTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798D3471ADC3849006121B8 /* LiterJahrTurTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F798D3421ADC3849006121B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F798D3241ADC3849006121B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F798D32B1ADC3849006121B8;
+			remoteInfo = LiterJahrTur;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F798D32C1ADC3849006121B8 /* LiterJahrTur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiterJahrTur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F798D3301ADC3849006121B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F798D3311ADC3849006121B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F798D3331ADC3849006121B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F798D3361ADC3849006121B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F798D3381ADC3849006121B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F798D33B1ADC3849006121B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F798D3411ADC3849006121B8 /* LiterJahrTurTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiterJahrTurTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F798D3461ADC3849006121B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F798D3471ADC3849006121B8 /* LiterJahrTurTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiterJahrTurTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F798D3291ADC3849006121B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F798D33E1ADC3849006121B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F798D3231ADC3849006121B8 = {
+			isa = PBXGroup;
+			children = (
+				F798D32E1ADC3849006121B8 /* LiterJahrTur */,
+				F798D3441ADC3849006121B8 /* LiterJahrTurTests */,
+				F798D32D1ADC3849006121B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F798D32D1ADC3849006121B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F798D32C1ADC3849006121B8 /* LiterJahrTur.app */,
+				F798D3411ADC3849006121B8 /* LiterJahrTurTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F798D32E1ADC3849006121B8 /* LiterJahrTur */ = {
+			isa = PBXGroup;
+			children = (
+				F798D3311ADC3849006121B8 /* AppDelegate.swift */,
+				F798D3331ADC3849006121B8 /* ViewController.swift */,
+				F798D3351ADC3849006121B8 /* Main.storyboard */,
+				F798D3381ADC3849006121B8 /* Images.xcassets */,
+				F798D33A1ADC3849006121B8 /* LaunchScreen.xib */,
+				F798D32F1ADC3849006121B8 /* Supporting Files */,
+			);
+			path = LiterJahrTur;
+			sourceTree = "<group>";
+		};
+		F798D32F1ADC3849006121B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F798D3301ADC3849006121B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F798D3441ADC3849006121B8 /* LiterJahrTurTests */ = {
+			isa = PBXGroup;
+			children = (
+				F798D3471ADC3849006121B8 /* LiterJahrTurTests.swift */,
+				F798D3451ADC3849006121B8 /* Supporting Files */,
+			);
+			path = LiterJahrTurTests;
+			sourceTree = "<group>";
+		};
+		F798D3451ADC3849006121B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F798D3461ADC3849006121B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F798D32B1ADC3849006121B8 /* LiterJahrTur */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F798D34B1ADC3849006121B8 /* Build configuration list for PBXNativeTarget "LiterJahrTur" */;
+			buildPhases = (
+				F798D3281ADC3849006121B8 /* Sources */,
+				F798D3291ADC3849006121B8 /* Frameworks */,
+				F798D32A1ADC3849006121B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiterJahrTur;
+			productName = LiterJahrTur;
+			productReference = F798D32C1ADC3849006121B8 /* LiterJahrTur.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F798D3401ADC3849006121B8 /* LiterJahrTurTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F798D34E1ADC3849006121B8 /* Build configuration list for PBXNativeTarget "LiterJahrTurTests" */;
+			buildPhases = (
+				F798D33D1ADC3849006121B8 /* Sources */,
+				F798D33E1ADC3849006121B8 /* Frameworks */,
+				F798D33F1ADC3849006121B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F798D3431ADC3849006121B8 /* PBXTargetDependency */,
+			);
+			name = LiterJahrTurTests;
+			productName = LiterJahrTurTests;
+			productReference = F798D3411ADC3849006121B8 /* LiterJahrTurTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F798D3241ADC3849006121B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = thb;
+				TargetAttributes = {
+					F798D32B1ADC3849006121B8 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					F798D3401ADC3849006121B8 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = F798D32B1ADC3849006121B8;
+					};
+				};
+			};
+			buildConfigurationList = F798D3271ADC3849006121B8 /* Build configuration list for PBXProject "LiterJahrTur" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F798D3231ADC3849006121B8;
+			productRefGroup = F798D32D1ADC3849006121B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F798D32B1ADC3849006121B8 /* LiterJahrTur */,
+				F798D3401ADC3849006121B8 /* LiterJahrTurTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F798D32A1ADC3849006121B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F798D3371ADC3849006121B8 /* Main.storyboard in Resources */,
+				F798D33C1ADC3849006121B8 /* LaunchScreen.xib in Resources */,
+				F798D3391ADC3849006121B8 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F798D33F1ADC3849006121B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F798D3281ADC3849006121B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F798D3341ADC3849006121B8 /* ViewController.swift in Sources */,
+				F798D3321ADC3849006121B8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F798D33D1ADC3849006121B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F798D3481ADC3849006121B8 /* LiterJahrTurTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F798D3431ADC3849006121B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F798D32B1ADC3849006121B8 /* LiterJahrTur */;
+			targetProxy = F798D3421ADC3849006121B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F798D3351ADC3849006121B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F798D3361ADC3849006121B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F798D33A1ADC3849006121B8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F798D33B1ADC3849006121B8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F798D3491ADC3849006121B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F798D34A1ADC3849006121B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F798D34C1ADC3849006121B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiterJahrTur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F798D34D1ADC3849006121B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LiterJahrTur/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F798D34F1ADC3849006121B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiterJahrTurTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiterJahrTur.app/LiterJahrTur";
+			};
+			name = Debug;
+		};
+		F798D3501ADC3849006121B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiterJahrTurTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiterJahrTur.app/LiterJahrTur";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F798D3271ADC3849006121B8 /* Build configuration list for PBXProject "LiterJahrTur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F798D3491ADC3849006121B8 /* Debug */,
+				F798D34A1ADC3849006121B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F798D34B1ADC3849006121B8 /* Build configuration list for PBXNativeTarget "LiterJahrTur" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F798D34C1ADC3849006121B8 /* Debug */,
+				F798D34D1ADC3849006121B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F798D34E1ADC3849006121B8 /* Build configuration list for PBXNativeTarget "LiterJahrTurTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F798D34F1ADC3849006121B8 /* Debug */,
+				F798D3501ADC3849006121B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F798D3241ADC3849006121B8 /* Project object */;
+}

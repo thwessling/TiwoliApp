@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F7410BFC1AE570FB00E2105E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7410BFE1AE570FB00E2105E /* Localizable.strings */; };
+		F754A1F81ADFFEC200D187B9 /* literjahrtur512.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F754A1F71ADFFEC200D187B9 /* literjahrtur512.jpg */; };
+		F75E18CC1ADF9CB8007F1011 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E18CB1ADF9CB8007F1011 /* SwiftyJSON.swift */; };
+		F75E18F61ADFF541007F1011 /* q502_stendhal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18DA1ADFF541007F1011 /* q502_stendhal.jpg */; };
+		F75E18F71ADFF541007F1011 /* q535_victor_hugo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18DB1ADFF541007F1011 /* q535_victor_hugo.jpg */; };
+		F75E18F81ADFF541007F1011 /* q692_william_shakespeare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18DC1ADFF541007F1011 /* q692_william_shakespeare.jpg */; };
+		F75E18F91ADFF541007F1011 /* q991_fyodor_dostoyevsky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18DD1ADFF541007F1011 /* q991_fyodor_dostoyevsky.jpg */; };
+		F75E18FA1ADFF541007F1011 /* q4985_herman_melville.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18DE1ADFF541007F1011 /* q4985_herman_melville.jpg */; };
+		F75E18FB1ADFF541007F1011 /* q5686_charles_dickens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18DF1ADFF541007F1011 /* q5686_charles_dickens.jpg */; };
+		F75E18FC1ADFF541007F1011 /* q6882_james_joyce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E01ADFF541007F1011 /* q6882_james_joyce.jpg */; };
+		F75E18FD1ADFF541007F1011 /* q7243_leo_tolstoy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E11ADFF541007F1011 /* q7243_leo_tolstoy.jpg */; };
+		F75E18FE1ADFF541007F1011 /* q7245_mark_twain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E21ADFF541007F1011 /* q7245_mark_twain.jpg */; };
+		F75E18FF1ADFF541007F1011 /* q9327_guy_de_maupassant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E31ADFF541007F1011 /* q9327_guy_de_maupassant.jpg */; };
+		F75E19001ADFF541007F1011 /* q9711_honorc3a9_de_balzac.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E41ADFF541007F1011 /* q9711_honorc3a9_de_balzac.jpg */; };
+		F75E19011ADFF541007F1011 /* q16867_edgar_allan_poe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E51ADFF541007F1011 /* q16867_edgar_allan_poe.jpg */; };
+		F75E19021ADFF541007F1011 /* q33977_jules_verne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E61ADFF541007F1011 /* q33977_jules_verne.jpg */; };
+		F75E19031ADFF541007F1011 /* q35610_arthur_conan_doyle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E71ADFF541007F1011 /* q35610_arthur_conan_doyle.jpg */; };
+		F75E19041ADFF541007F1011 /* q38337_alexandre_dumas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E81ADFF541007F1011 /* q38337_alexandre_dumas.jpg */; };
+		F75E19051ADFF541007F1011 /* q40946_daniel_defoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E91ADFF541007F1011 /* q40946_daniel_defoe.jpg */; };
+		F75E19061ADFF541007F1011 /* q41166_jonathan_swift.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18EA1ADFF541007F1011 /* q41166_jonathan_swift.jpg */; };
+		F75E19071ADFF541007F1011 /* q43444_gustave_flaubert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18EB1ADFF541007F1011 /* q43444_gustave_flaubert.jpg */; };
+		F75E19081ADFF541007F1011 /* q43718_nikolai_gogol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18EC1ADFF541007F1011 /* q43718_nikolai_gogol.jpg */; };
+		F75E19091ADFF541007F1011 /* q76480_heinrich_mann.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18ED1ADFF541007F1011 /* q76480_heinrich_mann.jpg */; };
+		F75E190A1ADFF541007F1011 /* q76632_theodor_fontane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18EE1ADFF541007F1011 /* q76632_theodor_fontane.jpg */; };
+		F75E190B1ADFF541007F1011 /* q85309_rudolf_lindau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18EF1ADFF541007F1011 /* q85309_rudolf_lindau.jpg */; };
+		F75E190C1ADFF541007F1011 /* q93354_f_scott_fitzgerald.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18F01ADFF541007F1011 /* q93354_f_scott_fitzgerald.jpg */; };
+		F75E190D1ADFF541007F1011 /* q121060_matthew_lewis_writer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18F11ADFF541007F1011 /* q121060_matthew_lewis_writer.jpg */; };
+		F75E190E1ADFF541007F1011 /* q131333_george_eliot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18F21ADFF541007F1011 /* q131333_george_eliot.jpg */; };
+		F75E190F1ADFF541007F1011 /* q167856_james_fenimore_cooper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18F31ADFF541007F1011 /* q167856_james_fenimore_cooper.jpg */; };
+		F75E19101ADFF541007F1011 /* q270635_patricia_highsmith.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18F41ADFF541007F1011 /* q270635_patricia_highsmith.jpg */; };
+		F75E19111ADFF541007F1011 /* q271824_edgar_wallace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18F51ADFF541007F1011 /* q271824_edgar_wallace.jpg */; };
+		F78B57F71AE613EB00C9A759 /* date-to-number-of-quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = F78B57F61AE613EB00C9A759 /* date-to-number-of-quotes.json */; };
+		F78B57F91AE6144F00C9A759 /* quotations-de.json in Resources */ = {isa = PBXBuildFile; fileRef = F78B57F81AE6144F00C9A759 /* quotations-de.json */; };
+		F791D11E1AE4F4C100BF2E1F /* quotations.json in Resources */ = {isa = PBXBuildFile; fileRef = F791D11D1AE4F4C100BF2E1F /* quotations.json */; };
+		F798D3321ADC3849006121B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798D3311ADC3849006121B8 /* AppDelegate.swift */; };
+		F798D3371ADC3849006121B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F798D3351ADC3849006121B8 /* Main.storyboard */; };
+		F798D3391ADC3849006121B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F798D3381ADC3849006121B8 /* Images.xcassets */; };
+		F798D33C1ADC3849006121B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F798D33A1ADC3849006121B8 /* LaunchScreen.xib */; };
+		F79C53211AE152E100DB5D95 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79C53201AE152E100DB5D95 /* SettingsViewController.swift */; };
+		F7ADFDE71AE406230035F15D /* ImpressumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADFDE61AE406230035F15D /* ImpressumViewController.swift */; };
+		F7BB9D111ADEAFEC00BCA23E /* QuotationDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BB9D101ADEAFEC00BCA23E /* QuotationDisplayViewController.swift */; };
+		F7BB9D131ADEB0BA00BCA23E /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BB9D121ADEB0BA00BCA23E /* StartingView.swift */; };
+		F7D77F121ADEFBCE0083E490 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D77F101ADEFBCE0083E490 /* ic_launcher.png */; };
+		F7D77F131ADEFBCE0083E490 /* literjahrtur512.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D77F111ADEFBCE0083E490 /* literjahrtur512.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F798D3421ADC3849006121B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F798D3241ADC3849006121B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F798D32B1ADC3849006121B8;
+			remoteInfo = LiterJahrTur;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F7A8185A1AE440BE00629EA8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F7410BFD1AE570FB00E2105E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F7410BFF1AE5711100E2105E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F7410C001AE5711200E2105E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F754A1F71ADFFEC200D187B9 /* literjahrtur512.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = literjahrtur512.jpg; sourceTree = "<group>"; };
+		F75E18CB1ADF9CB8007F1011 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		F75E18DA1ADFF541007F1011 /* q502_stendhal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q502_stendhal.jpg; sourceTree = "<group>"; };
+		F75E18DB1ADFF541007F1011 /* q535_victor_hugo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q535_victor_hugo.jpg; sourceTree = "<group>"; };
+		F75E18DC1ADFF541007F1011 /* q692_william_shakespeare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q692_william_shakespeare.jpg; sourceTree = "<group>"; };
+		F75E18DD1ADFF541007F1011 /* q991_fyodor_dostoyevsky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q991_fyodor_dostoyevsky.jpg; sourceTree = "<group>"; };
+		F75E18DE1ADFF541007F1011 /* q4985_herman_melville.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q4985_herman_melville.jpg; sourceTree = "<group>"; };
+		F75E18DF1ADFF541007F1011 /* q5686_charles_dickens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q5686_charles_dickens.jpg; sourceTree = "<group>"; };
+		F75E18E01ADFF541007F1011 /* q6882_james_joyce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q6882_james_joyce.jpg; sourceTree = "<group>"; };
+		F75E18E11ADFF541007F1011 /* q7243_leo_tolstoy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q7243_leo_tolstoy.jpg; sourceTree = "<group>"; };
+		F75E18E21ADFF541007F1011 /* q7245_mark_twain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q7245_mark_twain.jpg; sourceTree = "<group>"; };
+		F75E18E31ADFF541007F1011 /* q9327_guy_de_maupassant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q9327_guy_de_maupassant.jpg; sourceTree = "<group>"; };
+		F75E18E41ADFF541007F1011 /* q9711_honorc3a9_de_balzac.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q9711_honorc3a9_de_balzac.jpg; sourceTree = "<group>"; };
+		F75E18E51ADFF541007F1011 /* q16867_edgar_allan_poe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q16867_edgar_allan_poe.jpg; sourceTree = "<group>"; };
+		F75E18E61ADFF541007F1011 /* q33977_jules_verne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q33977_jules_verne.jpg; sourceTree = "<group>"; };
+		F75E18E71ADFF541007F1011 /* q35610_arthur_conan_doyle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q35610_arthur_conan_doyle.jpg; sourceTree = "<group>"; };
+		F75E18E81ADFF541007F1011 /* q38337_alexandre_dumas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q38337_alexandre_dumas.jpg; sourceTree = "<group>"; };
+		F75E18E91ADFF541007F1011 /* q40946_daniel_defoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q40946_daniel_defoe.jpg; sourceTree = "<group>"; };
+		F75E18EA1ADFF541007F1011 /* q41166_jonathan_swift.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q41166_jonathan_swift.jpg; sourceTree = "<group>"; };
+		F75E18EB1ADFF541007F1011 /* q43444_gustave_flaubert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q43444_gustave_flaubert.jpg; sourceTree = "<group>"; };
+		F75E18EC1ADFF541007F1011 /* q43718_nikolai_gogol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q43718_nikolai_gogol.jpg; sourceTree = "<group>"; };
+		F75E18ED1ADFF541007F1011 /* q76480_heinrich_mann.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q76480_heinrich_mann.jpg; sourceTree = "<group>"; };
+		F75E18EE1ADFF541007F1011 /* q76632_theodor_fontane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q76632_theodor_fontane.jpg; sourceTree = "<group>"; };
+		F75E18EF1ADFF541007F1011 /* q85309_rudolf_lindau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q85309_rudolf_lindau.jpg; sourceTree = "<group>"; };
+		F75E18F01ADFF541007F1011 /* q93354_f_scott_fitzgerald.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q93354_f_scott_fitzgerald.jpg; sourceTree = "<group>"; };
+		F75E18F11ADFF541007F1011 /* q121060_matthew_lewis_writer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q121060_matthew_lewis_writer.jpg; sourceTree = "<group>"; };
+		F75E18F21ADFF541007F1011 /* q131333_george_eliot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q131333_george_eliot.jpg; sourceTree = "<group>"; };
+		F75E18F31ADFF541007F1011 /* q167856_james_fenimore_cooper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q167856_james_fenimore_cooper.jpg; sourceTree = "<group>"; };
+		F75E18F41ADFF541007F1011 /* q270635_patricia_highsmith.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q270635_patricia_highsmith.jpg; sourceTree = "<group>"; };
+		F75E18F51ADFF541007F1011 /* q271824_edgar_wallace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q271824_edgar_wallace.jpg; sourceTree = "<group>"; };
+		F78B57F61AE613EB00C9A759 /* date-to-number-of-quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "date-to-number-of-quotes.json"; sourceTree = "<group>"; };
+		F78B57F81AE6144F00C9A759 /* quotations-de.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "quotations-de.json"; sourceTree = "<group>"; };
+		F791D11C1AE4DE5F00BF2E1F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
+		F791D11D1AE4F4C100BF2E1F /* quotations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotations.json; sourceTree = "<group>"; };
+		F791D1201AE5407B00BF2E1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		F798D32C1ADC3849006121B8 /* Tiwoli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tiwoli.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F798D3301ADC3849006121B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F798D3311ADC3849006121B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F798D3361ADC3849006121B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F798D3381ADC3849006121B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F798D33B1ADC3849006121B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F798D3411ADC3849006121B8 /* TiwoliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiwoliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F79C53201AE152E100DB5D95 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F7A8184B1AE440BD00629EA8 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		F7A8184F1AE440BE00629EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7A818501AE440BE00629EA8 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		F7A818521AE440BE00629EA8 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		F7ADFDE61AE406230035F15D /* ImpressumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpressumViewController.swift; sourceTree = "<group>"; };
+		F7BB9D101ADEAFEC00BCA23E /* QuotationDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotationDisplayViewController.swift; sourceTree = "<group>"; };
+		F7BB9D121ADEB0BA00BCA23E /* StartingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
+		F7D77F101ADEFBCE0083E490 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
+		F7D77F111ADEFBCE0083E490 /* literjahrtur512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = literjahrtur512.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F798D3291ADC3849006121B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F798D33E1ADC3849006121B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F75E18D91ADFF4C4007F1011 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				F754A1F71ADFFEC200D187B9 /* literjahrtur512.jpg */,
+				F75E18DA1ADFF541007F1011 /* q502_stendhal.jpg */,
+				F75E18DB1ADFF541007F1011 /* q535_victor_hugo.jpg */,
+				F75E18DC1ADFF541007F1011 /* q692_william_shakespeare.jpg */,
+				F75E18DD1ADFF541007F1011 /* q991_fyodor_dostoyevsky.jpg */,
+				F75E18DE1ADFF541007F1011 /* q4985_herman_melville.jpg */,
+				F75E18DF1ADFF541007F1011 /* q5686_charles_dickens.jpg */,
+				F75E18E01ADFF541007F1011 /* q6882_james_joyce.jpg */,
+				F75E18E11ADFF541007F1011 /* q7243_leo_tolstoy.jpg */,
+				F75E18E21ADFF541007F1011 /* q7245_mark_twain.jpg */,
+				F75E18E31ADFF541007F1011 /* q9327_guy_de_maupassant.jpg */,
+				F75E18E41ADFF541007F1011 /* q9711_honorc3a9_de_balzac.jpg */,
+				F75E18E51ADFF541007F1011 /* q16867_edgar_allan_poe.jpg */,
+				F75E18E61ADFF541007F1011 /* q33977_jules_verne.jpg */,
+				F75E18E71ADFF541007F1011 /* q35610_arthur_conan_doyle.jpg */,
+				F75E18E81ADFF541007F1011 /* q38337_alexandre_dumas.jpg */,
+				F75E18E91ADFF541007F1011 /* q40946_daniel_defoe.jpg */,
+				F75E18EA1ADFF541007F1011 /* q41166_jonathan_swift.jpg */,
+				F75E18EB1ADFF541007F1011 /* q43444_gustave_flaubert.jpg */,
+				F75E18EC1ADFF541007F1011 /* q43718_nikolai_gogol.jpg */,
+				F75E18ED1ADFF541007F1011 /* q76480_heinrich_mann.jpg */,
+				F75E18EE1ADFF541007F1011 /* q76632_theodor_fontane.jpg */,
+				F75E18EF1ADFF541007F1011 /* q85309_rudolf_lindau.jpg */,
+				F75E18F01ADFF541007F1011 /* q93354_f_scott_fitzgerald.jpg */,
+				F75E18F11ADFF541007F1011 /* q121060_matthew_lewis_writer.jpg */,
+				F75E18F21ADFF541007F1011 /* q131333_george_eliot.jpg */,
+				F75E18F31ADFF541007F1011 /* q167856_james_fenimore_cooper.jpg */,
+				F75E18F41ADFF541007F1011 /* q270635_patricia_highsmith.jpg */,
+				F75E18F51ADFF541007F1011 /* q271824_edgar_wallace.jpg */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		F798D3231ADC3849006121B8 = {
+			isa = PBXGroup;
+			children = (
+				F78B57F61AE613EB00C9A759 /* date-to-number-of-quotes.json */,
+				F78B57F81AE6144F00C9A759 /* quotations-de.json */,
+				F7410BFE1AE570FB00E2105E /* Localizable.strings */,
+				F798D32E1ADC3849006121B8 /* Tiwoli */,
+				F7A8184D1AE440BE00629EA8 /* Tiwoli Extension */,
+				F7A8184A1AE440BD00629EA8 /* Frameworks */,
+				F798D32D1ADC3849006121B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F798D32D1ADC3849006121B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F798D32C1ADC3849006121B8 /* Tiwoli.app */,
+				F798D3411ADC3849006121B8 /* TiwoliTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F798D32E1ADC3849006121B8 /* Tiwoli */ = {
+			isa = PBXGroup;
+			children = (
+				F791D11D1AE4F4C100BF2E1F /* quotations.json */,
+				F75E18D91ADFF4C4007F1011 /* images */,
+				F75E18CB1ADF9CB8007F1011 /* SwiftyJSON.swift */,
+				F798D3311ADC3849006121B8 /* AppDelegate.swift */,
+				F798D3351ADC3849006121B8 /* Main.storyboard */,
+				F798D3381ADC3849006121B8 /* Images.xcassets */,
+				F798D33A1ADC3849006121B8 /* LaunchScreen.xib */,
+				F798D32F1ADC3849006121B8 /* Supporting Files */,
+				F7BB9D101ADEAFEC00BCA23E /* QuotationDisplayViewController.swift */,
+				F7BB9D121ADEB0BA00BCA23E /* StartingView.swift */,
+				F79C53201AE152E100DB5D95 /* SettingsViewController.swift */,
+				F7ADFDE61AE406230035F15D /* ImpressumViewController.swift */,
+			);
+			name = Tiwoli;
+			path = LiterJahrTur;
+			sourceTree = "<group>";
+		};
+		F798D32F1ADC3849006121B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7D77F101ADEFBCE0083E490 /* ic_launcher.png */,
+				F7D77F111ADEFBCE0083E490 /* literjahrtur512.png */,
+				F798D3301ADC3849006121B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7A8184A1AE440BD00629EA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F7A8184B1AE440BD00629EA8 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7A8184D1AE440BE00629EA8 /* Tiwoli Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F7A818501AE440BE00629EA8 /* TodayViewController.swift */,
+				F7A818521AE440BE00629EA8 /* MainInterface.storyboard */,
+				F7A8184E1AE440BE00629EA8 /* Supporting Files */,
+			);
+			path = "Tiwoli Extension";
+			sourceTree = "<group>";
+		};
+		F7A8184E1AE440BE00629EA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7A8184F1AE440BE00629EA8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F798D32B1ADC3849006121B8 /* Tiwoli */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F798D34B1ADC3849006121B8 /* Build configuration list for PBXNativeTarget "Tiwoli" */;
+			buildPhases = (
+				F798D3281ADC3849006121B8 /* Sources */,
+				F798D3291ADC3849006121B8 /* Frameworks */,
+				F798D32A1ADC3849006121B8 /* Resources */,
+				F7A8185A1AE440BE00629EA8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tiwoli;
+			productName = LiterJahrTur;
+			productReference = F798D32C1ADC3849006121B8 /* Tiwoli.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F798D3401ADC3849006121B8 /* TiwoliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F798D34E1ADC3849006121B8 /* Build configuration list for PBXNativeTarget "TiwoliTests" */;
+			buildPhases = (
+				F798D33D1ADC3849006121B8 /* Sources */,
+				F798D33E1ADC3849006121B8 /* Frameworks */,
+				F798D33F1ADC3849006121B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F798D3431ADC3849006121B8 /* PBXTargetDependency */,
+			);
+			name = TiwoliTests;
+			productName = LiterJahrTurTests;
+			productReference = F798D3411ADC3849006121B8 /* TiwoliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F798D3241ADC3849006121B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = thb;
+				TargetAttributes = {
+					F798D32B1ADC3849006121B8 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					F798D3401ADC3849006121B8 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = F798D32B1ADC3849006121B8;
+					};
+				};
+			};
+			buildConfigurationList = F798D3271ADC3849006121B8 /* Build configuration list for PBXProject "Tiwoli" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				de,
+			);
+			mainGroup = F798D3231ADC3849006121B8;
+			productRefGroup = F798D32D1ADC3849006121B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F798D32B1ADC3849006121B8 /* Tiwoli */,
+				F798D3401ADC3849006121B8 /* TiwoliTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F798D32A1ADC3849006121B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75E18FE1ADFF541007F1011 /* q7245_mark_twain.jpg in Resources */,
+				F75E18FD1ADFF541007F1011 /* q7243_leo_tolstoy.jpg in Resources */,
+				F75E18F81ADFF541007F1011 /* q692_william_shakespeare.jpg in Resources */,
+				F75E190D1ADFF541007F1011 /* q121060_matthew_lewis_writer.jpg in Resources */,
+				F75E190E1ADFF541007F1011 /* q131333_george_eliot.jpg in Resources */,
+				F75E19051ADFF541007F1011 /* q40946_daniel_defoe.jpg in Resources */,
+				F75E18FA1ADFF541007F1011 /* q4985_herman_melville.jpg in Resources */,
+				F75E18F61ADFF541007F1011 /* q502_stendhal.jpg in Resources */,
+				F754A1F81ADFFEC200D187B9 /* literjahrtur512.jpg in Resources */,
+				F75E18F91ADFF541007F1011 /* q991_fyodor_dostoyevsky.jpg in Resources */,
+				F75E19101ADFF541007F1011 /* q270635_patricia_highsmith.jpg in Resources */,
+				F798D3371ADC3849006121B8 /* Main.storyboard in Resources */,
+				F798D33C1ADC3849006121B8 /* LaunchScreen.xib in Resources */,
+				F75E19031ADFF541007F1011 /* q35610_arthur_conan_doyle.jpg in Resources */,
+				F798D3391ADC3849006121B8 /* Images.xcassets in Resources */,
+				F75E190B1ADFF541007F1011 /* q85309_rudolf_lindau.jpg in Resources */,
+				F7D77F131ADEFBCE0083E490 /* literjahrtur512.png in Resources */,
+				F75E19021ADFF541007F1011 /* q33977_jules_verne.jpg in Resources */,
+				F75E19111ADFF541007F1011 /* q271824_edgar_wallace.jpg in Resources */,
+				F75E19041ADFF541007F1011 /* q38337_alexandre_dumas.jpg in Resources */,
+				F791D11E1AE4F4C100BF2E1F /* quotations.json in Resources */,
+				F75E18FF1ADFF541007F1011 /* q9327_guy_de_maupassant.jpg in Resources */,
+				F78B57F71AE613EB00C9A759 /* date-to-number-of-quotes.json in Resources */,
+				F7D77F121ADEFBCE0083E490 /* ic_launcher.png in Resources */,
+				F75E19001ADFF541007F1011 /* q9711_honorc3a9_de_balzac.jpg in Resources */,
+				F7410BFC1AE570FB00E2105E /* Localizable.strings in Resources */,
+				F75E18F71ADFF541007F1011 /* q535_victor_hugo.jpg in Resources */,
+				F75E18FB1ADFF541007F1011 /* q5686_charles_dickens.jpg in Resources */,
+				F75E19071ADFF541007F1011 /* q43444_gustave_flaubert.jpg in Resources */,
+				F78B57F91AE6144F00C9A759 /* quotations-de.json in Resources */,
+				F75E190F1ADFF541007F1011 /* q167856_james_fenimore_cooper.jpg in Resources */,
+				F75E19011ADFF541007F1011 /* q16867_edgar_allan_poe.jpg in Resources */,
+				F75E19081ADFF541007F1011 /* q43718_nikolai_gogol.jpg in Resources */,
+				F75E190A1ADFF541007F1011 /* q76632_theodor_fontane.jpg in Resources */,
+				F75E190C1ADFF541007F1011 /* q93354_f_scott_fitzgerald.jpg in Resources */,
+				F75E19061ADFF541007F1011 /* q41166_jonathan_swift.jpg in Resources */,
+				F75E18FC1ADFF541007F1011 /* q6882_james_joyce.jpg in Resources */,
+				F75E19091ADFF541007F1011 /* q76480_heinrich_mann.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F798D33F1ADC3849006121B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F798D3281ADC3849006121B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7ADFDE71AE406230035F15D /* ImpressumViewController.swift in Sources */,
+				F7BB9D131ADEB0BA00BCA23E /* StartingView.swift in Sources */,
+				F7BB9D111ADEAFEC00BCA23E /* QuotationDisplayViewController.swift in Sources */,
+				F798D3321ADC3849006121B8 /* AppDelegate.swift in Sources */,
+				F79C53211AE152E100DB5D95 /* SettingsViewController.swift in Sources */,
+				F75E18CC1ADF9CB8007F1011 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F798D33D1ADC3849006121B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F798D3431ADC3849006121B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F798D32B1ADC3849006121B8 /* Tiwoli */;
+			targetProxy = F798D3421ADC3849006121B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F7410BFE1AE570FB00E2105E /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7410BFD1AE570FB00E2105E /* Base */,
+				F7410BFF1AE5711100E2105E /* de */,
+				F7410C001AE5711200E2105E /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F798D3351ADC3849006121B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F798D3361ADC3849006121B8 /* Base */,
+				F791D11C1AE4DE5F00BF2E1F /* de */,
+				F791D1201AE5407B00BF2E1F /* en */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F798D33A1ADC3849006121B8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F798D33B1ADC3849006121B8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F798D3491ADC3849006121B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F798D34A1ADC3849006121B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F798D34C1ADC3849006121B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				INFOPLIST_FILE = LiterJahrTur/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Tiwoli;
+			};
+			name = Debug;
+		};
+		F798D34D1ADC3849006121B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				INFOPLIST_FILE = LiterJahrTur/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = Tiwoli;
+			};
+			name = Release;
+		};
+		F798D34F1ADC3849006121B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiterJahrTurTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = TiwoliTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiterJahrTur.app/LiterJahrTur";
+			};
+			name = Debug;
+		};
+		F798D3501ADC3849006121B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = LiterJahrTurTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = TiwoliTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiterJahrTur.app/LiterJahrTur";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F798D3271ADC3849006121B8 /* Build configuration list for PBXProject "Tiwoli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F798D3491ADC3849006121B8 /* Debug */,
+				F798D34A1ADC3849006121B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F798D34B1ADC3849006121B8 /* Build configuration list for PBXNativeTarget "Tiwoli" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F798D34C1ADC3849006121B8 /* Debug */,
+				F798D34D1ADC3849006121B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F798D34E1ADC3849006121B8 /* Build configuration list for PBXNativeTarget "TiwoliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F798D34F1ADC3849006121B8 /* Debug */,
+				F798D3501ADC3849006121B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F798D3241ADC3849006121B8 /* Project object */;
+}

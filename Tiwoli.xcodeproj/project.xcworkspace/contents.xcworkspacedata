@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:LiterJahrTur.xcodeproj">
+      location = "self:Tiwoli.xcodeproj">
    </FileRef>
 </Workspace>

@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  Tiwoli
+
+  Created by thb on 20/04/15.
+  Copyright (c) 2015 thb. All rights reserved.
+*/
+"quoteHeading" = "Zitat für den ";
+
+"shareHeading" = "Was soll geteilt werden?";
+"shareQuote" = "Zitat teilen";
+"shareWebsite" = "Tiwoli Website mit dem aktuellen Zitat teilen";
+
+// notification strings
+"notificationBody" = "Neuer Tag, neues Zitat!";
+"notificationAction" = "Starte Tiwoli!";
+"notificationTitle" = "Tiwoli - today in world literature";

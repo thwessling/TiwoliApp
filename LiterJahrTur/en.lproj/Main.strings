@@ -8,14 +8,14 @@
 /* Class = "UIButton"; normalTitle = "quote source"; ObjectID = "1ad-3D-PwK"; */
 "1ad-3D-PwK.normalTitle" = "quote source";
 
-/* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "2eS-R8-dbc"; */
-"2eS-R8-dbc.title" = "Settings";
-
 /* Class = "UIButton"; normalTitle = "image source"; ObjectID = "4JL-Fe-fqi"; */
 "4JL-Fe-fqi.normalTitle" = "image source";
 
 /* Class = "UIBarButtonItem"; title = "Save"; ObjectID = "4bw-If-6gu"; */
 "4bw-If-6gu.title" = "Save";
+
+/* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "5aO-6K-R7N"; */
+"5aO-6K-R7N.title" = "Settings";
 
 /* Class = "UIButton"; normalTitle = "Show quote"; ObjectID = "5b1-Ds-bPA"; */
 "5b1-Ds-bPA.normalTitle" = "Show quote";
@@ -23,11 +23,8 @@
 /* Class = "UIButton"; normalTitle = "(Wikipedia)"; ObjectID = "Ab3-4V-I8q"; */
 "Ab3-4V-I8q.normalTitle" = "(Wikipedia)";
 
-/* Class = "UILabel"; text = "Impressum"; ObjectID = "Exi-D1-h2h"; */
-"Exi-D1-h2h.text" = "Impressum";
-
-/* Class = "UIBarButtonItem"; title = "Impressum"; ObjectID = "Lo3-Y5-WRJ"; */
-"Lo3-Y5-WRJ.title" = "Impressum";
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "Lo3-Y5-WRJ"; */
+"Lo3-Y5-WRJ.title" = "About";
 
 /* Class = "UIButton"; normalTitle = "Done"; ObjectID = "P7f-wL-m2b"; */
 "P7f-wL-m2b.normalTitle" = "Done";
@@ -45,7 +42,7 @@
 "ix5-RE-YdJ.title" = "Settings";
 
 /* Class = "UILabel"; text = "Select any date to see what happend on a specific date in world literature."; ObjectID = "k49-G2-HHA"; */
-"k49-G2-HHA.text" = "Select any date to see what happend on a specific date in world literature.";
+"k49-G2-HHA.text" = "What happened when in world literature?";
 
 /* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "oDs-Re-rVs"; */
 "oDs-Re-rVs.title" = "Settings";
@@ -58,6 +55,3 @@
 
 /* Class = "UILabel"; text = "sfsdfsdfsdfsdf"; ObjectID = "tv0-eg-fYn"; */
 "tv0-eg-fYn.text" = "sfsdfsdfsdfsdf";
-
-"quoteHeading" = "Quote for ";
-

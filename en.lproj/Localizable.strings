@@ -10,7 +10,8 @@
 // share menu strings
 "shareHeading" = "What do you want to share?";
 "shareQuote" = "Share quote";
-"shareWebsite" = "Share tiwoli website with quote";
+"shareWebsite" = "Share link to Tiwoli website";
+"cancelButton" = "Cancel";
 
 // notification strings
 "notificationBody" = "Here's your daily reminder to check what happened today in world literature.";

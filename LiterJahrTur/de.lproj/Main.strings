@@ -30,7 +30,7 @@
 "Lo3-Y5-WRJ.title" = "Impressum";
 
 /* Class = "UIButton"; normalTitle = "Done"; ObjectID = "P7f-wL-m2b"; */
-"P7f-wL-m2b.normalTitle" = "Ok";
+"P7f-wL-m2b.normalTitle" = "Zurück";
 
 /* Class = "UILabel"; text = "Time"; ObjectID = "SYl-cG-yr4"; */
 "SYl-cG-yr4.text" = "Uhrzeit";
@@ -44,8 +44,11 @@
 /* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "ix5-RE-YdJ"; */
 "ix5-RE-YdJ.title" = "Einstellungen";
 
+/* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "5aO-6K-R7N"; */
+"5aO-6K-R7N.title" = "Settings";
+
 /* Class = "UILabel"; text = "Select any date to see what happend on a specific date in world literature."; ObjectID = "k49-G2-HHA"; */
-"k49-G2-HHA.text" = "Wähle ein Datum, um zu sehen, was an diesem Tag in der Weltliteratur geschehen ist.";
+"k49-G2-HHA.text" = "Was geschah wann in der Weltliteratur?";
 
 /* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "oDs-Re-rVs"; */
 "oDs-Re-rVs.title" = "Einstellungen";

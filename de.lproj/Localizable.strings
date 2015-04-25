@@ -9,7 +9,8 @@
 
 "shareHeading" = "Was soll geteilt werden?";
 "shareQuote" = "Zitat teilen";
-"shareWebsite" = "Tiwoli Website mit dem aktuellen Zitat teilen";
+"shareWebsite" = "Link zur Tiwoli Website teilen";
+"cancelButton" = "Abbrechen";
 
 // notification strings
 "notificationBody" = "Neuer Tag, neues Zitat!";

@@ -9,11 +9,14 @@
 import UIKit
 
 class ImpressumViewController: UIViewController {
+    
+    @IBOutlet weak var webView: UIWebView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        let htmlFile = NSBundle.mainBundle().pathForResource("impressum_de", ofType:"html");
+        let htmlString = String(contentsOfFile: htmlFile!, encoding: NSUTF8StringEncoding, error: nil)
+        self.webView.loadHTMLString(htmlString!, baseURL: nil)
     }
 
     override func didReceiveMemoryWarning() {
@@ -21,6 +24,10 @@ class ImpressumViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func doneClicked(sender: AnyObject) {
+        self.dismissViewControllerAnimated(true, completion: nil)
+
+    }
 
     /*
     // MARK: - Navigation

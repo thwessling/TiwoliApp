@@ -10,34 +10,6 @@
 		F7410BFC1AE570FB00E2105E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7410BFE1AE570FB00E2105E /* Localizable.strings */; };
 		F754A1F81ADFFEC200D187B9 /* literjahrtur512.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F754A1F71ADFFEC200D187B9 /* literjahrtur512.jpg */; };
 		F75E18CC1ADF9CB8007F1011 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E18CB1ADF9CB8007F1011 /* SwiftyJSON.swift */; };
-		F75E18F61ADFF541007F1011 /* q502_stendhal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18DA1ADFF541007F1011 /* q502_stendhal.jpg */; };
-		F75E18F71ADFF541007F1011 /* q535_victor_hugo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18DB1ADFF541007F1011 /* q535_victor_hugo.jpg */; };
-		F75E18F81ADFF541007F1011 /* q692_william_shakespeare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18DC1ADFF541007F1011 /* q692_william_shakespeare.jpg */; };
-		F75E18F91ADFF541007F1011 /* q991_fyodor_dostoyevsky.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18DD1ADFF541007F1011 /* q991_fyodor_dostoyevsky.jpg */; };
-		F75E18FA1ADFF541007F1011 /* q4985_herman_melville.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18DE1ADFF541007F1011 /* q4985_herman_melville.jpg */; };
-		F75E18FB1ADFF541007F1011 /* q5686_charles_dickens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18DF1ADFF541007F1011 /* q5686_charles_dickens.jpg */; };
-		F75E18FC1ADFF541007F1011 /* q6882_james_joyce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E01ADFF541007F1011 /* q6882_james_joyce.jpg */; };
-		F75E18FD1ADFF541007F1011 /* q7243_leo_tolstoy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E11ADFF541007F1011 /* q7243_leo_tolstoy.jpg */; };
-		F75E18FE1ADFF541007F1011 /* q7245_mark_twain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E21ADFF541007F1011 /* q7245_mark_twain.jpg */; };
-		F75E18FF1ADFF541007F1011 /* q9327_guy_de_maupassant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E31ADFF541007F1011 /* q9327_guy_de_maupassant.jpg */; };
-		F75E19001ADFF541007F1011 /* q9711_honorc3a9_de_balzac.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E41ADFF541007F1011 /* q9711_honorc3a9_de_balzac.jpg */; };
-		F75E19011ADFF541007F1011 /* q16867_edgar_allan_poe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E51ADFF541007F1011 /* q16867_edgar_allan_poe.jpg */; };
-		F75E19021ADFF541007F1011 /* q33977_jules_verne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E61ADFF541007F1011 /* q33977_jules_verne.jpg */; };
-		F75E19031ADFF541007F1011 /* q35610_arthur_conan_doyle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E71ADFF541007F1011 /* q35610_arthur_conan_doyle.jpg */; };
-		F75E19041ADFF541007F1011 /* q38337_alexandre_dumas.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E81ADFF541007F1011 /* q38337_alexandre_dumas.jpg */; };
-		F75E19051ADFF541007F1011 /* q40946_daniel_defoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18E91ADFF541007F1011 /* q40946_daniel_defoe.jpg */; };
-		F75E19061ADFF541007F1011 /* q41166_jonathan_swift.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18EA1ADFF541007F1011 /* q41166_jonathan_swift.jpg */; };
-		F75E19071ADFF541007F1011 /* q43444_gustave_flaubert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18EB1ADFF541007F1011 /* q43444_gustave_flaubert.jpg */; };
-		F75E19081ADFF541007F1011 /* q43718_nikolai_gogol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18EC1ADFF541007F1011 /* q43718_nikolai_gogol.jpg */; };
-		F75E19091ADFF541007F1011 /* q76480_heinrich_mann.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18ED1ADFF541007F1011 /* q76480_heinrich_mann.jpg */; };
-		F75E190A1ADFF541007F1011 /* q76632_theodor_fontane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18EE1ADFF541007F1011 /* q76632_theodor_fontane.jpg */; };
-		F75E190B1ADFF541007F1011 /* q85309_rudolf_lindau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18EF1ADFF541007F1011 /* q85309_rudolf_lindau.jpg */; };
-		F75E190C1ADFF541007F1011 /* q93354_f_scott_fitzgerald.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18F01ADFF541007F1011 /* q93354_f_scott_fitzgerald.jpg */; };
-		F75E190D1ADFF541007F1011 /* q121060_matthew_lewis_writer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18F11ADFF541007F1011 /* q121060_matthew_lewis_writer.jpg */; };
-		F75E190E1ADFF541007F1011 /* q131333_george_eliot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18F21ADFF541007F1011 /* q131333_george_eliot.jpg */; };
-		F75E190F1ADFF541007F1011 /* q167856_james_fenimore_cooper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18F31ADFF541007F1011 /* q167856_james_fenimore_cooper.jpg */; };
-		F75E19101ADFF541007F1011 /* q270635_patricia_highsmith.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18F41ADFF541007F1011 /* q270635_patricia_highsmith.jpg */; };
-		F75E19111ADFF541007F1011 /* q271824_edgar_wallace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F75E18F51ADFF541007F1011 /* q271824_edgar_wallace.jpg */; };
 		F78B57F71AE613EB00C9A759 /* date-to-number-of-quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = F78B57F61AE613EB00C9A759 /* date-to-number-of-quotes.json */; };
 		F78B57F91AE6144F00C9A759 /* quotations-de.json in Resources */ = {isa = PBXBuildFile; fileRef = F78B57F81AE6144F00C9A759 /* quotations-de.json */; };
 		F791D11E1AE4F4C100BF2E1F /* quotations.json in Resources */ = {isa = PBXBuildFile; fileRef = F791D11D1AE4F4C100BF2E1F /* quotations.json */; };
@@ -46,7 +18,231 @@
 		F798D3391ADC3849006121B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F798D3381ADC3849006121B8 /* Images.xcassets */; };
 		F798D33C1ADC3849006121B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F798D33A1ADC3849006121B8 /* LaunchScreen.xib */; };
 		F79C53211AE152E100DB5D95 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F79C53201AE152E100DB5D95 /* SettingsViewController.swift */; };
+		F79CF4661AE7D34D0044D44F /* impressum_de.html in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4651AE7D34D0044D44F /* impressum_de.html */; };
+		F79CF5421AE7DB240044D44F /* q502_stendhal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4671AE7DB230044D44F /* q502_stendhal.jpg */; };
+		F79CF5431AE7DB240044D44F /* q504_c389mile_zola.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4681AE7DB230044D44F /* q504_c389mile_zola.jpg */; };
+		F79CF5441AE7DB240044D44F /* q535_victor_hugo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4691AE7DB230044D44F /* q535_victor_hugo.jpg */; };
+		F79CF5451AE7DB240044D44F /* q692_william_shakespeare.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF46A1AE7DB230044D44F /* q692_william_shakespeare.jpg */; };
+		F79CF5461AE7DB240044D44F /* q905_franz_kafka.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF46B1AE7DB230044D44F /* q905_franz_kafka.jpg */; };
+		F79CF5471AE7DB240044D44F /* q909_jorge_luis_borges.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF46C1AE7DB230044D44F /* q909_jorge_luis_borges.jpg */; };
+		F79CF5481AE7DB240044D44F /* q991_fjodor_dostojewski.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF46D1AE7DB230044D44F /* q991_fjodor_dostojewski.jpg */; };
+		F79CF5491AE7DB240044D44F /* q1402_giovanni_boccaccio.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF46E1AE7DB230044D44F /* q1402_giovanni_boccaccio.jpg */; };
+		F79CF54A1AE7DB240044D44F /* q2754_jaroslav_haek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF46F1AE7DB230044D44F /* q2754_jaroslav_haek.jpg */; };
+		F79CF54B1AE7DB240044D44F /* q5673_hans_christian_andersen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4701AE7DB230044D44F /* q5673_hans_christian_andersen.jpg */; };
+		F79CF54C1AE7DB240044D44F /* q5682_cervantes.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4711AE7DB230044D44F /* q5682_cervantes.jpg */; };
+		F79CF54D1AE7DB240044D44F /* q5685_anton_tschechow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4721AE7DB230044D44F /* q5685_anton_tschechow.jpg */; };
+		F79CF54E1AE7DB240044D44F /* q5686_charles_dickens.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4731AE7DB230044D44F /* q5686_charles_dickens.jpg */; };
+		F79CF54F1AE7DB240044D44F /* q5878_gabriel_garcc3ada_mc3a1rquez.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4741AE7DB230044D44F /* q5878_gabriel_garcc3ada_mc3a1rquez.jpg */; };
+		F79CF5501AE7DB240044D44F /* q5879_johann_wolfgang_von_goethe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4751AE7DB230044D44F /* q5879_johann_wolfgang_von_goethe.jpg */; };
+		F79CF5511AE7DB240044D44F /* q6538_gc3bcnter_grass.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4761AE7DB230044D44F /* q6538_gc3bcnter_grass.jpg */; };
+		F79CF5521AE7DB240044D44F /* q6882_james_joyce.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4771AE7DB230044D44F /* q6882_james_joyce.jpg */; };
+		F79CF5531AE7DB240044D44F /* q7199_marcel_proust.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4781AE7DB240044D44F /* q7199_marcel_proust.jpg */; };
+		F79CF5541AE7DB240044D44F /* q7200_alexander_puschkin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4791AE7DB240044D44F /* q7200_alexander_puschkin.jpg */; };
+		F79CF5551AE7DB240044D44F /* q7243_lew_tolstoi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF47A1AE7DB240044D44F /* q7243_lew_tolstoi.jpg */; };
+		F79CF5561AE7DB240044D44F /* q7245_mark_twain.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF47B1AE7DB240044D44F /* q7245_mark_twain.jpg */; };
+		F79CF5571AE7DB240044D44F /* q7724_august_strindberg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF47C1AE7DB240044D44F /* q7724_august_strindberg.jpg */; };
+		F79CF5581AE7DB240044D44F /* q9327_guy_de_maupassant.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF47D1AE7DB240044D44F /* q9327_guy_de_maupassant.jpg */; };
+		F79CF5591AE7DB240044D44F /* q9711_honorc3a9_de_balzac.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF47E1AE7DB240044D44F /* q9711_honorc3a9_de_balzac.jpg */; };
+		F79CF55A1AE7DB240044D44F /* q12807_umberto_eco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF47F1AE7DB240044D44F /* q12807_umberto_eco.jpg */; };
+		F79CF55B1AE7DB240044D44F /* q15953_fritz_mauthner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4801AE7DB240044D44F /* q15953_fritz_mauthner.jpg */; };
+		F79CF55C1AE7DB240044D44F /* q16867_edgar_allan_poe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4811AE7DB240044D44F /* q16867_edgar_allan_poe.jpg */; };
+		F79CF55D1AE7DB240044D44F /* q22670_friedrich_schiller.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4821AE7DB240044D44F /* q22670_friedrich_schiller.jpg */; };
+		F79CF55E1AE7DB240044D44F /* q22714_karl_may.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4831AE7DB240044D44F /* q22714_karl_may.jpg */; };
+		F79CF55F1AE7DB240044D44F /* q23481_friedrich_dc3bcrrenmatt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4841AE7DB240044D44F /* q23481_friedrich_dc3bcrrenmatt.jpg */; };
+		F79CF5601AE7DB240044D44F /* q25973_hermann_hesse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4851AE7DB240044D44F /* q25973_hermann_hesse.jpg */; };
+		F79CF5611AE7DB240044D44F /* q26993_theodor_storm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4861AE7DB240044D44F /* q26993_theodor_storm.jpg */; };
+		F79CF5621AE7DB240044D44F /* q28494_heinrich_von_kleist.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4871AE7DB240044D44F /* q28494_heinrich_von_kleist.jpg */; };
+		F79CF5631AE7DB240044D44F /* q30875_oscar_wilde.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4881AE7DB240044D44F /* q30875_oscar_wilde.jpg */; };
+		F79CF5641AE7DB240044D44F /* q31220_hans_jakob_christoffel_von_grimmelshausen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4891AE7DB240044D44F /* q31220_hans_jakob_christoffel_von_grimmelshausen.jpg */; };
+		F79CF5651AE7DB240044D44F /* q31258_henri_murger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF48A1AE7DB240044D44F /* q31258_henri_murger.jpg */; };
+		F79CF5661AE7DB240044D44F /* q33977_jules_verne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF48B1AE7DB240044D44F /* q33977_jules_verne.jpg */; };
+		F79CF5671AE7DB240044D44F /* q34190_henry_fielding.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF48C1AE7DB240044D44F /* q34190_henry_fielding.jpg */; };
+		F79CF5681AE7DB240044D44F /* q34628_lessing.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF48D1AE7DB240044D44F /* q34628_lessing.jpg */; };
+		F79CF5691AE7DB240044D44F /* q34743_rudyard_kipling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF48E1AE7DB240044D44F /* q34743_rudyard_kipling.jpg */; };
+		F79CF56A1AE7DB240044D44F /* q35610_arthur_conan_doyle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF48F1AE7DB240044D44F /* q35610_arthur_conan_doyle.jpg */; };
+		F79CF56B1AE7DB240044D44F /* q36661_henrik_ibsen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4901AE7DB240044D44F /* q36661_henrik_ibsen.jpg */; };
+		F79CF56C1AE7DB240044D44F /* q36951_sc3a1ndor_mc3a1rai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4911AE7DB240044D44F /* q36951_sc3a1ndor_mc3a1rai.jpg */; };
+		F79CF56D1AE7DB240044D44F /* q37030_thomas_mann.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4921AE7DB240044D44F /* q37030_thomas_mann.jpg */; };
+		F79CF56E1AE7DB240044D44F /* q38337_alexandre_dumas_der_c384ltere.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4931AE7DB240044D44F /* q38337_alexandre_dumas_der_c384ltere.jpg */; };
+		F79CF56F1AE7DB240044D44F /* q40826_knut_hamsun.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4941AE7DB240044D44F /* q40826_knut_hamsun.jpg */; };
+		F79CF5701AE7DB240044D44F /* q40946_daniel_defoe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4951AE7DB240044D44F /* q40946_daniel_defoe.jpg */; };
+		F79CF5711AE7DB240044D44F /* q41166_jonathan_swift.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4961AE7DB240044D44F /* q41166_jonathan_swift.jpg */; };
+		F79CF5721AE7DB240044D44F /* q41502_henryk_sienkiewicz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4971AE7DB240044D44F /* q41502_henryk_sienkiewicz.jpg */; };
+		F79CF5731AE7DB240044D44F /* q42443_anatole_france.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4981AE7DB240044D44F /* q42443_anatole_france.jpg */; };
+		F79CF5741AE7DB240044D44F /* q42747_heinrich_bc3b6ll.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4991AE7DB240044D44F /* q42747_heinrich_bc3b6ll.jpg */; };
+		F79CF5751AE7DB240044D44F /* q42831_iwan_turgenjew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF49A1AE7DB240044D44F /* q42831_iwan_turgenjew.jpg */; };
+		F79CF5761AE7DB240044D44F /* q43444_gustave_flaubert.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF49B1AE7DB240044D44F /* q43444_gustave_flaubert.jpg */; };
+		F79CF5771AE7DB240044D44F /* q43718_nikolai_gogol.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF49C1AE7DB240044D44F /* q43718_nikolai_gogol.jpg */; };
+		F79CF5781AE7DB240044D44F /* q44331_arthur_schnitzler.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF49D1AE7DB240044D44F /* q44331_arthur_schnitzler.jpg */; };
+		F79CF5791AE7DB240044D44F /* q44403_heinrich_heine.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF49E1AE7DB240044D44F /* q44403_heinrich_heine.jpg */; };
+		F79CF57A1AE7DB240044D44F /* q44519_selma_lagerlc3b6f.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF49F1AE7DB240044D44F /* q44519_selma_lagerlc3b6f.jpg */; };
+		F79CF57B1AE7DB240044D44F /* q44584_hans_magnus_enzensberger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4A01AE7DB240044D44F /* q44584_hans_magnus_enzensberger.jpg */; };
+		F79CF57C1AE7DB240044D44F /* q44652_christian_morgenstern.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4A11AE7DB240044D44F /* q44652_christian_morgenstern.jpg */; };
+		F79CF57D1AE7DB240044D44F /* q44862_johann_nestroy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4A21AE7DB240044D44F /* q44862_johann_nestroy.jpg */; };
+		F79CF57E1AE7DB240044D44F /* q45025_ferdinand_raimund.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4A31AE7DB240044D44F /* q45025_ferdinand_raimund.jpg */; };
+		F79CF57F1AE7DB240044D44F /* q45309_ludwig_thoma.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4A41AE7DB240044D44F /* q45309_ludwig_thoma.jpg */; };
+		F79CF5801AE7DB240044D44F /* q46405_bjc3b8rnstjerne_bjc3b8rnson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4A51AE7DB240044D44F /* q46405_bjc3b8rnstjerne_bjc3b8rnson.jpg */; };
+		F79CF5811AE7DB240044D44F /* q47152_mary_shelley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4A61AE7DB240044D44F /* q47152_mary_shelley.jpg */; };
+		F79CF5821AE7DB240044D44F /* q47162_romain_rolland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4A71AE7DB240044D44F /* q47162_romain_rolland.jpg */; };
+		F79CF5831AE7DB240044D44F /* q47293_erich_maria_remarque.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4A81AE7DB240044D44F /* q47293_erich_maria_remarque.jpg */; };
+		F79CF5841AE7DB240044D44F /* q49074_kurt_vonnegut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4A91AE7DB240044D44F /* q49074_kurt_vonnegut.jpg */; };
+		F79CF5851AE7DB240044D44F /* q51513_hugo_von_hofmannsthal.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4AA1AE7DB240044D44F /* q51513_hugo_von_hofmannsthal.jpg */; };
+		F79CF5861AE7DB240044D44F /* q57239_ludwig_tieck.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4AB1AE7DB240044D44F /* q57239_ludwig_tieck.jpg */; };
+		F79CF5871AE7DB240044D44F /* q57266_ernst_toller.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4AC1AE7DB240044D44F /* q57266_ernst_toller.jpg */; };
+		F79CF5881AE7DB240044D44F /* q57307_annette_von_drostehc3bclshoff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4AD1AE7DB240044D44F /* q57307_annette_von_drostehc3bclshoff.jpg */; };
+		F79CF5891AE7DB240044D44F /* q57387_martin_walser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4AE1AE7DB240044D44F /* q57387_martin_walser.jpg */; };
+		F79CF58A1AE7DB240044D44F /* q57619_frank_wedekind.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4AF1AE7DB240044D44F /* q57619_frank_wedekind.jpg */; };
+		F79CF58B1AE7DB240044D44F /* q57966_wilhelm_hauff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4B01AE7DB240044D44F /* q57966_wilhelm_hauff.jpg */; };
+		F79CF58C1AE7DB240044D44F /* q60369_jakob_wassermann.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4B11AE7DB240044D44F /* q60369_jakob_wassermann.jpg */; };
+		F79CF58D1AE7DB240044D44F /* q60647_wilhelm_raabe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4B21AE7DB240044D44F /* q60647_wilhelm_raabe.jpg */; };
+		F79CF58E1AE7DB240044D44F /* q60684_novalis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4B31AE7DB240044D44F /* q60684_novalis.jpg */; };
+		F79CF58F1AE7DB240044D44F /* q61263_klabund.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4B41AE7DB240044D44F /* q61263_klabund.jpg */; };
+		F79CF5901AE7DB240044D44F /* q61453_kurd_lac39fwitz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4B51AE7DB240044D44F /* q61453_kurd_lac39fwitz.jpg */; };
+		F79CF5911AE7DB240044D44F /* q61601_georg_heym.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4B61AE7DB240044D44F /* q61601_georg_heym.jpg */; };
+		F79CF5921AE7DB240044D44F /* q61629_uwe_timm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4B71AE7DB240044D44F /* q61629_uwe_timm.jpg */; };
+		F79CF5931AE7DB240044D44F /* q62404_sophie_von_la_roche.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4B81AE7DB240044D44F /* q62404_sophie_von_la_roche.jpg */; };
+		F79CF5941AE7DB240044D44F /* q62950_e_marlitt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4B91AE7DB240044D44F /* q62950_e_marlitt.jpg */; };
+		F79CF5951AE7DB240044D44F /* q63699_eduard_mc3b6rike.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4BA1AE7DB240044D44F /* q63699_eduard_mc3b6rike.jpg */; };
+		F79CF5961AE7DB240044D44F /* q64370_franz_von_dingelstedt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4BB1AE7DB240044D44F /* q64370_franz_von_dingelstedt.jpg */; };
+		F79CF5971AE7DB240044D44F /* q64404_arno_holz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4BC1AE7DB240044D44F /* q64404_arno_holz.jpg */; };
+		F79CF5981AE7DB240044D44F /* q65078_hedwig_courthsmahler.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4BD1AE7DB240044D44F /* q65078_hedwig_courthsmahler.jpg */; };
+		F79CF5991AE7DB240044D44F /* q66207_heinrich_zschokke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4BE1AE7DB240044D44F /* q66207_heinrich_zschokke.jpg */; };
+		F79CF59A1AE7DB240044D44F /* q66379_ludwig_bechstein.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4BF1AE7DB240044D44F /* q66379_ludwig_bechstein.jpg */; };
+		F79CF59B1AE7DB240044D44F /* q66388_karl_von_holtei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4C01AE7DB240044D44F /* q66388_karl_von_holtei.jpg */; };
+		F79CF59C1AE7DB240044D44F /* q66942_daniel_casper_von_lohenstein.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4C11AE7DB240044D44F /* q66942_daniel_casper_von_lohenstein.jpg */; };
+		F79CF59D1AE7DB240044D44F /* q69322_renc3a9_schickele.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4C21AE7DB240044D44F /* q69322_renc3a9_schickele.jpg */; };
+		F79CF59E1AE7DB240044D44F /* q70988_achim_von_arnim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4C31AE7DB240044D44F /* q70988_achim_von_arnim.jpg */; };
+		F79CF59F1AE7DB240044D44F /* q71429_fanny_zu_reventlow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4C41AE7DB240044D44F /* q71429_fanny_zu_reventlow.jpg */; };
+		F79CF5A01AE7DB240044D44F /* q73525_walter_flex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4C51AE7DB240044D44F /* q73525_walter_flex.jpg */; };
+		F79CF5A11AE7DB240044D44F /* q76412_siegfried_lenz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4C61AE7DB240044D44F /* q76412_siegfried_lenz.jpg */; };
+		F79CF5A21AE7DB240044D44F /* q76480_heinrich_mann.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4C71AE7DB240044D44F /* q76480_heinrich_mann.jpg */; };
+		F79CF5A31AE7DB240044D44F /* q76483_rainer_maria_rilke.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4C81AE7DB240044D44F /* q76483_rainer_maria_rilke.jpg */; };
+		F79CF5A41AE7DB240044D44F /* q76487_paul_heyse.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4C91AE7DB240044D44F /* q76487_paul_heyse.jpg */; };
+		F79CF5A51AE7DB240044D44F /* q76539_hans_fallada.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4CA1AE7DB240044D44F /* q76539_hans_fallada.jpg */; };
+		F79CF5A61AE7DB240044D44F /* q76632_theodor_fontane.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4CB1AE7DB240044D44F /* q76632_theodor_fontane.jpg */; };
+		F79CF5A71AE7DB240044D44F /* q76699_bernhard_schlink.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4CC1AE7DB240044D44F /* q76699_bernhard_schlink.jpg */; };
+		F79CF5A81AE7DB240044D44F /* q76715_berthold_auerbach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4CD1AE7DB240044D44F /* q76715_berthold_auerbach.jpg */; };
+		F79CF5A91AE7DB240044D44F /* q76755_karl_gutzkow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4CE1AE7DB240044D44F /* q76755_karl_gutzkow.jpg */; };
+		F79CF5AA1AE7DB240044D44F /* q77079_jean_paul.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4CF1AE7DB240044D44F /* q77079_jean_paul.jpg */; };
+		F79CF5AB1AE7DB240044D44F /* q77312_willibald_alexis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4D01AE7DB240044D44F /* q77312_willibald_alexis.jpg */; };
+		F79CF5AC1AE7DB240044D44F /* q77317_jurek_becker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4D11AE7DB240044D44F /* q77317_jurek_becker.jpg */; };
+		F79CF5AD1AE7DB240044D44F /* q77325_arno_schmidt.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4D21AE7DB240044D44F /* q77325_arno_schmidt.jpg */; };
+		F79CF5AE1AE7DB240044D44F /* q77439_arthur_achleitner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4D31AE7DB240044D44F /* q77439_arthur_achleitner.jpg */; };
+		F79CF5AF1AE7DB240044D44F /* q77475_ludwig_ganghofer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4D41AE7DB240044D44F /* q77475_ludwig_ganghofer.jpg */; };
+		F79CF5B01AE7DB240044D44F /* q77478_friedrich_gerstc3a4cker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4D51AE7DB240044D44F /* q77478_friedrich_gerstc3a4cker.jpg */; };
+		F79CF5B11AE7DB240044D44F /* q77494_eduard_von_keyserling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4D61AE7DB240044D44F /* q77494_eduard_von_keyserling.jpg */; };
+		F79CF5B21AE7DB240044D44F /* q77925_lena_christ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4D71AE7DB240044D44F /* q77925_lena_christ.jpg */; };
+		F79CF5B31AE7DB240044D44F /* q78000_georg_weerth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4D81AE7DB240044D44F /* q78000_georg_weerth.jpg */; };
+		F79CF5B41AE7DB240044D44F /* q78491_stefan_zweig.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4D91AE7DB240044D44F /* q78491_stefan_zweig.jpg */; };
+		F79CF5B51AE7DB240044D44F /* q78506_ingeborg_bachmann.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4DA1AE7DB240044D44F /* q78506_ingeborg_bachmann.jpg */; };
+		F79CF5B61AE7DB240044D44F /* q78509_joseph_roth.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4DB1AE7DB240044D44F /* q78509_joseph_roth.jpg */; };
+		F79CF5B71AE7DB240044D44F /* q78511_gustav_meyrink.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4DC1AE7DB240044D44F /* q78511_gustav_meyrink.jpg */; };
+		F79CF5B81AE7DB240044D44F /* q78846_karl_emil_franzos.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4DD1AE7DB240044D44F /* q78846_karl_emil_franzos.jpg */; };
+		F79CF5B91AE7DB240044D44F /* q78977_ferdinand_von_saar.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4DE1AE7DB240044D44F /* q78977_ferdinand_von_saar.jpg */; };
+		F79CF5BA1AE7DB240044D44F /* q79025_walter_scott.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4DF1AE7DB240044D44F /* q79025_walter_scott.jpg */; };
+		F79CF5BB1AE7DB240044D44F /* q79904_j_d_salinger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4E01AE7DB240044D44F /* q79904_j_d_salinger.jpg */; };
+		F79CF5BC1AE7DB240044D44F /* q80064_elias_canetti.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4E11AE7DB240044D44F /* q80064_elias_canetti.jpg */; };
+		F79CF5BD1AE7DB240044D44F /* q80137_emily_brontc3ab.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4E21AE7DB240044D44F /* q80137_emily_brontc3ab.jpg */; };
+		F79CF5BE1AE7DB240044D44F /* q81447_aldous_huxley.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4E31AE7DB240044D44F /* q81447_aldous_huxley.jpg */; };
+		F79CF5BF1AE7DB240044D44F /* q82925_joseph_conrad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4E41AE7DB240044D44F /* q82925_joseph_conrad.jpg */; };
+		F79CF5C01AE7DB240044D44F /* q84150_hermann_broch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4E51AE7DB240044D44F /* q84150_hermann_broch.jpg */; };
+		F79CF5C11AE7DB240044D44F /* q84455_c396dc3b6n_von_horvc3a1th.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4E61AE7DB240044D44F /* q84455_c396dc3b6n_von_horvc3a1th.jpg */; };
+		F79CF5C21AE7DB240044D44F /* q84820_louise_von_franc3a7ois.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4E71AE7DB240044D44F /* q84820_louise_von_franc3a7ois.jpg */; };
+		F79CF5C31AE7DB240044D44F /* q85309_rudolf_lindau_schriftsteller.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4E81AE7DB240044D44F /* q85309_rudolf_lindau_schriftsteller.jpg */; };
+		F79CF5C41AE7DB240044D44F /* q85728_hugo_bettauer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4E91AE7DB240044D44F /* q85728_hugo_bettauer.jpg */; };
+		F79CF5C51AE7DB240044D44F /* q86167_therese_huber.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4EA1AE7DB240044D44F /* q86167_therese_huber.jpg */; };
+		F79CF5C61AE7DB240044D44F /* q86534_ludwig_hevesi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4EB1AE7DB240044D44F /* q86534_ludwig_hevesi.jpg */; };
+		F79CF5C71AE7DB240044D44F /* q86886_paul_lindau.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4EC1AE7DB240044D44F /* q86886_paul_lindau.jpg */; };
+		F79CF5C81AE7DB240044D44F /* q87473_felix_hollaender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4ED1AE7DB240044D44F /* q87473_felix_hollaender.jpg */; };
+		F79CF5C91AE7DB240044D44F /* q88965_franz_michael_felder_schriftsteller.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4EE1AE7DB240044D44F /* q88965_franz_michael_felder_schriftsteller.jpg */; };
+		F79CF5CA1AE7DB240044D44F /* q93525_marie_von_ebnereschenbach.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4EF1AE7DB240044D44F /* q93525_marie_von_ebnereschenbach.jpg */; };
+		F79CF5CB1AE7DB240044D44F /* q93841_peter_rosegger.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4F01AE7DB240044D44F /* q93841_peter_rosegger.jpg */; };
+		F79CF5CC1AE7DB240044D44F /* q94034_hermann_bahr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4F11AE7DB240044D44F /* q94034_hermann_bahr.jpg */; };
+		F79CF5CD1AE7DB240044D44F /* q95693_peter_hille.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4F21AE7DB240044D44F /* q95693_peter_hille.jpg */; };
+		F79CF5CE1AE7DB240044D44F /* q96771_karl_wilhelm_salicecontessa.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4F31AE7DB240044D44F /* q96771_karl_wilhelm_salicecontessa.jpg */; };
+		F79CF5CF1AE7DB240044D44F /* q106107_agnes_gc3bcnther.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4F41AE7DB240044D44F /* q106107_agnes_gc3bcnther.jpg */; };
+		F79CF5D01AE7DB240044D44F /* q106603_friedrich_spielhagen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4F51AE7DB240044D44F /* q106603_friedrich_spielhagen.jpg */; };
+		F79CF5D11AE7DB240044D44F /* q108847_max_kretzer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4F61AE7DB240044D44F /* q108847_max_kretzer.jpg */; };
+		F79CF5D21AE7DB240044D44F /* q109471_ida_boyed.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4F71AE7DB240044D44F /* q109471_ida_boyed.jpg */; };
+		F79CF5D31AE7DB240044D44F /* q110503_benjamin_stein.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4F81AE7DB240044D44F /* q110503_benjamin_stein.jpg */; };
+		F79CF5D41AE7DB240044D44F /* q112153_ernst_weic39f_schriftsteller.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4F91AE7DB240044D44F /* q112153_ernst_weic39f_schriftsteller.jpg */; };
+		F79CF5D51AE7DB240044D44F /* q112255_egon_friedell.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4FA1AE7DB240044D44F /* q112255_egon_friedell.jpg */; };
+		F79CF5D61AE7DB240044D44F /* q113022_christoph_ransmayr.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4FB1AE7DB240044D44F /* q113022_christoph_ransmayr.jpg */; };
+		F79CF5D71AE7DB240044D44F /* q114493_johann_karl_wezel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4FC1AE7DB240044D44F /* q114493_johann_karl_wezel.jpg */; };
+		F79CF5D81AE7DB240044D44F /* q115483_max_frisch.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4FD1AE7DB240044D44F /* q115483_max_frisch.jpg */; };
+		F79CF5D91AE7DB240044D44F /* q121584_ulrich_brc3a4ker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4FE1AE7DB240044D44F /* q121584_ulrich_brc3a4ker.jpg */; };
+		F79CF5DA1AE7DB240044D44F /* q122358_jeremias_gotthelf.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF4FF1AE7DB240044D44F /* q122358_jeremias_gotthelf.jpg */; };
+		F79CF5DB1AE7DB240044D44F /* q122370_gottfried_keller.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5001AE7DB240044D44F /* q122370_gottfried_keller.jpg */; };
+		F79CF5DC1AE7DB240044D44F /* q123041_anne_louise_germaine_de_stac3abl.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5011AE7DB240044D44F /* q123041_anne_louise_germaine_de_stac3abl.jpg */; };
+		F79CF5DD1AE7DB240044D44F /* q123075_robert_walser.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5021AE7DB240044D44F /* q123075_robert_walser.jpg */; };
+		F79CF5DE1AE7DB240044D44F /* q123261_conrad_ferdinand_meyer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5031AE7DB240044D44F /* q123261_conrad_ferdinand_meyer.jpg */; };
+		F79CF5DF1AE7DB240044D44F /* q123825_urs_widmer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5041AE7DB240044D44F /* q123825_urs_widmer.jpg */; };
+		F79CF5E01AE7DB240044D44F /* q126733_oscar_a_h_schmitz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5051AE7DB240044D44F /* q126733_oscar_a_h_schmitz.jpg */; };
+		F79CF5E11AE7DB240044D44F /* q127332_charlotte_brontc3ab.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5061AE7DB240044D44F /* q127332_charlotte_brontc3ab.jpg */; };
+		F79CF5E21AE7DB240044D44F /* q131333_george_eliot.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5071AE7DB240044D44F /* q131333_george_eliot.jpg */; };
+		F79CF5E31AE7DB240044D44F /* q131487_karl_gjellerup.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5081AE7DB240044D44F /* q131487_karl_gjellerup.jpg */; };
+		F79CF5E41AE7DB240044D44F /* q134180_truman_capote.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5091AE7DB240044D44F /* q134180_truman_capote.jpg */; };
+		F79CF5E51AE7DB240044D44F /* q139557_zacharias_werner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF50A1AE7DB240044D44F /* q139557_zacharias_werner.jpg */; };
+		F79CF5E61AE7DB240044D44F /* q150471_e_t_a_hoffmann.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF50B1AE7DB240044D44F /* q150471_e_t_a_hoffmann.jpg */; };
+		F79CF5E71AE7DB240044D44F /* q154014_georg_bc3bcchner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF50C1AE7DB240044D44F /* q154014_georg_bc3bcchner.jpg */; };
+		F79CF5E81AE7DB240044D44F /* q154756_italo_calvino.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF50D1AE7DB240044D44F /* q154756_italo_calvino.jpg */; };
+		F79CF5E91AE7DB240044D44F /* q155855_karel_c48capek.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF50E1AE7DB240044D44F /* q155855_karel_c48capek.jpg */; };
+		F79CF5EA1AE7DB240044D44F /* q167768_william_makepeace_thackeray.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF50F1AE7DB240044D44F /* q167768_william_makepeace_thackeray.jpg */; };
+		F79CF5EB1AE7DB240044D44F /* q167856_james_fenimore_cooper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5101AE7DB240044D44F /* q167856_james_fenimore_cooper.jpg */; };
+		F79CF5EC1AE7DB240044D44F /* q168542_adalbert_stifter.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5111AE7DB240044D44F /* q168542_adalbert_stifter.jpg */; };
+		F79CF5ED1AE7DB240044D44F /* q169150_alexandre_dumas_der_jc3bcngere.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5121AE7DB240044D44F /* q169150_alexandre_dumas_der_jc3bcngere.jpg */; };
+		F79CF5EE1AE7DB240044D44F /* q183167_g_k_chesterton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5131AE7DB240044D44F /* q183167_g_k_chesterton.jpg */; };
+		F79CF5EF1AE7DB240044D44F /* q189665_iwan_gontscharow.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5141AE7DB240044D44F /* q189665_iwan_gontscharow.jpg */; };
+		F79CF5F01AE7DB240044D44F /* q189869_benito_pc3a9rez_galdc3b3s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5151AE7DB240044D44F /* q189869_benito_pc3a9rez_galdc3b3s.jpg */; };
+		F79CF5F11AE7DB240044D44F /* q201221_alexander_iwanowitsch_herzen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5161AE7DB240044D44F /* q201221_alexander_iwanowitsch_herzen.jpg */; };
+		F79CF5F21AE7DB240044D44F /* q213589_karl_immermann.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5171AE7DB240044D44F /* q213589_karl_immermann.jpg */; };
+		F79CF5F31AE7DB240044D44F /* q214310_theodor_gottlieb_von_hippel_der_c384ltere.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5181AE7DB240044D44F /* q214310_theodor_gottlieb_von_hippel_der_c384ltere.jpg */; };
+		F79CF5F41AE7DB240044D44F /* q214623_arthur_holitscher.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5191AE7DB240044D44F /* q214623_arthur_holitscher.jpg */; };
+		F79CF5F51AE7DB240044D44F /* q214642_paul_auster.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF51A1AE7DB240044D44F /* q214642_paul_auster.jpg */; };
+		F79CF5F61AE7DB240044D44F /* q215845_johann_heinrich_jungstilling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF51B1AE7DB240044D44F /* q215845_johann_heinrich_jungstilling.jpg */; };
+		F79CF5F71AE7DB240044D44F /* q215853_friedrich_nicolai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF51C1AE7DB240044D44F /* q215853_friedrich_nicolai.jpg */; };
+		F79CF5F81AE7DB240044D44F /* q216692_ludvig_holberg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF51D1AE7DB240044D44F /* q216692_ludvig_holberg.jpg */; };
+		F79CF5F91AE7DB240044D44F /* q218960_laurence_sterne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF51E1AE7DB240044D44F /* q218960_laurence_sterne.jpg */; };
+		F79CF5FA1AE7DB240044D44F /* q226525_carl_spitteler.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF51F1AE7DB240044D44F /* q226525_carl_spitteler.jpg */; };
+		F79CF5FB1AE7DB240044D44F /* q228546_alphonse_daudet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5201AE7DB240044D44F /* q228546_alphonse_daudet.jpg */; };
+		F79CF5FC1AE7DB240044D44F /* q237090_mariemadeleine_de_la_fayette.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5211AE7DB240044D44F /* q237090_mariemadeleine_de_la_fayette.jpg */; };
+		F79CF5FD1AE7DB240044D44F /* q270635_patricia_highsmith.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5221AE7DB240044D44F /* q270635_patricia_highsmith.jpg */; };
+		F79CF5FE1AE7DB240044D44F /* q271824_edgar_wallace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5231AE7DB240044D44F /* q271824_edgar_wallace.jpg */; };
+		F79CF5FF1AE7DB240044D44F /* q276028_frances_hodgson_burnett.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5241AE7DB240044D44F /* q276028_frances_hodgson_burnett.jpg */; };
+		F79CF6001AE7DB240044D44F /* q296752_carlos_ruiz_zafc3b3n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5251AE7DB240044D44F /* q296752_carlos_ruiz_zafc3b3n.jpg */; };
+		F79CF6011AE7DB240044D44F /* q309702_alfred_de_vigny.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5261AE7DB240044D44F /* q309702_alfred_de_vigny.jpg */; };
+		F79CF6021AE7DB240044D44F /* q310866_leonid_nikolajewitsch_andrejew.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5271AE7DB240044D44F /* q310866_leonid_nikolajewitsch_andrejew.jpg */; };
+		F79CF6031AE7DB240044D44F /* q313553_pedro_antonio_de_alarcc3b3n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5281AE7DB240044D44F /* q313553_pedro_antonio_de_alarcc3b3n.jpg */; };
+		F79CF6041AE7DB240044D44F /* q314498_konstantin_dmitrijewitsch_balmont.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5291AE7DB240044D44F /* q314498_konstantin_dmitrijewitsch_balmont.jpg */; };
+		F79CF6051AE7DB240044D44F /* q315220_eugc3a8ne_sue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF52A1AE7DB240044D44F /* q315220_eugc3a8ne_sue.jpg */; };
+		F79CF6061AE7DB240044D44F /* q316327_ec3a7a_de_queirc3b3s.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF52B1AE7DB240044D44F /* q316327_ec3a7a_de_queirc3b3s.jpg */; };
+		F79CF6071AE7DB240044D44F /* q316607_jonathan_franzen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF52C1AE7DB240044D44F /* q316607_jonathan_franzen.jpg */; };
+		F79CF6081AE7DB240044D44F /* q318358_alexander_lange_kielland.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF52D1AE7DB240044D44F /* q318358_alexander_lange_kielland.jpg */; };
+		F79CF6091AE7DB240044D44F /* q318462_edward_bulwerlytton_1_baron_lytton.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF52E1AE7DB240044D44F /* q318462_edward_bulwerlytton_1_baron_lytton.jpg */; };
+		F79CF60A1AE7DB240044D44F /* q326138_marcel_prc3a9vost.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF52F1AE7DB240044D44F /* q326138_marcel_prc3a9vost.jpg */; };
+		F79CF60B1AE7DB240044D44F /* q357102_lewis_wallace.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5301AE7DB240044D44F /* q357102_lewis_wallace.jpg */; };
+		F79CF60C1AE7DB240044D44F /* q361004_edmond_about.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5311AE7DB240044D44F /* q361004_edmond_about.jpg */; };
+		F79CF60D1AE7DB240044D44F /* q370246_jens_peter_jacobsen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5321AE7DB240044D44F /* q370246_jens_peter_jacobsen.jpg */; };
+		F79CF60E1AE7DB240044D44F /* q379621_mc3b3r_jc3b3kai.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5331AE7DB240044D44F /* q379621_mc3b3r_jc3b3kai.jpg */; };
+		F79CF60F1AE7DB240044D44F /* q446713_ossip_schubin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5341AE7DB240044D44F /* q446713_ossip_schubin.jpg */; };
+		F79CF6101AE7DB240044D44F /* q455776_edward_bellamy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5351AE7DB240044D44F /* q455776_edward_bellamy.jpg */; };
+		F79CF6111AE7DB240044D44F /* q460352_michail_alexejewitsch_kusmin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5361AE7DB240044D44F /* q460352_michail_alexejewitsch_kusmin.jpg */; };
+		F79CF6121AE7DB240044D44F /* q467770_frederick_marryat.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5371AE7DB240044D44F /* q467770_frederick_marryat.jpg */; };
+		F79CF6131AE7DB240044D44F /* q472068_gustave_aimard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5381AE7DB240044D44F /* q472068_gustave_aimard.jpg */; };
+		F79CF6141AE7DB240044D44F /* q728405_georges_eekhoud.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5391AE7DB240044D44F /* q728405_georges_eekhoud.jpg */; };
+		F79CF6151AE7DB240044D44F /* q732729_nicolas_edme_restif_de_la_bretonne.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF53A1AE7DB240044D44F /* q732729_nicolas_edme_restif_de_la_bretonne.jpg */; };
+		F79CF6161AE7DB240044D44F /* q1096435_claude_anet.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF53B1AE7DB240044D44F /* q1096435_claude_anet.jpg */; };
+		F79CF6171AE7DB240044D44F /* q1339023_emmy_von_rhoden.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF53C1AE7DB240044D44F /* q1339023_emmy_von_rhoden.jpg */; };
+		F79CF6181AE7DB240044D44F /* q1556344_gustav_sack.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF53D1AE7DB240044D44F /* q1556344_gustav_sack.jpg */; };
+		F79CF6191AE7DB240044D44F /* q1793679_markus_orths.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF53E1AE7DB240044D44F /* q1793679_markus_orths.jpg */; };
+		F79CF61A1AE7DB240044D44F /* q2077841_peter_richter_schriftsteller.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF53F1AE7DB240044D44F /* q2077841_peter_richter_schriftsteller.jpg */; };
+		F79CF61B1AE7DB240044D44F /* q2646840_alice_berend.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5401AE7DB240044D44F /* q2646840_alice_berend.jpg */; };
+		F79CF61C1AE7DB240044D44F /* q5567266_sophus_bauditz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5411AE7DB240044D44F /* q5567266_sophus_bauditz.jpg */; };
 		F7ADFDE71AE406230035F15D /* ImpressumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADFDE61AE406230035F15D /* ImpressumViewController.swift */; };
+		F7B6535C1AE8C91F00834A94 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8184B1AE440BD00629EA8 /* NotificationCenter.framework */; };
+		F7B653611AE8C91F00834A94 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B653601AE8C91F00834A94 /* TodayViewController.swift */; };
+		F7B653631AE8C91F00834A94 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7B653621AE8C91F00834A94 /* MainInterface.storyboard */; };
+		F7B6536B1AE8CA2400834A94 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B6536A1AE8CA2400834A94 /* SwiftyJSON.swift */; };
 		F7BB9D111ADEAFEC00BCA23E /* QuotationDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BB9D101ADEAFEC00BCA23E /* QuotationDisplayViewController.swift */; };
 		F7BB9D131ADEB0BA00BCA23E /* StartingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BB9D121ADEB0BA00BCA23E /* StartingView.swift */; };
 		F7D77F121ADEFBCE0083E490 /* ic_launcher.png in Resources */ = {isa = PBXBuildFile; fileRef = F7D77F101ADEFBCE0083E490 /* ic_launcher.png */; };
@@ -63,58 +259,16 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		F7A8185A1AE440BE00629EA8 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		F7410BFD1AE570FB00E2105E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F7410BFF1AE5711100E2105E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F7410C001AE5711200E2105E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F754A1F71ADFFEC200D187B9 /* literjahrtur512.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = literjahrtur512.jpg; sourceTree = "<group>"; };
 		F75E18CB1ADF9CB8007F1011 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
-		F75E18DA1ADFF541007F1011 /* q502_stendhal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q502_stendhal.jpg; sourceTree = "<group>"; };
-		F75E18DB1ADFF541007F1011 /* q535_victor_hugo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q535_victor_hugo.jpg; sourceTree = "<group>"; };
-		F75E18DC1ADFF541007F1011 /* q692_william_shakespeare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q692_william_shakespeare.jpg; sourceTree = "<group>"; };
-		F75E18DD1ADFF541007F1011 /* q991_fyodor_dostoyevsky.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q991_fyodor_dostoyevsky.jpg; sourceTree = "<group>"; };
-		F75E18DE1ADFF541007F1011 /* q4985_herman_melville.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q4985_herman_melville.jpg; sourceTree = "<group>"; };
-		F75E18DF1ADFF541007F1011 /* q5686_charles_dickens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q5686_charles_dickens.jpg; sourceTree = "<group>"; };
-		F75E18E01ADFF541007F1011 /* q6882_james_joyce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q6882_james_joyce.jpg; sourceTree = "<group>"; };
-		F75E18E11ADFF541007F1011 /* q7243_leo_tolstoy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q7243_leo_tolstoy.jpg; sourceTree = "<group>"; };
-		F75E18E21ADFF541007F1011 /* q7245_mark_twain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q7245_mark_twain.jpg; sourceTree = "<group>"; };
-		F75E18E31ADFF541007F1011 /* q9327_guy_de_maupassant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q9327_guy_de_maupassant.jpg; sourceTree = "<group>"; };
-		F75E18E41ADFF541007F1011 /* q9711_honorc3a9_de_balzac.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q9711_honorc3a9_de_balzac.jpg; sourceTree = "<group>"; };
-		F75E18E51ADFF541007F1011 /* q16867_edgar_allan_poe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q16867_edgar_allan_poe.jpg; sourceTree = "<group>"; };
-		F75E18E61ADFF541007F1011 /* q33977_jules_verne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q33977_jules_verne.jpg; sourceTree = "<group>"; };
-		F75E18E71ADFF541007F1011 /* q35610_arthur_conan_doyle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q35610_arthur_conan_doyle.jpg; sourceTree = "<group>"; };
-		F75E18E81ADFF541007F1011 /* q38337_alexandre_dumas.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q38337_alexandre_dumas.jpg; sourceTree = "<group>"; };
-		F75E18E91ADFF541007F1011 /* q40946_daniel_defoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q40946_daniel_defoe.jpg; sourceTree = "<group>"; };
-		F75E18EA1ADFF541007F1011 /* q41166_jonathan_swift.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q41166_jonathan_swift.jpg; sourceTree = "<group>"; };
-		F75E18EB1ADFF541007F1011 /* q43444_gustave_flaubert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q43444_gustave_flaubert.jpg; sourceTree = "<group>"; };
-		F75E18EC1ADFF541007F1011 /* q43718_nikolai_gogol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q43718_nikolai_gogol.jpg; sourceTree = "<group>"; };
-		F75E18ED1ADFF541007F1011 /* q76480_heinrich_mann.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q76480_heinrich_mann.jpg; sourceTree = "<group>"; };
-		F75E18EE1ADFF541007F1011 /* q76632_theodor_fontane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q76632_theodor_fontane.jpg; sourceTree = "<group>"; };
-		F75E18EF1ADFF541007F1011 /* q85309_rudolf_lindau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q85309_rudolf_lindau.jpg; sourceTree = "<group>"; };
-		F75E18F01ADFF541007F1011 /* q93354_f_scott_fitzgerald.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q93354_f_scott_fitzgerald.jpg; sourceTree = "<group>"; };
-		F75E18F11ADFF541007F1011 /* q121060_matthew_lewis_writer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q121060_matthew_lewis_writer.jpg; sourceTree = "<group>"; };
-		F75E18F21ADFF541007F1011 /* q131333_george_eliot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q131333_george_eliot.jpg; sourceTree = "<group>"; };
-		F75E18F31ADFF541007F1011 /* q167856_james_fenimore_cooper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q167856_james_fenimore_cooper.jpg; sourceTree = "<group>"; };
-		F75E18F41ADFF541007F1011 /* q270635_patricia_highsmith.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q270635_patricia_highsmith.jpg; sourceTree = "<group>"; };
-		F75E18F51ADFF541007F1011 /* q271824_edgar_wallace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q271824_edgar_wallace.jpg; sourceTree = "<group>"; };
 		F78B57F61AE613EB00C9A759 /* date-to-number-of-quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "date-to-number-of-quotes.json"; sourceTree = "<group>"; };
 		F78B57F81AE6144F00C9A759 /* quotations-de.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "quotations-de.json"; sourceTree = "<group>"; };
 		F791D11C1AE4DE5F00BF2E1F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
 		F791D11D1AE4F4C100BF2E1F /* quotations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotations.json; sourceTree = "<group>"; };
-		F791D1201AE5407B00BF2E1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		F798D32C1ADC3849006121B8 /* Tiwoli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tiwoli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F798D3301ADC3849006121B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F798D3311ADC3849006121B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -123,11 +277,234 @@
 		F798D33B1ADC3849006121B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		F798D3411ADC3849006121B8 /* TiwoliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TiwoliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F79C53201AE152E100DB5D95 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		F79CF4651AE7D34D0044D44F /* impressum_de.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = impressum_de.html; sourceTree = "<group>"; };
+		F79CF4671AE7DB230044D44F /* q502_stendhal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q502_stendhal.jpg; sourceTree = "<group>"; };
+		F79CF4681AE7DB230044D44F /* q504_c389mile_zola.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q504_c389mile_zola.jpg; sourceTree = "<group>"; };
+		F79CF4691AE7DB230044D44F /* q535_victor_hugo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q535_victor_hugo.jpg; sourceTree = "<group>"; };
+		F79CF46A1AE7DB230044D44F /* q692_william_shakespeare.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q692_william_shakespeare.jpg; sourceTree = "<group>"; };
+		F79CF46B1AE7DB230044D44F /* q905_franz_kafka.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q905_franz_kafka.jpg; sourceTree = "<group>"; };
+		F79CF46C1AE7DB230044D44F /* q909_jorge_luis_borges.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q909_jorge_luis_borges.jpg; sourceTree = "<group>"; };
+		F79CF46D1AE7DB230044D44F /* q991_fjodor_dostojewski.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q991_fjodor_dostojewski.jpg; sourceTree = "<group>"; };
+		F79CF46E1AE7DB230044D44F /* q1402_giovanni_boccaccio.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q1402_giovanni_boccaccio.jpg; sourceTree = "<group>"; };
+		F79CF46F1AE7DB230044D44F /* q2754_jaroslav_haek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q2754_jaroslav_haek.jpg; sourceTree = "<group>"; };
+		F79CF4701AE7DB230044D44F /* q5673_hans_christian_andersen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q5673_hans_christian_andersen.jpg; sourceTree = "<group>"; };
+		F79CF4711AE7DB230044D44F /* q5682_cervantes.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q5682_cervantes.jpg; sourceTree = "<group>"; };
+		F79CF4721AE7DB230044D44F /* q5685_anton_tschechow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q5685_anton_tschechow.jpg; sourceTree = "<group>"; };
+		F79CF4731AE7DB230044D44F /* q5686_charles_dickens.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q5686_charles_dickens.jpg; sourceTree = "<group>"; };
+		F79CF4741AE7DB230044D44F /* q5878_gabriel_garcc3ada_mc3a1rquez.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q5878_gabriel_garcc3ada_mc3a1rquez.jpg; sourceTree = "<group>"; };
+		F79CF4751AE7DB230044D44F /* q5879_johann_wolfgang_von_goethe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q5879_johann_wolfgang_von_goethe.jpg; sourceTree = "<group>"; };
+		F79CF4761AE7DB230044D44F /* q6538_gc3bcnter_grass.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q6538_gc3bcnter_grass.jpg; sourceTree = "<group>"; };
+		F79CF4771AE7DB230044D44F /* q6882_james_joyce.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q6882_james_joyce.jpg; sourceTree = "<group>"; };
+		F79CF4781AE7DB240044D44F /* q7199_marcel_proust.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q7199_marcel_proust.jpg; sourceTree = "<group>"; };
+		F79CF4791AE7DB240044D44F /* q7200_alexander_puschkin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q7200_alexander_puschkin.jpg; sourceTree = "<group>"; };
+		F79CF47A1AE7DB240044D44F /* q7243_lew_tolstoi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q7243_lew_tolstoi.jpg; sourceTree = "<group>"; };
+		F79CF47B1AE7DB240044D44F /* q7245_mark_twain.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q7245_mark_twain.jpg; sourceTree = "<group>"; };
+		F79CF47C1AE7DB240044D44F /* q7724_august_strindberg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q7724_august_strindberg.jpg; sourceTree = "<group>"; };
+		F79CF47D1AE7DB240044D44F /* q9327_guy_de_maupassant.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q9327_guy_de_maupassant.jpg; sourceTree = "<group>"; };
+		F79CF47E1AE7DB240044D44F /* q9711_honorc3a9_de_balzac.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q9711_honorc3a9_de_balzac.jpg; sourceTree = "<group>"; };
+		F79CF47F1AE7DB240044D44F /* q12807_umberto_eco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q12807_umberto_eco.jpg; sourceTree = "<group>"; };
+		F79CF4801AE7DB240044D44F /* q15953_fritz_mauthner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q15953_fritz_mauthner.jpg; sourceTree = "<group>"; };
+		F79CF4811AE7DB240044D44F /* q16867_edgar_allan_poe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q16867_edgar_allan_poe.jpg; sourceTree = "<group>"; };
+		F79CF4821AE7DB240044D44F /* q22670_friedrich_schiller.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q22670_friedrich_schiller.jpg; sourceTree = "<group>"; };
+		F79CF4831AE7DB240044D44F /* q22714_karl_may.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q22714_karl_may.jpg; sourceTree = "<group>"; };
+		F79CF4841AE7DB240044D44F /* q23481_friedrich_dc3bcrrenmatt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q23481_friedrich_dc3bcrrenmatt.jpg; sourceTree = "<group>"; };
+		F79CF4851AE7DB240044D44F /* q25973_hermann_hesse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q25973_hermann_hesse.jpg; sourceTree = "<group>"; };
+		F79CF4861AE7DB240044D44F /* q26993_theodor_storm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q26993_theodor_storm.jpg; sourceTree = "<group>"; };
+		F79CF4871AE7DB240044D44F /* q28494_heinrich_von_kleist.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q28494_heinrich_von_kleist.jpg; sourceTree = "<group>"; };
+		F79CF4881AE7DB240044D44F /* q30875_oscar_wilde.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q30875_oscar_wilde.jpg; sourceTree = "<group>"; };
+		F79CF4891AE7DB240044D44F /* q31220_hans_jakob_christoffel_von_grimmelshausen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q31220_hans_jakob_christoffel_von_grimmelshausen.jpg; sourceTree = "<group>"; };
+		F79CF48A1AE7DB240044D44F /* q31258_henri_murger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q31258_henri_murger.jpg; sourceTree = "<group>"; };
+		F79CF48B1AE7DB240044D44F /* q33977_jules_verne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q33977_jules_verne.jpg; sourceTree = "<group>"; };
+		F79CF48C1AE7DB240044D44F /* q34190_henry_fielding.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q34190_henry_fielding.jpg; sourceTree = "<group>"; };
+		F79CF48D1AE7DB240044D44F /* q34628_lessing.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q34628_lessing.jpg; sourceTree = "<group>"; };
+		F79CF48E1AE7DB240044D44F /* q34743_rudyard_kipling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q34743_rudyard_kipling.jpg; sourceTree = "<group>"; };
+		F79CF48F1AE7DB240044D44F /* q35610_arthur_conan_doyle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q35610_arthur_conan_doyle.jpg; sourceTree = "<group>"; };
+		F79CF4901AE7DB240044D44F /* q36661_henrik_ibsen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q36661_henrik_ibsen.jpg; sourceTree = "<group>"; };
+		F79CF4911AE7DB240044D44F /* q36951_sc3a1ndor_mc3a1rai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q36951_sc3a1ndor_mc3a1rai.jpg; sourceTree = "<group>"; };
+		F79CF4921AE7DB240044D44F /* q37030_thomas_mann.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q37030_thomas_mann.jpg; sourceTree = "<group>"; };
+		F79CF4931AE7DB240044D44F /* q38337_alexandre_dumas_der_c384ltere.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q38337_alexandre_dumas_der_c384ltere.jpg; sourceTree = "<group>"; };
+		F79CF4941AE7DB240044D44F /* q40826_knut_hamsun.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q40826_knut_hamsun.jpg; sourceTree = "<group>"; };
+		F79CF4951AE7DB240044D44F /* q40946_daniel_defoe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q40946_daniel_defoe.jpg; sourceTree = "<group>"; };
+		F79CF4961AE7DB240044D44F /* q41166_jonathan_swift.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q41166_jonathan_swift.jpg; sourceTree = "<group>"; };
+		F79CF4971AE7DB240044D44F /* q41502_henryk_sienkiewicz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q41502_henryk_sienkiewicz.jpg; sourceTree = "<group>"; };
+		F79CF4981AE7DB240044D44F /* q42443_anatole_france.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q42443_anatole_france.jpg; sourceTree = "<group>"; };
+		F79CF4991AE7DB240044D44F /* q42747_heinrich_bc3b6ll.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q42747_heinrich_bc3b6ll.jpg; sourceTree = "<group>"; };
+		F79CF49A1AE7DB240044D44F /* q42831_iwan_turgenjew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q42831_iwan_turgenjew.jpg; sourceTree = "<group>"; };
+		F79CF49B1AE7DB240044D44F /* q43444_gustave_flaubert.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q43444_gustave_flaubert.jpg; sourceTree = "<group>"; };
+		F79CF49C1AE7DB240044D44F /* q43718_nikolai_gogol.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q43718_nikolai_gogol.jpg; sourceTree = "<group>"; };
+		F79CF49D1AE7DB240044D44F /* q44331_arthur_schnitzler.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q44331_arthur_schnitzler.jpg; sourceTree = "<group>"; };
+		F79CF49E1AE7DB240044D44F /* q44403_heinrich_heine.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q44403_heinrich_heine.jpg; sourceTree = "<group>"; };
+		F79CF49F1AE7DB240044D44F /* q44519_selma_lagerlc3b6f.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q44519_selma_lagerlc3b6f.jpg; sourceTree = "<group>"; };
+		F79CF4A01AE7DB240044D44F /* q44584_hans_magnus_enzensberger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q44584_hans_magnus_enzensberger.jpg; sourceTree = "<group>"; };
+		F79CF4A11AE7DB240044D44F /* q44652_christian_morgenstern.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q44652_christian_morgenstern.jpg; sourceTree = "<group>"; };
+		F79CF4A21AE7DB240044D44F /* q44862_johann_nestroy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q44862_johann_nestroy.jpg; sourceTree = "<group>"; };
+		F79CF4A31AE7DB240044D44F /* q45025_ferdinand_raimund.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q45025_ferdinand_raimund.jpg; sourceTree = "<group>"; };
+		F79CF4A41AE7DB240044D44F /* q45309_ludwig_thoma.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q45309_ludwig_thoma.jpg; sourceTree = "<group>"; };
+		F79CF4A51AE7DB240044D44F /* q46405_bjc3b8rnstjerne_bjc3b8rnson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q46405_bjc3b8rnstjerne_bjc3b8rnson.jpg; sourceTree = "<group>"; };
+		F79CF4A61AE7DB240044D44F /* q47152_mary_shelley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q47152_mary_shelley.jpg; sourceTree = "<group>"; };
+		F79CF4A71AE7DB240044D44F /* q47162_romain_rolland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q47162_romain_rolland.jpg; sourceTree = "<group>"; };
+		F79CF4A81AE7DB240044D44F /* q47293_erich_maria_remarque.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q47293_erich_maria_remarque.jpg; sourceTree = "<group>"; };
+		F79CF4A91AE7DB240044D44F /* q49074_kurt_vonnegut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q49074_kurt_vonnegut.jpg; sourceTree = "<group>"; };
+		F79CF4AA1AE7DB240044D44F /* q51513_hugo_von_hofmannsthal.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q51513_hugo_von_hofmannsthal.jpg; sourceTree = "<group>"; };
+		F79CF4AB1AE7DB240044D44F /* q57239_ludwig_tieck.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q57239_ludwig_tieck.jpg; sourceTree = "<group>"; };
+		F79CF4AC1AE7DB240044D44F /* q57266_ernst_toller.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q57266_ernst_toller.jpg; sourceTree = "<group>"; };
+		F79CF4AD1AE7DB240044D44F /* q57307_annette_von_drostehc3bclshoff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q57307_annette_von_drostehc3bclshoff.jpg; sourceTree = "<group>"; };
+		F79CF4AE1AE7DB240044D44F /* q57387_martin_walser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q57387_martin_walser.jpg; sourceTree = "<group>"; };
+		F79CF4AF1AE7DB240044D44F /* q57619_frank_wedekind.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q57619_frank_wedekind.jpg; sourceTree = "<group>"; };
+		F79CF4B01AE7DB240044D44F /* q57966_wilhelm_hauff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q57966_wilhelm_hauff.jpg; sourceTree = "<group>"; };
+		F79CF4B11AE7DB240044D44F /* q60369_jakob_wassermann.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q60369_jakob_wassermann.jpg; sourceTree = "<group>"; };
+		F79CF4B21AE7DB240044D44F /* q60647_wilhelm_raabe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q60647_wilhelm_raabe.jpg; sourceTree = "<group>"; };
+		F79CF4B31AE7DB240044D44F /* q60684_novalis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q60684_novalis.jpg; sourceTree = "<group>"; };
+		F79CF4B41AE7DB240044D44F /* q61263_klabund.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q61263_klabund.jpg; sourceTree = "<group>"; };
+		F79CF4B51AE7DB240044D44F /* q61453_kurd_lac39fwitz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q61453_kurd_lac39fwitz.jpg; sourceTree = "<group>"; };
+		F79CF4B61AE7DB240044D44F /* q61601_georg_heym.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q61601_georg_heym.jpg; sourceTree = "<group>"; };
+		F79CF4B71AE7DB240044D44F /* q61629_uwe_timm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q61629_uwe_timm.jpg; sourceTree = "<group>"; };
+		F79CF4B81AE7DB240044D44F /* q62404_sophie_von_la_roche.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q62404_sophie_von_la_roche.jpg; sourceTree = "<group>"; };
+		F79CF4B91AE7DB240044D44F /* q62950_e_marlitt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q62950_e_marlitt.jpg; sourceTree = "<group>"; };
+		F79CF4BA1AE7DB240044D44F /* q63699_eduard_mc3b6rike.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q63699_eduard_mc3b6rike.jpg; sourceTree = "<group>"; };
+		F79CF4BB1AE7DB240044D44F /* q64370_franz_von_dingelstedt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q64370_franz_von_dingelstedt.jpg; sourceTree = "<group>"; };
+		F79CF4BC1AE7DB240044D44F /* q64404_arno_holz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q64404_arno_holz.jpg; sourceTree = "<group>"; };
+		F79CF4BD1AE7DB240044D44F /* q65078_hedwig_courthsmahler.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q65078_hedwig_courthsmahler.jpg; sourceTree = "<group>"; };
+		F79CF4BE1AE7DB240044D44F /* q66207_heinrich_zschokke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q66207_heinrich_zschokke.jpg; sourceTree = "<group>"; };
+		F79CF4BF1AE7DB240044D44F /* q66379_ludwig_bechstein.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q66379_ludwig_bechstein.jpg; sourceTree = "<group>"; };
+		F79CF4C01AE7DB240044D44F /* q66388_karl_von_holtei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q66388_karl_von_holtei.jpg; sourceTree = "<group>"; };
+		F79CF4C11AE7DB240044D44F /* q66942_daniel_casper_von_lohenstein.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q66942_daniel_casper_von_lohenstein.jpg; sourceTree = "<group>"; };
+		F79CF4C21AE7DB240044D44F /* q69322_renc3a9_schickele.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q69322_renc3a9_schickele.jpg; sourceTree = "<group>"; };
+		F79CF4C31AE7DB240044D44F /* q70988_achim_von_arnim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q70988_achim_von_arnim.jpg; sourceTree = "<group>"; };
+		F79CF4C41AE7DB240044D44F /* q71429_fanny_zu_reventlow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q71429_fanny_zu_reventlow.jpg; sourceTree = "<group>"; };
+		F79CF4C51AE7DB240044D44F /* q73525_walter_flex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q73525_walter_flex.jpg; sourceTree = "<group>"; };
+		F79CF4C61AE7DB240044D44F /* q76412_siegfried_lenz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q76412_siegfried_lenz.jpg; sourceTree = "<group>"; };
+		F79CF4C71AE7DB240044D44F /* q76480_heinrich_mann.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q76480_heinrich_mann.jpg; sourceTree = "<group>"; };
+		F79CF4C81AE7DB240044D44F /* q76483_rainer_maria_rilke.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q76483_rainer_maria_rilke.jpg; sourceTree = "<group>"; };
+		F79CF4C91AE7DB240044D44F /* q76487_paul_heyse.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q76487_paul_heyse.jpg; sourceTree = "<group>"; };
+		F79CF4CA1AE7DB240044D44F /* q76539_hans_fallada.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q76539_hans_fallada.jpg; sourceTree = "<group>"; };
+		F79CF4CB1AE7DB240044D44F /* q76632_theodor_fontane.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q76632_theodor_fontane.jpg; sourceTree = "<group>"; };
+		F79CF4CC1AE7DB240044D44F /* q76699_bernhard_schlink.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q76699_bernhard_schlink.jpg; sourceTree = "<group>"; };
+		F79CF4CD1AE7DB240044D44F /* q76715_berthold_auerbach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q76715_berthold_auerbach.jpg; sourceTree = "<group>"; };
+		F79CF4CE1AE7DB240044D44F /* q76755_karl_gutzkow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q76755_karl_gutzkow.jpg; sourceTree = "<group>"; };
+		F79CF4CF1AE7DB240044D44F /* q77079_jean_paul.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q77079_jean_paul.jpg; sourceTree = "<group>"; };
+		F79CF4D01AE7DB240044D44F /* q77312_willibald_alexis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q77312_willibald_alexis.jpg; sourceTree = "<group>"; };
+		F79CF4D11AE7DB240044D44F /* q77317_jurek_becker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q77317_jurek_becker.jpg; sourceTree = "<group>"; };
+		F79CF4D21AE7DB240044D44F /* q77325_arno_schmidt.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q77325_arno_schmidt.jpg; sourceTree = "<group>"; };
+		F79CF4D31AE7DB240044D44F /* q77439_arthur_achleitner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q77439_arthur_achleitner.jpg; sourceTree = "<group>"; };
+		F79CF4D41AE7DB240044D44F /* q77475_ludwig_ganghofer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q77475_ludwig_ganghofer.jpg; sourceTree = "<group>"; };
+		F79CF4D51AE7DB240044D44F /* q77478_friedrich_gerstc3a4cker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q77478_friedrich_gerstc3a4cker.jpg; sourceTree = "<group>"; };
+		F79CF4D61AE7DB240044D44F /* q77494_eduard_von_keyserling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q77494_eduard_von_keyserling.jpg; sourceTree = "<group>"; };
+		F79CF4D71AE7DB240044D44F /* q77925_lena_christ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q77925_lena_christ.jpg; sourceTree = "<group>"; };
+		F79CF4D81AE7DB240044D44F /* q78000_georg_weerth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q78000_georg_weerth.jpg; sourceTree = "<group>"; };
+		F79CF4D91AE7DB240044D44F /* q78491_stefan_zweig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q78491_stefan_zweig.jpg; sourceTree = "<group>"; };
+		F79CF4DA1AE7DB240044D44F /* q78506_ingeborg_bachmann.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q78506_ingeborg_bachmann.jpg; sourceTree = "<group>"; };
+		F79CF4DB1AE7DB240044D44F /* q78509_joseph_roth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q78509_joseph_roth.jpg; sourceTree = "<group>"; };
+		F79CF4DC1AE7DB240044D44F /* q78511_gustav_meyrink.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q78511_gustav_meyrink.jpg; sourceTree = "<group>"; };
+		F79CF4DD1AE7DB240044D44F /* q78846_karl_emil_franzos.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q78846_karl_emil_franzos.jpg; sourceTree = "<group>"; };
+		F79CF4DE1AE7DB240044D44F /* q78977_ferdinand_von_saar.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q78977_ferdinand_von_saar.jpg; sourceTree = "<group>"; };
+		F79CF4DF1AE7DB240044D44F /* q79025_walter_scott.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q79025_walter_scott.jpg; sourceTree = "<group>"; };
+		F79CF4E01AE7DB240044D44F /* q79904_j_d_salinger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q79904_j_d_salinger.jpg; sourceTree = "<group>"; };
+		F79CF4E11AE7DB240044D44F /* q80064_elias_canetti.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q80064_elias_canetti.jpg; sourceTree = "<group>"; };
+		F79CF4E21AE7DB240044D44F /* q80137_emily_brontc3ab.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q80137_emily_brontc3ab.jpg; sourceTree = "<group>"; };
+		F79CF4E31AE7DB240044D44F /* q81447_aldous_huxley.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q81447_aldous_huxley.jpg; sourceTree = "<group>"; };
+		F79CF4E41AE7DB240044D44F /* q82925_joseph_conrad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q82925_joseph_conrad.jpg; sourceTree = "<group>"; };
+		F79CF4E51AE7DB240044D44F /* q84150_hermann_broch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q84150_hermann_broch.jpg; sourceTree = "<group>"; };
+		F79CF4E61AE7DB240044D44F /* q84455_c396dc3b6n_von_horvc3a1th.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q84455_c396dc3b6n_von_horvc3a1th.jpg; sourceTree = "<group>"; };
+		F79CF4E71AE7DB240044D44F /* q84820_louise_von_franc3a7ois.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q84820_louise_von_franc3a7ois.jpg; sourceTree = "<group>"; };
+		F79CF4E81AE7DB240044D44F /* q85309_rudolf_lindau_schriftsteller.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q85309_rudolf_lindau_schriftsteller.jpg; sourceTree = "<group>"; };
+		F79CF4E91AE7DB240044D44F /* q85728_hugo_bettauer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q85728_hugo_bettauer.jpg; sourceTree = "<group>"; };
+		F79CF4EA1AE7DB240044D44F /* q86167_therese_huber.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q86167_therese_huber.jpg; sourceTree = "<group>"; };
+		F79CF4EB1AE7DB240044D44F /* q86534_ludwig_hevesi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q86534_ludwig_hevesi.jpg; sourceTree = "<group>"; };
+		F79CF4EC1AE7DB240044D44F /* q86886_paul_lindau.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q86886_paul_lindau.jpg; sourceTree = "<group>"; };
+		F79CF4ED1AE7DB240044D44F /* q87473_felix_hollaender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q87473_felix_hollaender.jpg; sourceTree = "<group>"; };
+		F79CF4EE1AE7DB240044D44F /* q88965_franz_michael_felder_schriftsteller.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q88965_franz_michael_felder_schriftsteller.jpg; sourceTree = "<group>"; };
+		F79CF4EF1AE7DB240044D44F /* q93525_marie_von_ebnereschenbach.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q93525_marie_von_ebnereschenbach.jpg; sourceTree = "<group>"; };
+		F79CF4F01AE7DB240044D44F /* q93841_peter_rosegger.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q93841_peter_rosegger.jpg; sourceTree = "<group>"; };
+		F79CF4F11AE7DB240044D44F /* q94034_hermann_bahr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q94034_hermann_bahr.jpg; sourceTree = "<group>"; };
+		F79CF4F21AE7DB240044D44F /* q95693_peter_hille.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q95693_peter_hille.jpg; sourceTree = "<group>"; };
+		F79CF4F31AE7DB240044D44F /* q96771_karl_wilhelm_salicecontessa.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q96771_karl_wilhelm_salicecontessa.jpg; sourceTree = "<group>"; };
+		F79CF4F41AE7DB240044D44F /* q106107_agnes_gc3bcnther.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q106107_agnes_gc3bcnther.jpg; sourceTree = "<group>"; };
+		F79CF4F51AE7DB240044D44F /* q106603_friedrich_spielhagen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q106603_friedrich_spielhagen.jpg; sourceTree = "<group>"; };
+		F79CF4F61AE7DB240044D44F /* q108847_max_kretzer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q108847_max_kretzer.jpg; sourceTree = "<group>"; };
+		F79CF4F71AE7DB240044D44F /* q109471_ida_boyed.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q109471_ida_boyed.jpg; sourceTree = "<group>"; };
+		F79CF4F81AE7DB240044D44F /* q110503_benjamin_stein.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q110503_benjamin_stein.jpg; sourceTree = "<group>"; };
+		F79CF4F91AE7DB240044D44F /* q112153_ernst_weic39f_schriftsteller.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q112153_ernst_weic39f_schriftsteller.jpg; sourceTree = "<group>"; };
+		F79CF4FA1AE7DB240044D44F /* q112255_egon_friedell.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q112255_egon_friedell.jpg; sourceTree = "<group>"; };
+		F79CF4FB1AE7DB240044D44F /* q113022_christoph_ransmayr.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q113022_christoph_ransmayr.jpg; sourceTree = "<group>"; };
+		F79CF4FC1AE7DB240044D44F /* q114493_johann_karl_wezel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q114493_johann_karl_wezel.jpg; sourceTree = "<group>"; };
+		F79CF4FD1AE7DB240044D44F /* q115483_max_frisch.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q115483_max_frisch.jpg; sourceTree = "<group>"; };
+		F79CF4FE1AE7DB240044D44F /* q121584_ulrich_brc3a4ker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q121584_ulrich_brc3a4ker.jpg; sourceTree = "<group>"; };
+		F79CF4FF1AE7DB240044D44F /* q122358_jeremias_gotthelf.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q122358_jeremias_gotthelf.jpg; sourceTree = "<group>"; };
+		F79CF5001AE7DB240044D44F /* q122370_gottfried_keller.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q122370_gottfried_keller.jpg; sourceTree = "<group>"; };
+		F79CF5011AE7DB240044D44F /* q123041_anne_louise_germaine_de_stac3abl.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q123041_anne_louise_germaine_de_stac3abl.jpg; sourceTree = "<group>"; };
+		F79CF5021AE7DB240044D44F /* q123075_robert_walser.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q123075_robert_walser.jpg; sourceTree = "<group>"; };
+		F79CF5031AE7DB240044D44F /* q123261_conrad_ferdinand_meyer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q123261_conrad_ferdinand_meyer.jpg; sourceTree = "<group>"; };
+		F79CF5041AE7DB240044D44F /* q123825_urs_widmer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q123825_urs_widmer.jpg; sourceTree = "<group>"; };
+		F79CF5051AE7DB240044D44F /* q126733_oscar_a_h_schmitz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q126733_oscar_a_h_schmitz.jpg; sourceTree = "<group>"; };
+		F79CF5061AE7DB240044D44F /* q127332_charlotte_brontc3ab.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q127332_charlotte_brontc3ab.jpg; sourceTree = "<group>"; };
+		F79CF5071AE7DB240044D44F /* q131333_george_eliot.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q131333_george_eliot.jpg; sourceTree = "<group>"; };
+		F79CF5081AE7DB240044D44F /* q131487_karl_gjellerup.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q131487_karl_gjellerup.jpg; sourceTree = "<group>"; };
+		F79CF5091AE7DB240044D44F /* q134180_truman_capote.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q134180_truman_capote.jpg; sourceTree = "<group>"; };
+		F79CF50A1AE7DB240044D44F /* q139557_zacharias_werner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q139557_zacharias_werner.jpg; sourceTree = "<group>"; };
+		F79CF50B1AE7DB240044D44F /* q150471_e_t_a_hoffmann.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q150471_e_t_a_hoffmann.jpg; sourceTree = "<group>"; };
+		F79CF50C1AE7DB240044D44F /* q154014_georg_bc3bcchner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q154014_georg_bc3bcchner.jpg; sourceTree = "<group>"; };
+		F79CF50D1AE7DB240044D44F /* q154756_italo_calvino.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q154756_italo_calvino.jpg; sourceTree = "<group>"; };
+		F79CF50E1AE7DB240044D44F /* q155855_karel_c48capek.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q155855_karel_c48capek.jpg; sourceTree = "<group>"; };
+		F79CF50F1AE7DB240044D44F /* q167768_william_makepeace_thackeray.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q167768_william_makepeace_thackeray.jpg; sourceTree = "<group>"; };
+		F79CF5101AE7DB240044D44F /* q167856_james_fenimore_cooper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q167856_james_fenimore_cooper.jpg; sourceTree = "<group>"; };
+		F79CF5111AE7DB240044D44F /* q168542_adalbert_stifter.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q168542_adalbert_stifter.jpg; sourceTree = "<group>"; };
+		F79CF5121AE7DB240044D44F /* q169150_alexandre_dumas_der_jc3bcngere.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q169150_alexandre_dumas_der_jc3bcngere.jpg; sourceTree = "<group>"; };
+		F79CF5131AE7DB240044D44F /* q183167_g_k_chesterton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q183167_g_k_chesterton.jpg; sourceTree = "<group>"; };
+		F79CF5141AE7DB240044D44F /* q189665_iwan_gontscharow.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q189665_iwan_gontscharow.jpg; sourceTree = "<group>"; };
+		F79CF5151AE7DB240044D44F /* q189869_benito_pc3a9rez_galdc3b3s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q189869_benito_pc3a9rez_galdc3b3s.jpg; sourceTree = "<group>"; };
+		F79CF5161AE7DB240044D44F /* q201221_alexander_iwanowitsch_herzen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q201221_alexander_iwanowitsch_herzen.jpg; sourceTree = "<group>"; };
+		F79CF5171AE7DB240044D44F /* q213589_karl_immermann.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q213589_karl_immermann.jpg; sourceTree = "<group>"; };
+		F79CF5181AE7DB240044D44F /* q214310_theodor_gottlieb_von_hippel_der_c384ltere.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q214310_theodor_gottlieb_von_hippel_der_c384ltere.jpg; sourceTree = "<group>"; };
+		F79CF5191AE7DB240044D44F /* q214623_arthur_holitscher.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q214623_arthur_holitscher.jpg; sourceTree = "<group>"; };
+		F79CF51A1AE7DB240044D44F /* q214642_paul_auster.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q214642_paul_auster.jpg; sourceTree = "<group>"; };
+		F79CF51B1AE7DB240044D44F /* q215845_johann_heinrich_jungstilling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q215845_johann_heinrich_jungstilling.jpg; sourceTree = "<group>"; };
+		F79CF51C1AE7DB240044D44F /* q215853_friedrich_nicolai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q215853_friedrich_nicolai.jpg; sourceTree = "<group>"; };
+		F79CF51D1AE7DB240044D44F /* q216692_ludvig_holberg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q216692_ludvig_holberg.jpg; sourceTree = "<group>"; };
+		F79CF51E1AE7DB240044D44F /* q218960_laurence_sterne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q218960_laurence_sterne.jpg; sourceTree = "<group>"; };
+		F79CF51F1AE7DB240044D44F /* q226525_carl_spitteler.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q226525_carl_spitteler.jpg; sourceTree = "<group>"; };
+		F79CF5201AE7DB240044D44F /* q228546_alphonse_daudet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q228546_alphonse_daudet.jpg; sourceTree = "<group>"; };
+		F79CF5211AE7DB240044D44F /* q237090_mariemadeleine_de_la_fayette.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q237090_mariemadeleine_de_la_fayette.jpg; sourceTree = "<group>"; };
+		F79CF5221AE7DB240044D44F /* q270635_patricia_highsmith.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q270635_patricia_highsmith.jpg; sourceTree = "<group>"; };
+		F79CF5231AE7DB240044D44F /* q271824_edgar_wallace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q271824_edgar_wallace.jpg; sourceTree = "<group>"; };
+		F79CF5241AE7DB240044D44F /* q276028_frances_hodgson_burnett.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q276028_frances_hodgson_burnett.jpg; sourceTree = "<group>"; };
+		F79CF5251AE7DB240044D44F /* q296752_carlos_ruiz_zafc3b3n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q296752_carlos_ruiz_zafc3b3n.jpg; sourceTree = "<group>"; };
+		F79CF5261AE7DB240044D44F /* q309702_alfred_de_vigny.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q309702_alfred_de_vigny.jpg; sourceTree = "<group>"; };
+		F79CF5271AE7DB240044D44F /* q310866_leonid_nikolajewitsch_andrejew.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q310866_leonid_nikolajewitsch_andrejew.jpg; sourceTree = "<group>"; };
+		F79CF5281AE7DB240044D44F /* q313553_pedro_antonio_de_alarcc3b3n.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q313553_pedro_antonio_de_alarcc3b3n.jpg; sourceTree = "<group>"; };
+		F79CF5291AE7DB240044D44F /* q314498_konstantin_dmitrijewitsch_balmont.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q314498_konstantin_dmitrijewitsch_balmont.jpg; sourceTree = "<group>"; };
+		F79CF52A1AE7DB240044D44F /* q315220_eugc3a8ne_sue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q315220_eugc3a8ne_sue.jpg; sourceTree = "<group>"; };
+		F79CF52B1AE7DB240044D44F /* q316327_ec3a7a_de_queirc3b3s.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q316327_ec3a7a_de_queirc3b3s.jpg; sourceTree = "<group>"; };
+		F79CF52C1AE7DB240044D44F /* q316607_jonathan_franzen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q316607_jonathan_franzen.jpg; sourceTree = "<group>"; };
+		F79CF52D1AE7DB240044D44F /* q318358_alexander_lange_kielland.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q318358_alexander_lange_kielland.jpg; sourceTree = "<group>"; };
+		F79CF52E1AE7DB240044D44F /* q318462_edward_bulwerlytton_1_baron_lytton.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q318462_edward_bulwerlytton_1_baron_lytton.jpg; sourceTree = "<group>"; };
+		F79CF52F1AE7DB240044D44F /* q326138_marcel_prc3a9vost.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q326138_marcel_prc3a9vost.jpg; sourceTree = "<group>"; };
+		F79CF5301AE7DB240044D44F /* q357102_lewis_wallace.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q357102_lewis_wallace.jpg; sourceTree = "<group>"; };
+		F79CF5311AE7DB240044D44F /* q361004_edmond_about.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q361004_edmond_about.jpg; sourceTree = "<group>"; };
+		F79CF5321AE7DB240044D44F /* q370246_jens_peter_jacobsen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q370246_jens_peter_jacobsen.jpg; sourceTree = "<group>"; };
+		F79CF5331AE7DB240044D44F /* q379621_mc3b3r_jc3b3kai.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q379621_mc3b3r_jc3b3kai.jpg; sourceTree = "<group>"; };
+		F79CF5341AE7DB240044D44F /* q446713_ossip_schubin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q446713_ossip_schubin.jpg; sourceTree = "<group>"; };
+		F79CF5351AE7DB240044D44F /* q455776_edward_bellamy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q455776_edward_bellamy.jpg; sourceTree = "<group>"; };
+		F79CF5361AE7DB240044D44F /* q460352_michail_alexejewitsch_kusmin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q460352_michail_alexejewitsch_kusmin.jpg; sourceTree = "<group>"; };
+		F79CF5371AE7DB240044D44F /* q467770_frederick_marryat.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q467770_frederick_marryat.jpg; sourceTree = "<group>"; };
+		F79CF5381AE7DB240044D44F /* q472068_gustave_aimard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q472068_gustave_aimard.jpg; sourceTree = "<group>"; };
+		F79CF5391AE7DB240044D44F /* q728405_georges_eekhoud.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q728405_georges_eekhoud.jpg; sourceTree = "<group>"; };
+		F79CF53A1AE7DB240044D44F /* q732729_nicolas_edme_restif_de_la_bretonne.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q732729_nicolas_edme_restif_de_la_bretonne.jpg; sourceTree = "<group>"; };
+		F79CF53B1AE7DB240044D44F /* q1096435_claude_anet.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q1096435_claude_anet.jpg; sourceTree = "<group>"; };
+		F79CF53C1AE7DB240044D44F /* q1339023_emmy_von_rhoden.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q1339023_emmy_von_rhoden.jpg; sourceTree = "<group>"; };
+		F79CF53D1AE7DB240044D44F /* q1556344_gustav_sack.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q1556344_gustav_sack.jpg; sourceTree = "<group>"; };
+		F79CF53E1AE7DB240044D44F /* q1793679_markus_orths.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q1793679_markus_orths.jpg; sourceTree = "<group>"; };
+		F79CF53F1AE7DB240044D44F /* q2077841_peter_richter_schriftsteller.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q2077841_peter_richter_schriftsteller.jpg; sourceTree = "<group>"; };
+		F79CF5401AE7DB240044D44F /* q2646840_alice_berend.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q2646840_alice_berend.jpg; sourceTree = "<group>"; };
+		F79CF5411AE7DB240044D44F /* q5567266_sophus_bauditz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q5567266_sophus_bauditz.jpg; sourceTree = "<group>"; };
+		F79CF61E1AE7DFBA0044D44F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		F7A8184B1AE440BD00629EA8 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
-		F7A8184F1AE440BE00629EA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7A818501AE440BE00629EA8 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
-		F7A818521AE440BE00629EA8 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
 		F7ADFDE61AE406230035F15D /* ImpressumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpressumViewController.swift; sourceTree = "<group>"; };
+		F7B6535B1AE8C91F00834A94 /* TiwoliToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TiwoliToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7B6535F1AE8C91F00834A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7B653601AE8C91F00834A94 /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		F7B653621AE8C91F00834A94 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		F7B6536A1AE8CA2400834A94 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		F7BB9D101ADEAFEC00BCA23E /* QuotationDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuotationDisplayViewController.swift; sourceTree = "<group>"; };
 		F7BB9D121ADEB0BA00BCA23E /* StartingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
 		F7D77F101ADEFBCE0083E490 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
@@ -149,41 +526,240 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		F7B653581AE8C91F00834A94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B6535C1AE8C91F00834A94 /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		F75E18D91ADFF4C4007F1011 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				F79CF4671AE7DB230044D44F /* q502_stendhal.jpg */,
+				F79CF4681AE7DB230044D44F /* q504_c389mile_zola.jpg */,
+				F79CF4691AE7DB230044D44F /* q535_victor_hugo.jpg */,
+				F79CF46A1AE7DB230044D44F /* q692_william_shakespeare.jpg */,
+				F79CF46B1AE7DB230044D44F /* q905_franz_kafka.jpg */,
+				F79CF46C1AE7DB230044D44F /* q909_jorge_luis_borges.jpg */,
+				F79CF46D1AE7DB230044D44F /* q991_fjodor_dostojewski.jpg */,
+				F79CF46E1AE7DB230044D44F /* q1402_giovanni_boccaccio.jpg */,
+				F79CF46F1AE7DB230044D44F /* q2754_jaroslav_haek.jpg */,
+				F79CF4701AE7DB230044D44F /* q5673_hans_christian_andersen.jpg */,
+				F79CF4711AE7DB230044D44F /* q5682_cervantes.jpg */,
+				F79CF4721AE7DB230044D44F /* q5685_anton_tschechow.jpg */,
+				F79CF4731AE7DB230044D44F /* q5686_charles_dickens.jpg */,
+				F79CF4741AE7DB230044D44F /* q5878_gabriel_garcc3ada_mc3a1rquez.jpg */,
+				F79CF4751AE7DB230044D44F /* q5879_johann_wolfgang_von_goethe.jpg */,
+				F79CF4761AE7DB230044D44F /* q6538_gc3bcnter_grass.jpg */,
+				F79CF4771AE7DB230044D44F /* q6882_james_joyce.jpg */,
+				F79CF4781AE7DB240044D44F /* q7199_marcel_proust.jpg */,
+				F79CF4791AE7DB240044D44F /* q7200_alexander_puschkin.jpg */,
+				F79CF47A1AE7DB240044D44F /* q7243_lew_tolstoi.jpg */,
+				F79CF47B1AE7DB240044D44F /* q7245_mark_twain.jpg */,
+				F79CF47C1AE7DB240044D44F /* q7724_august_strindberg.jpg */,
+				F79CF47D1AE7DB240044D44F /* q9327_guy_de_maupassant.jpg */,
+				F79CF47E1AE7DB240044D44F /* q9711_honorc3a9_de_balzac.jpg */,
+				F79CF47F1AE7DB240044D44F /* q12807_umberto_eco.jpg */,
+				F79CF4801AE7DB240044D44F /* q15953_fritz_mauthner.jpg */,
+				F79CF4811AE7DB240044D44F /* q16867_edgar_allan_poe.jpg */,
+				F79CF4821AE7DB240044D44F /* q22670_friedrich_schiller.jpg */,
+				F79CF4831AE7DB240044D44F /* q22714_karl_may.jpg */,
+				F79CF4841AE7DB240044D44F /* q23481_friedrich_dc3bcrrenmatt.jpg */,
+				F79CF4851AE7DB240044D44F /* q25973_hermann_hesse.jpg */,
+				F79CF4861AE7DB240044D44F /* q26993_theodor_storm.jpg */,
+				F79CF4871AE7DB240044D44F /* q28494_heinrich_von_kleist.jpg */,
+				F79CF4881AE7DB240044D44F /* q30875_oscar_wilde.jpg */,
+				F79CF4891AE7DB240044D44F /* q31220_hans_jakob_christoffel_von_grimmelshausen.jpg */,
+				F79CF48A1AE7DB240044D44F /* q31258_henri_murger.jpg */,
+				F79CF48B1AE7DB240044D44F /* q33977_jules_verne.jpg */,
+				F79CF48C1AE7DB240044D44F /* q34190_henry_fielding.jpg */,
+				F79CF48D1AE7DB240044D44F /* q34628_lessing.jpg */,
+				F79CF48E1AE7DB240044D44F /* q34743_rudyard_kipling.jpg */,
+				F79CF48F1AE7DB240044D44F /* q35610_arthur_conan_doyle.jpg */,
+				F79CF4901AE7DB240044D44F /* q36661_henrik_ibsen.jpg */,
+				F79CF4911AE7DB240044D44F /* q36951_sc3a1ndor_mc3a1rai.jpg */,
+				F79CF4921AE7DB240044D44F /* q37030_thomas_mann.jpg */,
+				F79CF4931AE7DB240044D44F /* q38337_alexandre_dumas_der_c384ltere.jpg */,
+				F79CF4941AE7DB240044D44F /* q40826_knut_hamsun.jpg */,
+				F79CF4951AE7DB240044D44F /* q40946_daniel_defoe.jpg */,
+				F79CF4961AE7DB240044D44F /* q41166_jonathan_swift.jpg */,
+				F79CF4971AE7DB240044D44F /* q41502_henryk_sienkiewicz.jpg */,
+				F79CF4981AE7DB240044D44F /* q42443_anatole_france.jpg */,
+				F79CF4991AE7DB240044D44F /* q42747_heinrich_bc3b6ll.jpg */,
+				F79CF49A1AE7DB240044D44F /* q42831_iwan_turgenjew.jpg */,
+				F79CF49B1AE7DB240044D44F /* q43444_gustave_flaubert.jpg */,
+				F79CF49C1AE7DB240044D44F /* q43718_nikolai_gogol.jpg */,
+				F79CF49D1AE7DB240044D44F /* q44331_arthur_schnitzler.jpg */,
+				F79CF49E1AE7DB240044D44F /* q44403_heinrich_heine.jpg */,
+				F79CF49F1AE7DB240044D44F /* q44519_selma_lagerlc3b6f.jpg */,
+				F79CF4A01AE7DB240044D44F /* q44584_hans_magnus_enzensberger.jpg */,
+				F79CF4A11AE7DB240044D44F /* q44652_christian_morgenstern.jpg */,
+				F79CF4A21AE7DB240044D44F /* q44862_johann_nestroy.jpg */,
+				F79CF4A31AE7DB240044D44F /* q45025_ferdinand_raimund.jpg */,
+				F79CF4A41AE7DB240044D44F /* q45309_ludwig_thoma.jpg */,
+				F79CF4A51AE7DB240044D44F /* q46405_bjc3b8rnstjerne_bjc3b8rnson.jpg */,
+				F79CF4A61AE7DB240044D44F /* q47152_mary_shelley.jpg */,
+				F79CF4A71AE7DB240044D44F /* q47162_romain_rolland.jpg */,
+				F79CF4A81AE7DB240044D44F /* q47293_erich_maria_remarque.jpg */,
+				F79CF4A91AE7DB240044D44F /* q49074_kurt_vonnegut.jpg */,
+				F79CF4AA1AE7DB240044D44F /* q51513_hugo_von_hofmannsthal.jpg */,
+				F79CF4AB1AE7DB240044D44F /* q57239_ludwig_tieck.jpg */,
+				F79CF4AC1AE7DB240044D44F /* q57266_ernst_toller.jpg */,
+				F79CF4AD1AE7DB240044D44F /* q57307_annette_von_drostehc3bclshoff.jpg */,
+				F79CF4AE1AE7DB240044D44F /* q57387_martin_walser.jpg */,
+				F79CF4AF1AE7DB240044D44F /* q57619_frank_wedekind.jpg */,
+				F79CF4B01AE7DB240044D44F /* q57966_wilhelm_hauff.jpg */,
+				F79CF4B11AE7DB240044D44F /* q60369_jakob_wassermann.jpg */,
+				F79CF4B21AE7DB240044D44F /* q60647_wilhelm_raabe.jpg */,
+				F79CF4B31AE7DB240044D44F /* q60684_novalis.jpg */,
+				F79CF4B41AE7DB240044D44F /* q61263_klabund.jpg */,
+				F79CF4B51AE7DB240044D44F /* q61453_kurd_lac39fwitz.jpg */,
+				F79CF4B61AE7DB240044D44F /* q61601_georg_heym.jpg */,
+				F79CF4B71AE7DB240044D44F /* q61629_uwe_timm.jpg */,
+				F79CF4B81AE7DB240044D44F /* q62404_sophie_von_la_roche.jpg */,
+				F79CF4B91AE7DB240044D44F /* q62950_e_marlitt.jpg */,
+				F79CF4BA1AE7DB240044D44F /* q63699_eduard_mc3b6rike.jpg */,
+				F79CF4BB1AE7DB240044D44F /* q64370_franz_von_dingelstedt.jpg */,
+				F79CF4BC1AE7DB240044D44F /* q64404_arno_holz.jpg */,
+				F79CF4BD1AE7DB240044D44F /* q65078_hedwig_courthsmahler.jpg */,
+				F79CF4BE1AE7DB240044D44F /* q66207_heinrich_zschokke.jpg */,
+				F79CF4BF1AE7DB240044D44F /* q66379_ludwig_bechstein.jpg */,
+				F79CF4C01AE7DB240044D44F /* q66388_karl_von_holtei.jpg */,
+				F79CF4C11AE7DB240044D44F /* q66942_daniel_casper_von_lohenstein.jpg */,
+				F79CF4C21AE7DB240044D44F /* q69322_renc3a9_schickele.jpg */,
+				F79CF4C31AE7DB240044D44F /* q70988_achim_von_arnim.jpg */,
+				F79CF4C41AE7DB240044D44F /* q71429_fanny_zu_reventlow.jpg */,
+				F79CF4C51AE7DB240044D44F /* q73525_walter_flex.jpg */,
+				F79CF4C61AE7DB240044D44F /* q76412_siegfried_lenz.jpg */,
+				F79CF4C71AE7DB240044D44F /* q76480_heinrich_mann.jpg */,
+				F79CF4C81AE7DB240044D44F /* q76483_rainer_maria_rilke.jpg */,
+				F79CF4C91AE7DB240044D44F /* q76487_paul_heyse.jpg */,
+				F79CF4CA1AE7DB240044D44F /* q76539_hans_fallada.jpg */,
+				F79CF4CB1AE7DB240044D44F /* q76632_theodor_fontane.jpg */,
+				F79CF4CC1AE7DB240044D44F /* q76699_bernhard_schlink.jpg */,
+				F79CF4CD1AE7DB240044D44F /* q76715_berthold_auerbach.jpg */,
+				F79CF4CE1AE7DB240044D44F /* q76755_karl_gutzkow.jpg */,
+				F79CF4CF1AE7DB240044D44F /* q77079_jean_paul.jpg */,
+				F79CF4D01AE7DB240044D44F /* q77312_willibald_alexis.jpg */,
+				F79CF4D11AE7DB240044D44F /* q77317_jurek_becker.jpg */,
+				F79CF4D21AE7DB240044D44F /* q77325_arno_schmidt.jpg */,
+				F79CF4D31AE7DB240044D44F /* q77439_arthur_achleitner.jpg */,
+				F79CF4D41AE7DB240044D44F /* q77475_ludwig_ganghofer.jpg */,
+				F79CF4D51AE7DB240044D44F /* q77478_friedrich_gerstc3a4cker.jpg */,
+				F79CF4D61AE7DB240044D44F /* q77494_eduard_von_keyserling.jpg */,
+				F79CF4D71AE7DB240044D44F /* q77925_lena_christ.jpg */,
+				F79CF4D81AE7DB240044D44F /* q78000_georg_weerth.jpg */,
+				F79CF4D91AE7DB240044D44F /* q78491_stefan_zweig.jpg */,
+				F79CF4DA1AE7DB240044D44F /* q78506_ingeborg_bachmann.jpg */,
+				F79CF4DB1AE7DB240044D44F /* q78509_joseph_roth.jpg */,
+				F79CF4DC1AE7DB240044D44F /* q78511_gustav_meyrink.jpg */,
+				F79CF4DD1AE7DB240044D44F /* q78846_karl_emil_franzos.jpg */,
+				F79CF4DE1AE7DB240044D44F /* q78977_ferdinand_von_saar.jpg */,
+				F79CF4DF1AE7DB240044D44F /* q79025_walter_scott.jpg */,
+				F79CF4E01AE7DB240044D44F /* q79904_j_d_salinger.jpg */,
+				F79CF4E11AE7DB240044D44F /* q80064_elias_canetti.jpg */,
+				F79CF4E21AE7DB240044D44F /* q80137_emily_brontc3ab.jpg */,
+				F79CF4E31AE7DB240044D44F /* q81447_aldous_huxley.jpg */,
+				F79CF4E41AE7DB240044D44F /* q82925_joseph_conrad.jpg */,
+				F79CF4E51AE7DB240044D44F /* q84150_hermann_broch.jpg */,
+				F79CF4E61AE7DB240044D44F /* q84455_c396dc3b6n_von_horvc3a1th.jpg */,
+				F79CF4E71AE7DB240044D44F /* q84820_louise_von_franc3a7ois.jpg */,
+				F79CF4E81AE7DB240044D44F /* q85309_rudolf_lindau_schriftsteller.jpg */,
+				F79CF4E91AE7DB240044D44F /* q85728_hugo_bettauer.jpg */,
+				F79CF4EA1AE7DB240044D44F /* q86167_therese_huber.jpg */,
+				F79CF4EB1AE7DB240044D44F /* q86534_ludwig_hevesi.jpg */,
+				F79CF4EC1AE7DB240044D44F /* q86886_paul_lindau.jpg */,
+				F79CF4ED1AE7DB240044D44F /* q87473_felix_hollaender.jpg */,
+				F79CF4EE1AE7DB240044D44F /* q88965_franz_michael_felder_schriftsteller.jpg */,
+				F79CF4EF1AE7DB240044D44F /* q93525_marie_von_ebnereschenbach.jpg */,
+				F79CF4F01AE7DB240044D44F /* q93841_peter_rosegger.jpg */,
+				F79CF4F11AE7DB240044D44F /* q94034_hermann_bahr.jpg */,
+				F79CF4F21AE7DB240044D44F /* q95693_peter_hille.jpg */,
+				F79CF4F31AE7DB240044D44F /* q96771_karl_wilhelm_salicecontessa.jpg */,
+				F79CF4F41AE7DB240044D44F /* q106107_agnes_gc3bcnther.jpg */,
+				F79CF4F51AE7DB240044D44F /* q106603_friedrich_spielhagen.jpg */,
+				F79CF4F61AE7DB240044D44F /* q108847_max_kretzer.jpg */,
+				F79CF4F71AE7DB240044D44F /* q109471_ida_boyed.jpg */,
+				F79CF4F81AE7DB240044D44F /* q110503_benjamin_stein.jpg */,
+				F79CF4F91AE7DB240044D44F /* q112153_ernst_weic39f_schriftsteller.jpg */,
+				F79CF4FA1AE7DB240044D44F /* q112255_egon_friedell.jpg */,
+				F79CF4FB1AE7DB240044D44F /* q113022_christoph_ransmayr.jpg */,
+				F79CF4FC1AE7DB240044D44F /* q114493_johann_karl_wezel.jpg */,
+				F79CF4FD1AE7DB240044D44F /* q115483_max_frisch.jpg */,
+				F79CF4FE1AE7DB240044D44F /* q121584_ulrich_brc3a4ker.jpg */,
+				F79CF4FF1AE7DB240044D44F /* q122358_jeremias_gotthelf.jpg */,
+				F79CF5001AE7DB240044D44F /* q122370_gottfried_keller.jpg */,
+				F79CF5011AE7DB240044D44F /* q123041_anne_louise_germaine_de_stac3abl.jpg */,
+				F79CF5021AE7DB240044D44F /* q123075_robert_walser.jpg */,
+				F79CF5031AE7DB240044D44F /* q123261_conrad_ferdinand_meyer.jpg */,
+				F79CF5041AE7DB240044D44F /* q123825_urs_widmer.jpg */,
+				F79CF5051AE7DB240044D44F /* q126733_oscar_a_h_schmitz.jpg */,
+				F79CF5061AE7DB240044D44F /* q127332_charlotte_brontc3ab.jpg */,
+				F79CF5071AE7DB240044D44F /* q131333_george_eliot.jpg */,
+				F79CF5081AE7DB240044D44F /* q131487_karl_gjellerup.jpg */,
+				F79CF5091AE7DB240044D44F /* q134180_truman_capote.jpg */,
+				F79CF50A1AE7DB240044D44F /* q139557_zacharias_werner.jpg */,
+				F79CF50B1AE7DB240044D44F /* q150471_e_t_a_hoffmann.jpg */,
+				F79CF50C1AE7DB240044D44F /* q154014_georg_bc3bcchner.jpg */,
+				F79CF50D1AE7DB240044D44F /* q154756_italo_calvino.jpg */,
+				F79CF50E1AE7DB240044D44F /* q155855_karel_c48capek.jpg */,
+				F79CF50F1AE7DB240044D44F /* q167768_william_makepeace_thackeray.jpg */,
+				F79CF5101AE7DB240044D44F /* q167856_james_fenimore_cooper.jpg */,
+				F79CF5111AE7DB240044D44F /* q168542_adalbert_stifter.jpg */,
+				F79CF5121AE7DB240044D44F /* q169150_alexandre_dumas_der_jc3bcngere.jpg */,
+				F79CF5131AE7DB240044D44F /* q183167_g_k_chesterton.jpg */,
+				F79CF5141AE7DB240044D44F /* q189665_iwan_gontscharow.jpg */,
+				F79CF5151AE7DB240044D44F /* q189869_benito_pc3a9rez_galdc3b3s.jpg */,
+				F79CF5161AE7DB240044D44F /* q201221_alexander_iwanowitsch_herzen.jpg */,
+				F79CF5171AE7DB240044D44F /* q213589_karl_immermann.jpg */,
+				F79CF5181AE7DB240044D44F /* q214310_theodor_gottlieb_von_hippel_der_c384ltere.jpg */,
+				F79CF5191AE7DB240044D44F /* q214623_arthur_holitscher.jpg */,
+				F79CF51A1AE7DB240044D44F /* q214642_paul_auster.jpg */,
+				F79CF51B1AE7DB240044D44F /* q215845_johann_heinrich_jungstilling.jpg */,
+				F79CF51C1AE7DB240044D44F /* q215853_friedrich_nicolai.jpg */,
+				F79CF51D1AE7DB240044D44F /* q216692_ludvig_holberg.jpg */,
+				F79CF51E1AE7DB240044D44F /* q218960_laurence_sterne.jpg */,
+				F79CF51F1AE7DB240044D44F /* q226525_carl_spitteler.jpg */,
+				F79CF5201AE7DB240044D44F /* q228546_alphonse_daudet.jpg */,
+				F79CF5211AE7DB240044D44F /* q237090_mariemadeleine_de_la_fayette.jpg */,
+				F79CF5221AE7DB240044D44F /* q270635_patricia_highsmith.jpg */,
+				F79CF5231AE7DB240044D44F /* q271824_edgar_wallace.jpg */,
+				F79CF5241AE7DB240044D44F /* q276028_frances_hodgson_burnett.jpg */,
+				F79CF5251AE7DB240044D44F /* q296752_carlos_ruiz_zafc3b3n.jpg */,
+				F79CF5261AE7DB240044D44F /* q309702_alfred_de_vigny.jpg */,
+				F79CF5271AE7DB240044D44F /* q310866_leonid_nikolajewitsch_andrejew.jpg */,
+				F79CF5281AE7DB240044D44F /* q313553_pedro_antonio_de_alarcc3b3n.jpg */,
+				F79CF5291AE7DB240044D44F /* q314498_konstantin_dmitrijewitsch_balmont.jpg */,
+				F79CF52A1AE7DB240044D44F /* q315220_eugc3a8ne_sue.jpg */,
+				F79CF52B1AE7DB240044D44F /* q316327_ec3a7a_de_queirc3b3s.jpg */,
+				F79CF52C1AE7DB240044D44F /* q316607_jonathan_franzen.jpg */,
+				F79CF52D1AE7DB240044D44F /* q318358_alexander_lange_kielland.jpg */,
+				F79CF52E1AE7DB240044D44F /* q318462_edward_bulwerlytton_1_baron_lytton.jpg */,
+				F79CF52F1AE7DB240044D44F /* q326138_marcel_prc3a9vost.jpg */,
+				F79CF5301AE7DB240044D44F /* q357102_lewis_wallace.jpg */,
+				F79CF5311AE7DB240044D44F /* q361004_edmond_about.jpg */,
+				F79CF5321AE7DB240044D44F /* q370246_jens_peter_jacobsen.jpg */,
+				F79CF5331AE7DB240044D44F /* q379621_mc3b3r_jc3b3kai.jpg */,
+				F79CF5341AE7DB240044D44F /* q446713_ossip_schubin.jpg */,
+				F79CF5351AE7DB240044D44F /* q455776_edward_bellamy.jpg */,
+				F79CF5361AE7DB240044D44F /* q460352_michail_alexejewitsch_kusmin.jpg */,
+				F79CF5371AE7DB240044D44F /* q467770_frederick_marryat.jpg */,
+				F79CF5381AE7DB240044D44F /* q472068_gustave_aimard.jpg */,
+				F79CF5391AE7DB240044D44F /* q728405_georges_eekhoud.jpg */,
+				F79CF53A1AE7DB240044D44F /* q732729_nicolas_edme_restif_de_la_bretonne.jpg */,
+				F79CF53B1AE7DB240044D44F /* q1096435_claude_anet.jpg */,
+				F79CF53C1AE7DB240044D44F /* q1339023_emmy_von_rhoden.jpg */,
+				F79CF53D1AE7DB240044D44F /* q1556344_gustav_sack.jpg */,
+				F79CF53E1AE7DB240044D44F /* q1793679_markus_orths.jpg */,
+				F79CF53F1AE7DB240044D44F /* q2077841_peter_richter_schriftsteller.jpg */,
+				F79CF5401AE7DB240044D44F /* q2646840_alice_berend.jpg */,
+				F79CF5411AE7DB240044D44F /* q5567266_sophus_bauditz.jpg */,
 				F754A1F71ADFFEC200D187B9 /* literjahrtur512.jpg */,
-				F75E18DA1ADFF541007F1011 /* q502_stendhal.jpg */,
-				F75E18DB1ADFF541007F1011 /* q535_victor_hugo.jpg */,
-				F75E18DC1ADFF541007F1011 /* q692_william_shakespeare.jpg */,
-				F75E18DD1ADFF541007F1011 /* q991_fyodor_dostoyevsky.jpg */,
-				F75E18DE1ADFF541007F1011 /* q4985_herman_melville.jpg */,
-				F75E18DF1ADFF541007F1011 /* q5686_charles_dickens.jpg */,
-				F75E18E01ADFF541007F1011 /* q6882_james_joyce.jpg */,
-				F75E18E11ADFF541007F1011 /* q7243_leo_tolstoy.jpg */,
-				F75E18E21ADFF541007F1011 /* q7245_mark_twain.jpg */,
-				F75E18E31ADFF541007F1011 /* q9327_guy_de_maupassant.jpg */,
-				F75E18E41ADFF541007F1011 /* q9711_honorc3a9_de_balzac.jpg */,
-				F75E18E51ADFF541007F1011 /* q16867_edgar_allan_poe.jpg */,
-				F75E18E61ADFF541007F1011 /* q33977_jules_verne.jpg */,
-				F75E18E71ADFF541007F1011 /* q35610_arthur_conan_doyle.jpg */,
-				F75E18E81ADFF541007F1011 /* q38337_alexandre_dumas.jpg */,
-				F75E18E91ADFF541007F1011 /* q40946_daniel_defoe.jpg */,
-				F75E18EA1ADFF541007F1011 /* q41166_jonathan_swift.jpg */,
-				F75E18EB1ADFF541007F1011 /* q43444_gustave_flaubert.jpg */,
-				F75E18EC1ADFF541007F1011 /* q43718_nikolai_gogol.jpg */,
-				F75E18ED1ADFF541007F1011 /* q76480_heinrich_mann.jpg */,
-				F75E18EE1ADFF541007F1011 /* q76632_theodor_fontane.jpg */,
-				F75E18EF1ADFF541007F1011 /* q85309_rudolf_lindau.jpg */,
-				F75E18F01ADFF541007F1011 /* q93354_f_scott_fitzgerald.jpg */,
-				F75E18F11ADFF541007F1011 /* q121060_matthew_lewis_writer.jpg */,
-				F75E18F21ADFF541007F1011 /* q131333_george_eliot.jpg */,
-				F75E18F31ADFF541007F1011 /* q167856_james_fenimore_cooper.jpg */,
-				F75E18F41ADFF541007F1011 /* q270635_patricia_highsmith.jpg */,
-				F75E18F51ADFF541007F1011 /* q271824_edgar_wallace.jpg */,
 			);
 			name = images;
 			sourceTree = "<group>";
@@ -191,11 +767,11 @@
 		F798D3231ADC3849006121B8 = {
 			isa = PBXGroup;
 			children = (
-				F78B57F61AE613EB00C9A759 /* date-to-number-of-quotes.json */,
 				F78B57F81AE6144F00C9A759 /* quotations-de.json */,
+				F78B57F61AE613EB00C9A759 /* date-to-number-of-quotes.json */,
 				F7410BFE1AE570FB00E2105E /* Localizable.strings */,
 				F798D32E1ADC3849006121B8 /* Tiwoli */,
-				F7A8184D1AE440BE00629EA8 /* Tiwoli Extension */,
+				F7B6535D1AE8C91F00834A94 /* TiwoliToday */,
 				F7A8184A1AE440BD00629EA8 /* Frameworks */,
 				F798D32D1ADC3849006121B8 /* Products */,
 			);
@@ -206,6 +782,7 @@
 			children = (
 				F798D32C1ADC3849006121B8 /* Tiwoli.app */,
 				F798D3411ADC3849006121B8 /* TiwoliTests.xctest */,
+				F7B6535B1AE8C91F00834A94 /* TiwoliToday.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -225,6 +802,7 @@
 				F7BB9D121ADEB0BA00BCA23E /* StartingView.swift */,
 				F79C53201AE152E100DB5D95 /* SettingsViewController.swift */,
 				F7ADFDE61AE406230035F15D /* ImpressumViewController.swift */,
+				F79CF4651AE7D34D0044D44F /* impressum_de.html */,
 			);
 			name = Tiwoli;
 			path = LiterJahrTur;
@@ -248,20 +826,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F7A8184D1AE440BE00629EA8 /* Tiwoli Extension */ = {
+		F7B6535D1AE8C91F00834A94 /* TiwoliToday */ = {
 			isa = PBXGroup;
 			children = (
-				F7A818501AE440BE00629EA8 /* TodayViewController.swift */,
-				F7A818521AE440BE00629EA8 /* MainInterface.storyboard */,
-				F7A8184E1AE440BE00629EA8 /* Supporting Files */,
+				F7B653601AE8C91F00834A94 /* TodayViewController.swift */,
+				F7B6536A1AE8CA2400834A94 /* SwiftyJSON.swift */,
+				F7B653621AE8C91F00834A94 /* MainInterface.storyboard */,
+				F7B6535E1AE8C91F00834A94 /* Supporting Files */,
 			);
-			path = "Tiwoli Extension";
+			path = TiwoliToday;
 			sourceTree = "<group>";
 		};
-		F7A8184E1AE440BE00629EA8 /* Supporting Files */ = {
+		F7B6535E1AE8C91F00834A94 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F7A8184F1AE440BE00629EA8 /* Info.plist */,
+				F7B6535F1AE8C91F00834A94 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -276,7 +855,6 @@
 				F798D3281ADC3849006121B8 /* Sources */,
 				F798D3291ADC3849006121B8 /* Frameworks */,
 				F798D32A1ADC3849006121B8 /* Resources */,
-				F7A8185A1AE440BE00629EA8 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -305,6 +883,23 @@
 			productReference = F798D3411ADC3849006121B8 /* TiwoliTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		F7B6535A1AE8C91F00834A94 /* TiwoliToday */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7B653671AE8C91F00834A94 /* Build configuration list for PBXNativeTarget "TiwoliToday" */;
+			buildPhases = (
+				F7B653571AE8C91F00834A94 /* Sources */,
+				F7B653581AE8C91F00834A94 /* Frameworks */,
+				F7B653591AE8C91F00834A94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TiwoliToday;
+			productName = TiwoliToday;
+			productReference = F7B6535B1AE8C91F00834A94 /* TiwoliToday.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -316,10 +911,20 @@
 				TargetAttributes = {
 					F798D32B1ADC3849006121B8 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = XX76LPQ3EW;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					F798D3401ADC3849006121B8 = {
 						CreatedOnToolsVersion = 6.3;
 						TestTargetID = F798D32B1ADC3849006121B8;
+					};
+					F7B6535A1AE8C91F00834A94 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = SZEDS83NVF;
 					};
 				};
 			};
@@ -339,6 +944,7 @@
 			targets = (
 				F798D32B1ADC3849006121B8 /* Tiwoli */,
 				F798D3401ADC3849006121B8 /* TiwoliTests */,
+				F7B6535A1AE8C91F00834A94 /* TiwoliToday */,
 			);
 		};
 /* End PBXProject section */
@@ -348,44 +954,236 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F75E18FE1ADFF541007F1011 /* q7245_mark_twain.jpg in Resources */,
-				F75E18FD1ADFF541007F1011 /* q7243_leo_tolstoy.jpg in Resources */,
-				F75E18F81ADFF541007F1011 /* q692_william_shakespeare.jpg in Resources */,
-				F75E190D1ADFF541007F1011 /* q121060_matthew_lewis_writer.jpg in Resources */,
-				F75E190E1ADFF541007F1011 /* q131333_george_eliot.jpg in Resources */,
-				F75E19051ADFF541007F1011 /* q40946_daniel_defoe.jpg in Resources */,
-				F75E18FA1ADFF541007F1011 /* q4985_herman_melville.jpg in Resources */,
-				F75E18F61ADFF541007F1011 /* q502_stendhal.jpg in Resources */,
+				F79CF5691AE7DB240044D44F /* q34743_rudyard_kipling.jpg in Resources */,
+				F79CF57F1AE7DB240044D44F /* q45309_ludwig_thoma.jpg in Resources */,
+				F79CF5991AE7DB240044D44F /* q66207_heinrich_zschokke.jpg in Resources */,
+				F79CF5431AE7DB240044D44F /* q504_c389mile_zola.jpg in Resources */,
+				F79CF5911AE7DB240044D44F /* q61601_georg_heym.jpg in Resources */,
+				F79CF5441AE7DB240044D44F /* q535_victor_hugo.jpg in Resources */,
+				F79CF5CF1AE7DB240044D44F /* q106107_agnes_gc3bcnther.jpg in Resources */,
+				F79CF5581AE7DB240044D44F /* q9327_guy_de_maupassant.jpg in Resources */,
+				F79CF5F31AE7DB240044D44F /* q214310_theodor_gottlieb_von_hippel_der_c384ltere.jpg in Resources */,
+				F79CF5F71AE7DB240044D44F /* q215853_friedrich_nicolai.jpg in Resources */,
+				F79CF5B61AE7DB240044D44F /* q78509_joseph_roth.jpg in Resources */,
+				F79CF5731AE7DB240044D44F /* q42443_anatole_france.jpg in Resources */,
+				F79CF5AA1AE7DB240044D44F /* q77079_jean_paul.jpg in Resources */,
+				F79CF5631AE7DB240044D44F /* q30875_oscar_wilde.jpg in Resources */,
+				F79CF5A41AE7DB240044D44F /* q76487_paul_heyse.jpg in Resources */,
+				F79CF5C21AE7DB240044D44F /* q84820_louise_von_franc3a7ois.jpg in Resources */,
+				F79CF5D21AE7DB240044D44F /* q109471_ida_boyed.jpg in Resources */,
+				F79CF54A1AE7DB240044D44F /* q2754_jaroslav_haek.jpg in Resources */,
+				F79CF5BF1AE7DB240044D44F /* q82925_joseph_conrad.jpg in Resources */,
+				F79CF5801AE7DB240044D44F /* q46405_bjc3b8rnstjerne_bjc3b8rnson.jpg in Resources */,
+				F79CF5AC1AE7DB240044D44F /* q77317_jurek_becker.jpg in Resources */,
+				F79CF5651AE7DB240044D44F /* q31258_henri_murger.jpg in Resources */,
 				F754A1F81ADFFEC200D187B9 /* literjahrtur512.jpg in Resources */,
-				F75E18F91ADFF541007F1011 /* q991_fyodor_dostoyevsky.jpg in Resources */,
-				F75E19101ADFF541007F1011 /* q270635_patricia_highsmith.jpg in Resources */,
+				F79CF5C31AE7DB240044D44F /* q85309_rudolf_lindau_schriftsteller.jpg in Resources */,
+				F79CF6161AE7DB240044D44F /* q1096435_claude_anet.jpg in Resources */,
+				F79CF60A1AE7DB240044D44F /* q326138_marcel_prc3a9vost.jpg in Resources */,
+				F79CF5C81AE7DB240044D44F /* q87473_felix_hollaender.jpg in Resources */,
+				F79CF5F51AE7DB240044D44F /* q214642_paul_auster.jpg in Resources */,
+				F79CF6151AE7DB240044D44F /* q732729_nicolas_edme_restif_de_la_bretonne.jpg in Resources */,
 				F798D3371ADC3849006121B8 /* Main.storyboard in Resources */,
+				F79CF6131AE7DB240044D44F /* q472068_gustave_aimard.jpg in Resources */,
+				F79CF5521AE7DB240044D44F /* q6882_james_joyce.jpg in Resources */,
+				F79CF5D31AE7DB240044D44F /* q110503_benjamin_stein.jpg in Resources */,
+				F79CF5831AE7DB240044D44F /* q47293_erich_maria_remarque.jpg in Resources */,
+				F79CF5B71AE7DB240044D44F /* q78511_gustav_meyrink.jpg in Resources */,
+				F79CF5BB1AE7DB240044D44F /* q79904_j_d_salinger.jpg in Resources */,
+				F79CF5481AE7DB240044D44F /* q991_fjodor_dostojewski.jpg in Resources */,
+				F79CF5FF1AE7DB240044D44F /* q276028_frances_hodgson_burnett.jpg in Resources */,
+				F79CF60F1AE7DB240044D44F /* q446713_ossip_schubin.jpg in Resources */,
 				F798D33C1ADC3849006121B8 /* LaunchScreen.xib in Resources */,
-				F75E19031ADFF541007F1011 /* q35610_arthur_conan_doyle.jpg in Resources */,
+				F79CF5711AE7DB240044D44F /* q41166_jonathan_swift.jpg in Resources */,
+				F79CF57A1AE7DB240044D44F /* q44519_selma_lagerlc3b6f.jpg in Resources */,
+				F79CF5531AE7DB240044D44F /* q7199_marcel_proust.jpg in Resources */,
+				F79CF5DE1AE7DB240044D44F /* q123261_conrad_ferdinand_meyer.jpg in Resources */,
+				F79CF6091AE7DB240044D44F /* q318462_edward_bulwerlytton_1_baron_lytton.jpg in Resources */,
+				F79CF5511AE7DB240044D44F /* q6538_gc3bcnter_grass.jpg in Resources */,
+				F79CF6061AE7DB240044D44F /* q316327_ec3a7a_de_queirc3b3s.jpg in Resources */,
+				F79CF5B31AE7DB240044D44F /* q78000_georg_weerth.jpg in Resources */,
+				F79CF5C11AE7DB240044D44F /* q84455_c396dc3b6n_von_horvc3a1th.jpg in Resources */,
+				F79CF5EA1AE7DB240044D44F /* q167768_william_makepeace_thackeray.jpg in Resources */,
+				F79CF5791AE7DB240044D44F /* q44403_heinrich_heine.jpg in Resources */,
+				F79CF6031AE7DB240044D44F /* q313553_pedro_antonio_de_alarcc3b3n.jpg in Resources */,
+				F79CF5761AE7DB240044D44F /* q43444_gustave_flaubert.jpg in Resources */,
+				F79CF61C1AE7DB240044D44F /* q5567266_sophus_bauditz.jpg in Resources */,
+				F79CF5621AE7DB240044D44F /* q28494_heinrich_von_kleist.jpg in Resources */,
+				F79CF5C71AE7DB240044D44F /* q86886_paul_lindau.jpg in Resources */,
+				F79CF5AF1AE7DB240044D44F /* q77475_ludwig_ganghofer.jpg in Resources */,
+				F79CF5971AE7DB240044D44F /* q64404_arno_holz.jpg in Resources */,
+				F79CF5A81AE7DB240044D44F /* q76715_berthold_auerbach.jpg in Resources */,
+				F79CF5961AE7DB240044D44F /* q64370_franz_von_dingelstedt.jpg in Resources */,
+				F79CF5C01AE7DB240044D44F /* q84150_hermann_broch.jpg in Resources */,
+				F79CF5B51AE7DB240044D44F /* q78506_ingeborg_bachmann.jpg in Resources */,
+				F79CF5B11AE7DB240044D44F /* q77494_eduard_von_keyserling.jpg in Resources */,
+				F79CF5ED1AE7DB240044D44F /* q169150_alexandre_dumas_der_jc3bcngere.jpg in Resources */,
+				F79CF5881AE7DB240044D44F /* q57307_annette_von_drostehc3bclshoff.jpg in Resources */,
+				F79CF6171AE7DB240044D44F /* q1339023_emmy_von_rhoden.jpg in Resources */,
+				F79CF55A1AE7DB240044D44F /* q12807_umberto_eco.jpg in Resources */,
+				F79CF5951AE7DB240044D44F /* q63699_eduard_mc3b6rike.jpg in Resources */,
+				F79CF5DF1AE7DB240044D44F /* q123825_urs_widmer.jpg in Resources */,
+				F79CF5671AE7DB240044D44F /* q34190_henry_fielding.jpg in Resources */,
+				F79CF6121AE7DB240044D44F /* q467770_frederick_marryat.jpg in Resources */,
+				F79CF5451AE7DB240044D44F /* q692_william_shakespeare.jpg in Resources */,
+				F79CF5EC1AE7DB240044D44F /* q168542_adalbert_stifter.jpg in Resources */,
+				F79CF5DC1AE7DB240044D44F /* q123041_anne_louise_germaine_de_stac3abl.jpg in Resources */,
+				F79CF5601AE7DB240044D44F /* q25973_hermann_hesse.jpg in Resources */,
+				F79CF5AE1AE7DB240044D44F /* q77439_arthur_achleitner.jpg in Resources */,
+				F79CF5B81AE7DB240044D44F /* q78846_karl_emil_franzos.jpg in Resources */,
+				F79CF5F61AE7DB240044D44F /* q215845_johann_heinrich_jungstilling.jpg in Resources */,
+				F79CF6191AE7DB240044D44F /* q1793679_markus_orths.jpg in Resources */,
+				F79CF60D1AE7DB240044D44F /* q370246_jens_peter_jacobsen.jpg in Resources */,
+				F79CF5F81AE7DB240044D44F /* q216692_ludvig_holberg.jpg in Resources */,
+				F79CF5FE1AE7DB240044D44F /* q271824_edgar_wallace.jpg in Resources */,
+				F79CF56A1AE7DB240044D44F /* q35610_arthur_conan_doyle.jpg in Resources */,
+				F79CF5781AE7DB240044D44F /* q44331_arthur_schnitzler.jpg in Resources */,
 				F798D3391ADC3849006121B8 /* Images.xcassets in Resources */,
-				F75E190B1ADFF541007F1011 /* q85309_rudolf_lindau.jpg in Resources */,
+				F79CF5941AE7DB240044D44F /* q62950_e_marlitt.jpg in Resources */,
+				F79CF5541AE7DB240044D44F /* q7200_alexander_puschkin.jpg in Resources */,
+				F79CF5E81AE7DB240044D44F /* q154756_italo_calvino.jpg in Resources */,
+				F79CF5DA1AE7DB240044D44F /* q122358_jeremias_gotthelf.jpg in Resources */,
+				F79CF5F91AE7DB240044D44F /* q218960_laurence_sterne.jpg in Resources */,
+				F79CF5571AE7DB240044D44F /* q7724_august_strindberg.jpg in Resources */,
+				F79CF5841AE7DB240044D44F /* q49074_kurt_vonnegut.jpg in Resources */,
+				F79CF5EB1AE7DB240044D44F /* q167856_james_fenimore_cooper.jpg in Resources */,
+				F79CF5D81AE7DB240044D44F /* q115483_max_frisch.jpg in Resources */,
+				F79CF57D1AE7DB240044D44F /* q44862_johann_nestroy.jpg in Resources */,
+				F79CF6141AE7DB240044D44F /* q728405_georges_eekhoud.jpg in Resources */,
+				F79CF5FA1AE7DB240044D44F /* q226525_carl_spitteler.jpg in Resources */,
 				F7D77F131ADEFBCE0083E490 /* literjahrtur512.png in Resources */,
-				F75E19021ADFF541007F1011 /* q33977_jules_verne.jpg in Resources */,
-				F75E19111ADFF541007F1011 /* q271824_edgar_wallace.jpg in Resources */,
-				F75E19041ADFF541007F1011 /* q38337_alexandre_dumas.jpg in Resources */,
+				F79CF5551AE7DB240044D44F /* q7243_lew_tolstoi.jpg in Resources */,
+				F79CF5891AE7DB240044D44F /* q57387_martin_walser.jpg in Resources */,
+				F79CF6081AE7DB240044D44F /* q318358_alexander_lange_kielland.jpg in Resources */,
+				F79CF6011AE7DB240044D44F /* q309702_alfred_de_vigny.jpg in Resources */,
+				F79CF6001AE7DB240044D44F /* q296752_carlos_ruiz_zafc3b3n.jpg in Resources */,
+				F79CF5C91AE7DB240044D44F /* q88965_franz_michael_felder_schriftsteller.jpg in Resources */,
+				F79CF5F21AE7DB240044D44F /* q213589_karl_immermann.jpg in Resources */,
+				F79CF5B01AE7DB240044D44F /* q77478_friedrich_gerstc3a4cker.jpg in Resources */,
+				F79CF59D1AE7DB240044D44F /* q69322_renc3a9_schickele.jpg in Resources */,
+				F79CF6041AE7DB240044D44F /* q314498_konstantin_dmitrijewitsch_balmont.jpg in Resources */,
+				F79CF58B1AE7DB240044D44F /* q57966_wilhelm_hauff.jpg in Resources */,
+				F79CF59A1AE7DB240044D44F /* q66379_ludwig_bechstein.jpg in Resources */,
+				F79CF6181AE7DB240044D44F /* q1556344_gustav_sack.jpg in Resources */,
+				F79CF5871AE7DB240044D44F /* q57266_ernst_toller.jpg in Resources */,
+				F79CF54B1AE7DB240044D44F /* q5673_hans_christian_andersen.jpg in Resources */,
+				F79CF56D1AE7DB240044D44F /* q37030_thomas_mann.jpg in Resources */,
+				F79CF5F01AE7DB240044D44F /* q189869_benito_pc3a9rez_galdc3b3s.jpg in Resources */,
+				F79CF59B1AE7DB240044D44F /* q66388_karl_von_holtei.jpg in Resources */,
+				F79CF4661AE7D34D0044D44F /* impressum_de.html in Resources */,
+				F79CF55C1AE7DB240044D44F /* q16867_edgar_allan_poe.jpg in Resources */,
+				F79CF5E71AE7DB240044D44F /* q154014_georg_bc3bcchner.jpg in Resources */,
 				F791D11E1AE4F4C100BF2E1F /* quotations.json in Resources */,
-				F75E18FF1ADFF541007F1011 /* q9327_guy_de_maupassant.jpg in Resources */,
+				F79CF5A31AE7DB240044D44F /* q76483_rainer_maria_rilke.jpg in Resources */,
+				F79CF5F41AE7DB240044D44F /* q214623_arthur_holitscher.jpg in Resources */,
+				F79CF5BD1AE7DB240044D44F /* q80137_emily_brontc3ab.jpg in Resources */,
+				F79CF60E1AE7DB240044D44F /* q379621_mc3b3r_jc3b3kai.jpg in Resources */,
+				F79CF58F1AE7DB240044D44F /* q61263_klabund.jpg in Resources */,
+				F79CF5AD1AE7DB240044D44F /* q77325_arno_schmidt.jpg in Resources */,
+				F79CF57E1AE7DB240044D44F /* q45025_ferdinand_raimund.jpg in Resources */,
+				F79CF5931AE7DB240044D44F /* q62404_sophie_von_la_roche.jpg in Resources */,
+				F79CF5D91AE7DB240044D44F /* q121584_ulrich_brc3a4ker.jpg in Resources */,
+				F79CF5FB1AE7DB240044D44F /* q228546_alphonse_daudet.jpg in Resources */,
+				F79CF5591AE7DB240044D44F /* q9711_honorc3a9_de_balzac.jpg in Resources */,
+				F79CF5A01AE7DB240044D44F /* q73525_walter_flex.jpg in Resources */,
+				F79CF5E41AE7DB240044D44F /* q134180_truman_capote.jpg in Resources */,
+				F79CF5AB1AE7DB240044D44F /* q77312_willibald_alexis.jpg in Resources */,
+				F79CF5861AE7DB240044D44F /* q57239_ludwig_tieck.jpg in Resources */,
+				F79CF5FC1AE7DB240044D44F /* q237090_mariemadeleine_de_la_fayette.jpg in Resources */,
+				F79CF5E31AE7DB240044D44F /* q131487_karl_gjellerup.jpg in Resources */,
+				F79CF5DB1AE7DB240044D44F /* q122370_gottfried_keller.jpg in Resources */,
+				F79CF5CA1AE7DB240044D44F /* q93525_marie_von_ebnereschenbach.jpg in Resources */,
+				F79CF61A1AE7DB240044D44F /* q2077841_peter_richter_schriftsteller.jpg in Resources */,
+				F79CF5741AE7DB240044D44F /* q42747_heinrich_bc3b6ll.jpg in Resources */,
+				F79CF5561AE7DB240044D44F /* q7245_mark_twain.jpg in Resources */,
+				F79CF5CD1AE7DB240044D44F /* q95693_peter_hille.jpg in Resources */,
+				F79CF60C1AE7DB240044D44F /* q361004_edmond_about.jpg in Resources */,
+				F79CF5701AE7DB240044D44F /* q40946_daniel_defoe.jpg in Resources */,
+				F79CF5D71AE7DB240044D44F /* q114493_johann_karl_wezel.jpg in Resources */,
+				F79CF6071AE7DB240044D44F /* q316607_jonathan_franzen.jpg in Resources */,
+				F79CF5921AE7DB240044D44F /* q61629_uwe_timm.jpg in Resources */,
+				F79CF6051AE7DB240044D44F /* q315220_eugc3a8ne_sue.jpg in Resources */,
+				F79CF5B91AE7DB240044D44F /* q78977_ferdinand_von_saar.jpg in Resources */,
+				F79CF5491AE7DB240044D44F /* q1402_giovanni_boccaccio.jpg in Resources */,
 				F78B57F71AE613EB00C9A759 /* date-to-number-of-quotes.json in Resources */,
+				F79CF5C51AE7DB240044D44F /* q86167_therese_huber.jpg in Resources */,
+				F79CF57C1AE7DB240044D44F /* q44652_christian_morgenstern.jpg in Resources */,
+				F79CF55E1AE7DB240044D44F /* q22714_karl_may.jpg in Resources */,
+				F79CF56E1AE7DB240044D44F /* q38337_alexandre_dumas_der_c384ltere.jpg in Resources */,
+				F79CF5D61AE7DB240044D44F /* q113022_christoph_ransmayr.jpg in Resources */,
+				F79CF5981AE7DB240044D44F /* q65078_hedwig_courthsmahler.jpg in Resources */,
 				F7D77F121ADEFBCE0083E490 /* ic_launcher.png in Resources */,
-				F75E19001ADFF541007F1011 /* q9711_honorc3a9_de_balzac.jpg in Resources */,
+				F79CF5C61AE7DB240044D44F /* q86534_ludwig_hevesi.jpg in Resources */,
+				F79CF5D51AE7DB240044D44F /* q112255_egon_friedell.jpg in Resources */,
+				F79CF5BA1AE7DB240044D44F /* q79025_walter_scott.jpg in Resources */,
+				F79CF57B1AE7DB240044D44F /* q44584_hans_magnus_enzensberger.jpg in Resources */,
 				F7410BFC1AE570FB00E2105E /* Localizable.strings in Resources */,
-				F75E18F71ADFF541007F1011 /* q535_victor_hugo.jpg in Resources */,
-				F75E18FB1ADFF541007F1011 /* q5686_charles_dickens.jpg in Resources */,
-				F75E19071ADFF541007F1011 /* q43444_gustave_flaubert.jpg in Resources */,
+				F79CF5A51AE7DB240044D44F /* q76539_hans_fallada.jpg in Resources */,
+				F79CF56B1AE7DB240044D44F /* q36661_henrik_ibsen.jpg in Resources */,
+				F79CF5721AE7DB240044D44F /* q41502_henryk_sienkiewicz.jpg in Resources */,
+				F79CF54D1AE7DB240044D44F /* q5685_anton_tschechow.jpg in Resources */,
+				F79CF5421AE7DB240044D44F /* q502_stendhal.jpg in Resources */,
+				F79CF55F1AE7DB240044D44F /* q23481_friedrich_dc3bcrrenmatt.jpg in Resources */,
+				F79CF5661AE7DB240044D44F /* q33977_jules_verne.jpg in Resources */,
+				F79CF5E61AE7DB240044D44F /* q150471_e_t_a_hoffmann.jpg in Resources */,
+				F79CF5A21AE7DB240044D44F /* q76480_heinrich_mann.jpg in Resources */,
+				F79CF61B1AE7DB240044D44F /* q2646840_alice_berend.jpg in Resources */,
+				F79CF58A1AE7DB240044D44F /* q57619_frank_wedekind.jpg in Resources */,
+				F79CF5771AE7DB240044D44F /* q43718_nikolai_gogol.jpg in Resources */,
+				F79CF59C1AE7DB240044D44F /* q66942_daniel_casper_von_lohenstein.jpg in Resources */,
+				F79CF5851AE7DB240044D44F /* q51513_hugo_von_hofmannsthal.jpg in Resources */,
+				F79CF5DD1AE7DB240044D44F /* q123075_robert_walser.jpg in Resources */,
+				F79CF55B1AE7DB240044D44F /* q15953_fritz_mauthner.jpg in Resources */,
+				F79CF5811AE7DB240044D44F /* q47152_mary_shelley.jpg in Resources */,
+				F79CF6111AE7DB240044D44F /* q460352_michail_alexejewitsch_kusmin.jpg in Resources */,
+				F79CF5901AE7DB240044D44F /* q61453_kurd_lac39fwitz.jpg in Resources */,
+				F79CF5B21AE7DB240044D44F /* q77925_lena_christ.jpg in Resources */,
+				F79CF5B41AE7DB240044D44F /* q78491_stefan_zweig.jpg in Resources */,
+				F79CF5751AE7DB240044D44F /* q42831_iwan_turgenjew.jpg in Resources */,
+				F79CF5D11AE7DB240044D44F /* q108847_max_kretzer.jpg in Resources */,
+				F79CF5641AE7DB240044D44F /* q31220_hans_jakob_christoffel_von_grimmelshausen.jpg in Resources */,
+				F79CF54E1AE7DB240044D44F /* q5686_charles_dickens.jpg in Resources */,
+				F79CF5E51AE7DB240044D44F /* q139557_zacharias_werner.jpg in Resources */,
+				F79CF58D1AE7DB240044D44F /* q60647_wilhelm_raabe.jpg in Resources */,
+				F79CF60B1AE7DB240044D44F /* q357102_lewis_wallace.jpg in Resources */,
+				F79CF5F11AE7DB240044D44F /* q201221_alexander_iwanowitsch_herzen.jpg in Resources */,
+				F79CF56F1AE7DB240044D44F /* q40826_knut_hamsun.jpg in Resources */,
 				F78B57F91AE6144F00C9A759 /* quotations-de.json in Resources */,
-				F75E190F1ADFF541007F1011 /* q167856_james_fenimore_cooper.jpg in Resources */,
-				F75E19011ADFF541007F1011 /* q16867_edgar_allan_poe.jpg in Resources */,
-				F75E19081ADFF541007F1011 /* q43718_nikolai_gogol.jpg in Resources */,
-				F75E190A1ADFF541007F1011 /* q76632_theodor_fontane.jpg in Resources */,
-				F75E190C1ADFF541007F1011 /* q93354_f_scott_fitzgerald.jpg in Resources */,
-				F75E19061ADFF541007F1011 /* q41166_jonathan_swift.jpg in Resources */,
-				F75E18FC1ADFF541007F1011 /* q6882_james_joyce.jpg in Resources */,
-				F75E19091ADFF541007F1011 /* q76480_heinrich_mann.jpg in Resources */,
+				F79CF5CC1AE7DB240044D44F /* q94034_hermann_bahr.jpg in Resources */,
+				F79CF5EE1AE7DB240044D44F /* q183167_g_k_chesterton.jpg in Resources */,
+				F79CF5D01AE7DB240044D44F /* q106603_friedrich_spielhagen.jpg in Resources */,
+				F79CF5A61AE7DB240044D44F /* q76632_theodor_fontane.jpg in Resources */,
+				F79CF5E21AE7DB240044D44F /* q131333_george_eliot.jpg in Resources */,
+				F79CF5E01AE7DB240044D44F /* q126733_oscar_a_h_schmitz.jpg in Resources */,
+				F79CF5EF1AE7DB240044D44F /* q189665_iwan_gontscharow.jpg in Resources */,
+				F79CF6021AE7DB240044D44F /* q310866_leonid_nikolajewitsch_andrejew.jpg in Resources */,
+				F79CF59E1AE7DB240044D44F /* q70988_achim_von_arnim.jpg in Resources */,
+				F79CF5501AE7DB240044D44F /* q5879_johann_wolfgang_von_goethe.jpg in Resources */,
+				F79CF58E1AE7DB240044D44F /* q60684_novalis.jpg in Resources */,
+				F79CF5681AE7DB240044D44F /* q34628_lessing.jpg in Resources */,
+				F79CF5E11AE7DB240044D44F /* q127332_charlotte_brontc3ab.jpg in Resources */,
+				F79CF5BC1AE7DB240044D44F /* q80064_elias_canetti.jpg in Resources */,
+				F79CF5A71AE7DB240044D44F /* q76699_bernhard_schlink.jpg in Resources */,
+				F79CF5A11AE7DB240044D44F /* q76412_siegfried_lenz.jpg in Resources */,
+				F79CF5471AE7DB240044D44F /* q909_jorge_luis_borges.jpg in Resources */,
+				F79CF5821AE7DB240044D44F /* q47162_romain_rolland.jpg in Resources */,
+				F79CF6101AE7DB240044D44F /* q455776_edward_bellamy.jpg in Resources */,
+				F79CF5D41AE7DB240044D44F /* q112153_ernst_weic39f_schriftsteller.jpg in Resources */,
+				F79CF55D1AE7DB240044D44F /* q22670_friedrich_schiller.jpg in Resources */,
+				F79CF5CB1AE7DB240044D44F /* q93841_peter_rosegger.jpg in Resources */,
+				F79CF5A91AE7DB240044D44F /* q76755_karl_gutzkow.jpg in Resources */,
+				F79CF54C1AE7DB240044D44F /* q5682_cervantes.jpg in Resources */,
+				F79CF59F1AE7DB240044D44F /* q71429_fanny_zu_reventlow.jpg in Resources */,
+				F79CF58C1AE7DB240044D44F /* q60369_jakob_wassermann.jpg in Resources */,
+				F79CF5461AE7DB240044D44F /* q905_franz_kafka.jpg in Resources */,
+				F79CF5611AE7DB240044D44F /* q26993_theodor_storm.jpg in Resources */,
+				F79CF5FD1AE7DB240044D44F /* q270635_patricia_highsmith.jpg in Resources */,
+				F79CF5BE1AE7DB240044D44F /* q81447_aldous_huxley.jpg in Resources */,
+				F79CF5C41AE7DB240044D44F /* q85728_hugo_bettauer.jpg in Resources */,
+				F79CF5E91AE7DB240044D44F /* q155855_karel_c48capek.jpg in Resources */,
+				F79CF56C1AE7DB240044D44F /* q36951_sc3a1ndor_mc3a1rai.jpg in Resources */,
+				F79CF5CE1AE7DB240044D44F /* q96771_karl_wilhelm_salicecontessa.jpg in Resources */,
+				F79CF54F1AE7DB240044D44F /* q5878_gabriel_garcc3ada_mc3a1rquez.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +1191,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B653591AE8C91F00834A94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B653631AE8C91F00834A94 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,6 +1222,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7B653571AE8C91F00834A94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7B653611AE8C91F00834A94 /* TodayViewController.swift in Sources */,
+				F7B6536B1AE8CA2400834A94 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,7 +1260,7 @@
 			children = (
 				F798D3361ADC3849006121B8 /* Base */,
 				F791D11C1AE4DE5F00BF2E1F /* de */,
-				F791D1201AE5407B00BF2E1F /* en */,
+				F79CF61E1AE7DFBA0044D44F /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -546,10 +1361,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LiterJahrTur/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Tiwoli;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -557,10 +1376,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
+				CODE_SIGN_ENTITLEMENTS = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LiterJahrTur/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = Tiwoli;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -598,6 +1421,34 @@
 			};
 			name = Release;
 		};
+		F7B653681AE8C91F00834A94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TiwoliToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F7B653691AE8C91F00834A94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TiwoliToday/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -624,6 +1475,15 @@
 			buildConfigurations = (
 				F798D34F1ADC3849006121B8 /* Debug */,
 				F798D3501ADC3849006121B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7B653671AE8C91F00834A94 /* Build configuration list for PBXNativeTarget "TiwoliToday" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7B653681AE8C91F00834A94 /* Debug */,
+				F7B653691AE8C91F00834A94 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -102,7 +102,7 @@ class QuotationDisplayViewController: UIViewController, Shareable {
         let pageString = self.quoteText?.stringByEvaluatingJavaScriptFromString("document.documentElement.textContent")
         let author = self.quoteAuthor!.text
         let book = self.book!.text
-        var stringToShare = "\"\(pageString!)\" -- \(author!) (\(book!))"
+        let stringToShare = "\"\(pageString!)\" -- \(author!) (\(book!))"
         shareString(stringToShare)
     }
     
@@ -126,8 +126,7 @@ class QuotationDisplayViewController: UIViewController, Shareable {
     
     
     
-    
-    func pressedShared() {
+    func pressedShared(presentingVC: UIViewController) {
         let actionSheet = UIAlertController(title: NSLocalizedString("shareHeading", comment:""), message: nil, preferredStyle: UIAlertControllerStyle.ActionSheet)
         
         let quoteAction = UIAlertAction(title: NSLocalizedString("shareQuote", comment:""), style: UIAlertActionStyle.Default) {
@@ -144,8 +143,9 @@ class QuotationDisplayViewController: UIViewController, Shareable {
         actionSheet.addAction(quoteAction)
         actionSheet.addAction(websiteQuoteAction)
         actionSheet.addAction(cancelAction)
-        //self.navigationController!.presentViewController(actionSheet, animated: true, completion: nil)
-        self.presentViewController(actionSheet, animated: true, completion: nil)
+//        self.navigationController!.presentViewController(actionSheet, animated: true, completion: nil)
+        //self.presentViewController(actionSheet, animated: true, completion: nil)
+        presentingVC.presentViewController(actionSheet, animated: true, completion: nil)
     }
     
 }

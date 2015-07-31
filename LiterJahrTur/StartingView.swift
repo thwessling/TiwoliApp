@@ -9,57 +9,63 @@
 import UIKit
 
 protocol Shareable {
-    func pressedShared()
+    func pressedShared(presentingVC: UIViewController)
 }
 
 class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate, UIPickerViewDelegate, UIPickerViewDataSource {
 
     @IBOutlet weak var pickerBar: UIView!
 
-    var quotesPerDay: [String: JSON]? // = ["":0]
+    var quotesPerDayDE: [String: JSON]? // = ["1201": 10]
+    var quotesPerDayEN: [String: JSON]? // = ["":0]
     var sortedIndizes = [String]()
     var pageViewController: UIPageViewController?;
     var delegate: Shareable?
     var currentId = "null"
-    var quotations: [String: JSON]?
+    var quotationsDE: [String: JSON]?
+    var quotationsEN: [String: JSON]?
+    
+    var currentLanguage = Languages.English;
     
     @IBOutlet weak var segment: UISegmentedControl!
-    
     @IBOutlet weak var datePicker: UIPickerView!
     
+    @IBOutlet weak var currentLanguageLabel: UILabel!
     
-    func readNumberOfQuotes()  {
+    
+    
+    func readNumberOfQuotes(fileName: String, target: [String: JSON]?)  {
         if let path = NSBundle.mainBundle().pathForResource("date-to-number-of-quotes", ofType: "json") {
             if let data = NSData(contentsOfFile: path) {
             let json = JSON(data: data, options: NSJSONReadingOptions.AllowFragments, error: nil)
-                self.quotesPerDay = json.dictionary!
+                self.quotesPerDayDE = json.dictionary!
             }
         }
     }
     
     
     func loadDataThreaded() {
-        self.loadData()
-        self.readNumberOfQuotes()
+        self.loadData("quotations-de", varquoteDict: self.quotationsDE!)
+        self.loadData("quotations-en", varquoteDict: self.quotationsEN!)
+        self.readNumberOfQuotes("date-to-number-of-quotes-de")
     }
     
-    func loadData() {
+    func loadData(quoteFile: String, var varquoteDict: [String: JSON]) {
         if let path = NSBundle.mainBundle().pathForResource("quotations-de", ofType: "json") {
             if let data = NSData(contentsOfFile: path) {
-                var startDate = NSDate()
+                _ = NSDate()
                 
-                self.quotations = JSON(data: data, options: NSJSONReadingOptions.AllowFragments, error: nil).dictionary
-                startDate = NSDate()
-                if let quotations = self.quotations {
+                varquoteDict = JSON(data: data, options: NSJSONReadingOptions.AllowFragments, error: nil).dictionary!
+                
                     var indizes = [String]()
-                    for key in quotations.keys {
+                    for key in varquoteDict.keys {
                         indizes.append(key)
                     }
-                    self.sortedIndizes = sorted(indizes)
-                }
+                    indizes.sortInPlace()
+                    self.sortedIndizes = indizes
+                
             }
         }
-
     }
     
     override func viewDidLoad() {
@@ -81,11 +87,10 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
     override func viewDidAppear(animated: Bool) {
                 if self.currentId != "null" {
                     let dateString = self.currentId.componentsSeparatedByString("-")[0]
-                    let month = dateString.substringToIndex(advance(dateString.startIndex, 2)).toInt()!
-                    let day = dateString.substringFromIndex(advance(dateString.startIndex, 2)).toInt()!
-                    self.datePicker.selectRow(month-1, inComponent: 0, animated: true)
-                    self.datePicker.selectRow(day-1, inComponent: 1, animated: true)
-                    
+                    let month = Int(dateString.substringToIndex(advance(dateString.startIndex, 2)))
+                    let day = Int(dateString.substringFromIndex(advance(dateString.startIndex, 2)))
+                    self.datePicker.selectRow(month!-1, inComponent: 0, animated: true)
+                    self.datePicker.selectRow(day!-1, inComponent: 1, animated: true)
                 }
         super.viewDidAppear(animated)
     }
@@ -117,17 +122,17 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
     }
     
     @IBAction func pressedShowQuote(sender: AnyObject) {
-        var month = String(format: "%02d", self.datePicker.selectedRowInComponent(0)+1)
-        var day = String(format: "%02d", self.datePicker.selectedRowInComponent(1)+1)
+        let month = String(format: "%02d", self.datePicker.selectedRowInComponent(0)+1)
+        let day = String(format: "%02d", self.datePicker.selectedRowInComponent(1)+1)
         
         let dateString = "\(month)\(day)"
 
         let id = "\(dateString)-0"
-        let index = find(self.sortedIndizes, id)!
+        let index =  self.sortedIndizes.indexOf(id)
 
         self.currentId = id
         
-        let nextQuote = self.viewControllerAtIndex(id, index: index)
+        let nextQuote = self.viewControllerAtIndex(id, index: index!)
         
         let storyBoard = UIStoryboard(name: "Main", bundle: nil)
         self.pageViewController =
@@ -151,12 +156,12 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
     
  
     func pressedShared() {
-        self.delegate?.pressedShared()
+        self.delegate?.pressedShared(self)
     }
     
     
     func pressedToday() {
-        let components = NSCalendar.currentCalendar().components(NSCalendarUnit.CalendarUnitDay|NSCalendarUnit.CalendarUnitMonth, fromDate: NSDate())
+        let components = NSCalendar.currentCalendar().components([NSCalendarUnit.Day,NSCalendarUnit.Month], fromDate: NSDate())
         self.datePicker.selectRow(components.month-1, inComponent: 0, animated: true)
         self.datePicker.selectRow(components.day-1, inComponent: 1, animated: true)
         self.currentId = "null"
@@ -177,7 +182,7 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
             dateFormatter.dateFormat = dateString
             return dateFormatter.stringFromDate(date)
         } else {
-            println("Couldn't parse date")
+            print("Couldn't parse date")
             return "no date"
         }
     }
@@ -188,19 +193,30 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
         storyBoard.instantiateViewControllerWithIdentifier("QuotationDisplayViewController") as! QuotationDisplayViewController
         
         let dateId = id.componentsSeparatedByString("-")[0]
-        var quoteEnumerator = id.componentsSeparatedByString("-")[1].toInt()! + 1
+        var quoteEnumerator = Int(id.componentsSeparatedByString("-")[1])! + 1
         var numberOfQuotes = self.quotesPerDay![dateId]?.intValue
         
-        if let quotations = self.quotations {
-            var quote = quotations[id]!.dictionary!
-//            ["quote"].string
-            nextQuote.quoteString = quote["quote"]!.string!
-            nextQuote.quoteAuthorString = quote["author"]!.string!
-            nextQuote.authorWPString = quote["authorWP"]!.string!
-            nextQuote.bookString = quote["book"]!.string!
-            nextQuote.sourceString = quote["source"]!.string!
-            nextQuote.picSourceString = quote["picSource"]!.string!
-            nextQuote.imageString = quote["authorPic"]!.string!
+        var quotations: [String: JSON];
+        switch self.currentLanguage {
+        case .English:
+            quotations = self.quotationsEN!;
+        case .German:
+            quotations = self.quotationsDE!;
+            
+        }
+        
+        if let quotationJson = quotations[id] {
+            if let  quote = quotationJson.dictionary {
+                nextQuote.quoteString = (quote["quote"]?.string!)!
+                nextQuote.quoteAuthorString = quote["author"]!.string!
+                nextQuote.authorWPString = quote["authorWP"]!.string!
+                nextQuote.bookString = quote["book"]!.string!
+                nextQuote.sourceString = quote["source"]!.string!
+                nextQuote.picSourceString = quote["picSource"]!.string!
+                nextQuote.imageString = quote["authorPic"]!.string!
+            }
+        }
+   
 
             let dateString = getDateForId(id)
             nextQuote.headlineString = NSLocalizedString("quoteHeading", comment: "comment") + "\(dateString)"
@@ -212,7 +228,7 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
             
             self.delegate = nextQuote
             nextQuote.currentIndex = index
-        }
+        
         
         return nextQuote
     }
@@ -229,10 +245,10 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
                     return nil
                 }
                 let newId = self.sortedIndizes[idx-1]
-                self.currentId = newId
+                //self.currentId = newId
                 return self.viewControllerAtIndex(newId, index: idx-1)
             } else {
-                println("No quote id?")
+                print("No quote id?")
                 return nil
             }
     }
@@ -247,10 +263,10 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
                 } else {
                     newId = self.sortedIndizes[idx+1]
                 }
-                self.currentId = newId
+                //self.currentId = newId
                 return self.viewControllerAtIndex(newId, index: idx+1)
             } else {
-                println("No quote id?")
+                print("No quote id?")
                 return nil
             }
     }
@@ -283,7 +299,7 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
         if component == 0 {
             return 12;
         } else {
-            let components = NSCalendar.currentCalendar().components(NSCalendarUnit.CalendarUnitMonth, fromDate: NSDate())
+            let components = NSCalendar.currentCalendar().components(NSCalendarUnit.Month, fromDate: NSDate())
             
             components.month = pickerView.selectedRowInComponent(0)+1
             components.day     = 1
@@ -291,7 +307,7 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
             let specifiedDate: NSDate = NSCalendar.currentCalendar().dateFromComponents(components)!
 
             
-            let dayRange = NSCalendar.currentCalendar().rangeOfUnit(NSCalendarUnit.CalendarUnitDay, inUnit: NSCalendarUnit.CalendarUnitMonth, forDate: specifiedDate)
+            let dayRange = NSCalendar.currentCalendar().rangeOfUnit(NSCalendarUnit.Day, inUnit: NSCalendarUnit.Month, forDate: specifiedDate)
             return dayRange.length
        
         }
@@ -301,6 +317,26 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
         if component == 0 {
             pickerView.reloadComponent(1)
         }
+    }
+    
+    func changeCurrentLanguageLabel() {
+        switch self.currentLanguage {
+        case .English:
+            self.currentLanguageLabel.text = "English";
+        case .German:
+            self.currentLanguageLabel.text = "German";
+        }
+    }
+    
+    
+    @IBAction func changeLanguagePressed(sender: AnyObject) {
+        switch self.currentLanguage {
+        case .English:
+            self.currentLanguage = Languages.German;
+        case .German:
+            self.currentLanguage = Languages.English;
+        }
+        self.changeCurrentLanguageLabel();
     }
     
     func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {

@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F7179C731B6A4A7E0009F736 /* quotations-en.json in Resources */ = {isa = PBXBuildFile; fileRef = F7179C721B6A4A7E0009F736 /* quotations-en.json */; };
+		F7179C751B6A4AB80009F736 /* date-to-number-of-quotes-en.json in Resources */ = {isa = PBXBuildFile; fileRef = F7179C741B6A4AB80009F736 /* date-to-number-of-quotes-en.json */; };
 		F7410BFC1AE570FB00E2105E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7410BFE1AE570FB00E2105E /* Localizable.strings */; };
 		F754A1F81ADFFEC200D187B9 /* literjahrtur512.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F754A1F71ADFFEC200D187B9 /* literjahrtur512.jpg */; };
-		F75E18CC1ADF9CB8007F1011 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75E18CB1ADF9CB8007F1011 /* SwiftyJSON.swift */; };
+		F75885AB1B4D65BE00FE6278 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75885AA1B4D65BE00FE6278 /* SwiftyJSON.swift */; };
 		F78B57F71AE613EB00C9A759 /* date-to-number-of-quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = F78B57F61AE613EB00C9A759 /* date-to-number-of-quotes.json */; };
 		F78B57F91AE6144F00C9A759 /* quotations-de.json in Resources */ = {isa = PBXBuildFile; fileRef = F78B57F81AE6144F00C9A759 /* quotations-de.json */; };
-		F791D11E1AE4F4C100BF2E1F /* quotations.json in Resources */ = {isa = PBXBuildFile; fileRef = F791D11D1AE4F4C100BF2E1F /* quotations.json */; };
 		F798D3321ADC3849006121B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798D3311ADC3849006121B8 /* AppDelegate.swift */; };
 		F798D3371ADC3849006121B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F798D3351ADC3849006121B8 /* Main.storyboard */; };
 		F798D3391ADC3849006121B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F798D3381ADC3849006121B8 /* Images.xcassets */; };
@@ -238,6 +239,8 @@
 		F79CF61A1AE7DB240044D44F /* q2077841_peter_richter_schriftsteller.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF53F1AE7DB240044D44F /* q2077841_peter_richter_schriftsteller.jpg */; };
 		F79CF61B1AE7DB240044D44F /* q2646840_alice_berend.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5401AE7DB240044D44F /* q2646840_alice_berend.jpg */; };
 		F79CF61C1AE7DB240044D44F /* q5567266_sophus_bauditz.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F79CF5411AE7DB240044D44F /* q5567266_sophus_bauditz.jpg */; };
+		F7A67B4A1B6A54D90049ACD2 /* Languages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7A67B491B6A54D90049ACD2 /* Languages.swift */; };
+		F7AB6B081B691CC900978867 /* LanguageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7AB6B071B691CC900978867 /* LanguageTableViewController.swift */; };
 		F7ADFDE71AE406230035F15D /* ImpressumViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7ADFDE61AE406230035F15D /* ImpressumViewController.swift */; };
 		F7B6535C1AE8C91F00834A94 /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7A8184B1AE440BD00629EA8 /* NotificationCenter.framework */; };
 		F7B653611AE8C91F00834A94 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7B653601AE8C91F00834A94 /* TodayViewController.swift */; };
@@ -260,15 +263,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F7179C721B6A4A7E0009F736 /* quotations-en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = "quotations-en.json"; path = "LiterJahrTur/quotations-en.json"; sourceTree = "<group>"; };
+		F7179C741B6A4AB80009F736 /* date-to-number-of-quotes-en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "date-to-number-of-quotes-en.json"; sourceTree = "<group>"; };
 		F7410BFD1AE570FB00E2105E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F7410BFF1AE5711100E2105E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F7410C001AE5711200E2105E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F754A1F71ADFFEC200D187B9 /* literjahrtur512.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = literjahrtur512.jpg; sourceTree = "<group>"; };
-		F75E18CB1ADF9CB8007F1011 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		F75885AA1B4D65BE00FE6278 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		F78B57F61AE613EB00C9A759 /* date-to-number-of-quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "date-to-number-of-quotes.json"; sourceTree = "<group>"; };
 		F78B57F81AE6144F00C9A759 /* quotations-de.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "quotations-de.json"; sourceTree = "<group>"; };
 		F791D11C1AE4DE5F00BF2E1F /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Main.strings; sourceTree = "<group>"; };
-		F791D11D1AE4F4C100BF2E1F /* quotations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = quotations.json; sourceTree = "<group>"; };
 		F798D32C1ADC3849006121B8 /* Tiwoli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tiwoli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F798D3301ADC3849006121B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F798D3311ADC3849006121B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -498,7 +502,9 @@
 		F79CF5401AE7DB240044D44F /* q2646840_alice_berend.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q2646840_alice_berend.jpg; sourceTree = "<group>"; };
 		F79CF5411AE7DB240044D44F /* q5567266_sophus_bauditz.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = q5567266_sophus_bauditz.jpg; sourceTree = "<group>"; };
 		F79CF61E1AE7DFBA0044D44F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		F7A67B491B6A54D90049ACD2 /* Languages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Languages.swift; path = ../Languages.swift; sourceTree = "<group>"; };
 		F7A8184B1AE440BD00629EA8 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		F7AB6B071B691CC900978867 /* LanguageTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LanguageTableViewController.swift; sourceTree = "<group>"; };
 		F7ADFDE61AE406230035F15D /* ImpressumViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpressumViewController.swift; sourceTree = "<group>"; };
 		F7B6535B1AE8C91F00834A94 /* TiwoliToday.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TiwoliToday.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7B6535F1AE8C91F00834A94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -767,6 +773,8 @@
 		F798D3231ADC3849006121B8 = {
 			isa = PBXGroup;
 			children = (
+				F7179C741B6A4AB80009F736 /* date-to-number-of-quotes-en.json */,
+				F7179C721B6A4A7E0009F736 /* quotations-en.json */,
 				F78B57F81AE6144F00C9A759 /* quotations-de.json */,
 				F78B57F61AE613EB00C9A759 /* date-to-number-of-quotes.json */,
 				F7410BFE1AE570FB00E2105E /* Localizable.strings */,
@@ -790,10 +798,10 @@
 		F798D32E1ADC3849006121B8 /* Tiwoli */ = {
 			isa = PBXGroup;
 			children = (
-				F791D11D1AE4F4C100BF2E1F /* quotations.json */,
+				F7A67B491B6A54D90049ACD2 /* Languages.swift */,
 				F75E18D91ADFF4C4007F1011 /* images */,
-				F75E18CB1ADF9CB8007F1011 /* SwiftyJSON.swift */,
 				F798D3311ADC3849006121B8 /* AppDelegate.swift */,
+				F75885AA1B4D65BE00FE6278 /* SwiftyJSON.swift */,
 				F798D3351ADC3849006121B8 /* Main.storyboard */,
 				F798D3381ADC3849006121B8 /* Images.xcassets */,
 				F798D33A1ADC3849006121B8 /* LaunchScreen.xib */,
@@ -803,6 +811,7 @@
 				F79C53201AE152E100DB5D95 /* SettingsViewController.swift */,
 				F7ADFDE61AE406230035F15D /* ImpressumViewController.swift */,
 				F79CF4651AE7D34D0044D44F /* impressum_de.html */,
+				F7AB6B071B691CC900978867 /* LanguageTableViewController.swift */,
 			);
 			name = Tiwoli;
 			path = LiterJahrTur;
@@ -906,7 +915,8 @@
 		F798D3241ADC3849006121B8 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = thb;
 				TargetAttributes = {
 					F798D32B1ADC3849006121B8 = {
@@ -962,6 +972,7 @@
 				F79CF5441AE7DB240044D44F /* q535_victor_hugo.jpg in Resources */,
 				F79CF5CF1AE7DB240044D44F /* q106107_agnes_gc3bcnther.jpg in Resources */,
 				F79CF5581AE7DB240044D44F /* q9327_guy_de_maupassant.jpg in Resources */,
+				F7179C751B6A4AB80009F736 /* date-to-number-of-quotes-en.json in Resources */,
 				F79CF5F31AE7DB240044D44F /* q214310_theodor_gottlieb_von_hippel_der_c384ltere.jpg in Resources */,
 				F79CF5F71AE7DB240044D44F /* q215853_friedrich_nicolai.jpg in Resources */,
 				F79CF5B61AE7DB240044D44F /* q78509_joseph_roth.jpg in Resources */,
@@ -1047,6 +1058,7 @@
 				F79CF5571AE7DB240044D44F /* q7724_august_strindberg.jpg in Resources */,
 				F79CF5841AE7DB240044D44F /* q49074_kurt_vonnegut.jpg in Resources */,
 				F79CF5EB1AE7DB240044D44F /* q167856_james_fenimore_cooper.jpg in Resources */,
+				F7179C731B6A4A7E0009F736 /* quotations-en.json in Resources */,
 				F79CF5D81AE7DB240044D44F /* q115483_max_frisch.jpg in Resources */,
 				F79CF57D1AE7DB240044D44F /* q44862_johann_nestroy.jpg in Resources */,
 				F79CF6141AE7DB240044D44F /* q728405_georges_eekhoud.jpg in Resources */,
@@ -1073,7 +1085,6 @@
 				F79CF4661AE7D34D0044D44F /* impressum_de.html in Resources */,
 				F79CF55C1AE7DB240044D44F /* q16867_edgar_allan_poe.jpg in Resources */,
 				F79CF5E71AE7DB240044D44F /* q154014_georg_bc3bcchner.jpg in Resources */,
-				F791D11E1AE4F4C100BF2E1F /* quotations.json in Resources */,
 				F79CF5A31AE7DB240044D44F /* q76483_rainer_maria_rilke.jpg in Resources */,
 				F79CF5F41AE7DB240044D44F /* q214623_arthur_holitscher.jpg in Resources */,
 				F79CF5BD1AE7DB240044D44F /* q80137_emily_brontc3ab.jpg in Resources */,
@@ -1209,12 +1220,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7AB6B081B691CC900978867 /* LanguageTableViewController.swift in Sources */,
+				F7A67B4A1B6A54D90049ACD2 /* Languages.swift in Sources */,
 				F7ADFDE71AE406230035F15D /* ImpressumViewController.swift in Sources */,
 				F7BB9D131ADEB0BA00BCA23E /* StartingView.swift in Sources */,
 				F7BB9D111ADEAFEC00BCA23E /* QuotationDisplayViewController.swift in Sources */,
+				F75885AB1B4D65BE00FE6278 /* SwiftyJSON.swift in Sources */,
 				F798D3321ADC3849006121B8 /* AppDelegate.swift in Sources */,
 				F79C53211AE152E100DB5D95 /* SettingsViewController.swift in Sources */,
-				F75E18CC1ADF9CB8007F1011 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1297,6 +1310,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -1312,7 +1326,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -1350,7 +1364,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -1365,10 +1379,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LiterJahrTur/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thb.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Tiwoli;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1380,10 +1396,12 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = LiterJahrTur/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thb.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Tiwoli;
 				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -1401,6 +1419,7 @@
 				);
 				INFOPLIST_FILE = LiterJahrTurTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thb.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = TiwoliTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiterJahrTur.app/LiterJahrTur";
 			};
@@ -1416,6 +1435,7 @@
 				);
 				INFOPLIST_FILE = LiterJahrTurTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thb.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = TiwoliTests;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiterJahrTur.app/LiterJahrTur";
 			};
@@ -1432,6 +1452,7 @@
 				);
 				INFOPLIST_FILE = TiwoliToday/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thb.Tiwoli.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -1444,6 +1465,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TiwoliToday/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "thb.Tiwoli.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};

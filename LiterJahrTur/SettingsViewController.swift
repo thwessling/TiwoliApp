@@ -17,11 +17,11 @@ class SettingsViewController: UIViewController {
     
     @IBAction func notificationToggleChange(sender: AnyObject) {
        if notificationToggle.on {
-            UIApplication.sharedApplication().registerUserNotificationSettings(UIUserNotificationSettings(forTypes: UIUserNotificationType.Sound|UIUserNotificationType.Alert, categories: nil))
+            UIApplication.sharedApplication().registerUserNotificationSettings(UIUserNotificationSettings(forTypes: [UIUserNotificationType.Sound,UIUserNotificationType.Alert], categories: nil))
             self.datePicker.hidden = false
             self.timeLabel.hidden = false
        } else {
-        println("Local notifications cancelled")
+        print("Local notifications cancelled")
         UIApplication.sharedApplication().cancelAllLocalNotifications()
         self.datePicker.hidden = true
         self.timeLabel.hidden = true
@@ -72,12 +72,12 @@ class SettingsViewController: UIViewController {
             let formatter = NSDateFormatter()
             formatter.setLocalizedDateFormatFromTemplate("YYYY-MM-DD HH:mm")
             let dateString = formatter.stringFromDate(self.datePicker.date)
-            println("date:  + \(dateString)")
+            print("date:  + \(dateString)")
             NSUserDefaults.standardUserDefaults().setObject(dateString, forKey: "notificationTime")
             
-            println("Local notification at \(datePicker.date)")
+            print("Local notification at \(datePicker.date)")
             UIApplication.sharedApplication().cancelAllLocalNotifications()
-            var notification =  UILocalNotification()
+            let notification =  UILocalNotification()
             
             notification.fireDate = datePicker.date
             notification.timeZone = NSTimeZone.systemTimeZone()
@@ -85,10 +85,10 @@ class SettingsViewController: UIViewController {
             notification.alertBody = bodyString
             notification.alertAction = NSLocalizedString("notificationAction", comment: "")
             notification.alertTitle = NSLocalizedString("notificationTitle", comment: "")
-            notification.repeatInterval = NSCalendarUnit.CalendarUnitDay
+            notification.repeatInterval = NSCalendarUnit.Day
             notification.soundName = UILocalNotificationDefaultSoundName
             UIApplication.sharedApplication().scheduleLocalNotification(notification)
-            println("Schedulded for \(notification.fireDate)")
+            print("Schedulded for \(notification.fireDate)")
         } else {
             NSUserDefaults.standardUserDefaults().setBool(false, forKey: "enableNotifications")
         }

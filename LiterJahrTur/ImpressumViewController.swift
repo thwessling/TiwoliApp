@@ -15,8 +15,15 @@ class ImpressumViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let htmlFile = NSBundle.mainBundle().pathForResource("impressum_de", ofType:"html");
-        let htmlString = String(contentsOfFile: htmlFile!, encoding: NSUTF8StringEncoding, error: nil)
+        var htmlString: String? = nil
+
+    do {
+        htmlString = try String(contentsOfFile: htmlFile!, encoding: NSUTF8StringEncoding)
+    } catch _ as NSError {
+        return
+    }
         self.webView.loadHTMLString(htmlString!, baseURL: nil)
+       
     }
 
     override func didReceiveMemoryWarning() {

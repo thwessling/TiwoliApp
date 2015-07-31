@@ -6,6 +6,7 @@
   Copyright (c) 2015 thb. All rights reserved.
 */
 "quoteHeading" = "Quote for ";
+"quoteLanguage" = "Zitatsprache";
 
 // share menu strings
 "shareHeading" = "What do you want to share?";
@@ -18,3 +19,7 @@
 "notificationBody" = "Here's your daily reminder to check what happened today in world literature.";
 "notificationAction" = "Run Tiwoli!";
 "notificationTitle" = "Tiwoli - today in world literature";
+
+// languages
+"German" = "German";
+"English" = "English";

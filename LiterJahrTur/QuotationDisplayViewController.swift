@@ -14,6 +14,10 @@ protocol NavigationButtonHandler {
     func pressedPrevious()
 }
 
+protocol LanguageButtonHandler {
+    func pressedChangeLanguage(quotationViewController: QuotationDisplayViewController)
+}
+
 class QuotationDisplayViewController: UIViewController, Shareable {
 
     @IBOutlet weak var quoteText: UIWebView?
@@ -23,11 +27,13 @@ class QuotationDisplayViewController: UIViewController, Shareable {
     @IBOutlet weak var picSource: UIButton?
     @IBOutlet weak var image: UIImageView?
     @IBOutlet weak var headline: UILabel!
+    @IBOutlet weak var quotationLanguageButton: UIButton!
     
     
     @IBOutlet weak var textView: UITextView!
     
     var delegateHandler: NavigationButtonHandler?
+    var languageChangeHandler: LanguageButtonHandler?
     var quoteString = "No quote yet."
     var quoteAuthorString = ""
     var authorWPString = ""
@@ -38,7 +44,8 @@ class QuotationDisplayViewController: UIViewController, Shareable {
     var currentId: String?
     var currentIndex: Int?
     var headlineString: String?
-    
+    var currentLanguage = Languages.English
+    var currentDateId = ""
     
     override func viewDidLoad() {
 
@@ -49,17 +56,24 @@ class QuotationDisplayViewController: UIViewController, Shareable {
 
         self.quoteAuthor?.text = quoteAuthorString
         self.book?.text = bookString
-//        self.source?.text = sourceString
-//        self.picSource?.text = picSourceString
-        var image = UIImage(named:  imageString + ".jpg")
+//      self.source?.text = sourceString
+//      self.picSource?.text = picSourceString
+        let image = UIImage(named:  imageString + ".jpg")
         self.image?.image = image
         self.headline?.text = self.headlineString
+        let quoteLanguageString = NSLocalizedString("quoteLanguage", comment: "comment")
+
+        
+        let languageString = NSLocalizedString(self.currentLanguage.rawValue, comment: "comment")
+        
+        self.quotationLanguageButton.setTitle(quoteLanguageString + languageString +  " 🔄", forState: UIControlState.Normal)
+        print(currentDateId)
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
     }
     
     @IBAction func wpClicked(sender: UIButton) {
-        var escpaedUrl = self.authorWPString.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)
+        let escpaedUrl = self.authorWPString.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)
         let url = NSURL(string: escpaedUrl!)
         UIApplication.sharedApplication().openURL(url!)
     }
@@ -69,7 +83,7 @@ class QuotationDisplayViewController: UIViewController, Shareable {
     }
   
     @IBAction func quoteSourceClicked(sender: AnyObject) {
-        var escpaedUrl = self.sourceString.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)
+        let escpaedUrl = self.sourceString.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)
         let url = NSURL(string: escpaedUrl!)
         if let url = url {
             UIApplication.sharedApplication().openURL(url)
@@ -78,7 +92,7 @@ class QuotationDisplayViewController: UIViewController, Shareable {
     
     
     @IBAction func picSourceClicked(sender: AnyObject) {
-        var escpaedUrl = self.picSourceString.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)
+        let escpaedUrl = self.picSourceString.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)
         let url = NSURL(string: escpaedUrl!)
         UIApplication.sharedApplication().openURL(url!)
     }
@@ -124,6 +138,9 @@ class QuotationDisplayViewController: UIViewController, Shareable {
    //     }
    // }
     
+    @IBAction func quotationLanguageChanged(sender: AnyObject) {
+        self.languageChangeHandler?.pressedChangeLanguage(self);
+    }
     
     
     func pressedShared(presentingVC: UIViewController) {

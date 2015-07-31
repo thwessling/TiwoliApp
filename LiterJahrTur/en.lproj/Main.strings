@@ -1,4 +1,7 @@
 
+/* Class = "UILabel"; text = "Standardsprache für Zitate"; ObjectID = "1GG-Uy-1Aj"; */
+"1GG-Uy-1Aj.text" = "Default language for quotes";
+
 /* Class = "UISegmentedControl"; 1Te-G5-QM0.segmentTitles[0] = "Today"; ObjectID = "1Te-G5-QM0"; */
 "1Te-G5-QM0.segmentTitles[0]" = "Today";
 
@@ -7,6 +10,9 @@
 
 /* Class = "UIButton"; normalTitle = "quote source"; ObjectID = "1ad-3D-PwK"; */
 "1ad-3D-PwK.normalTitle" = "quote source";
+
+/* Class = "UILabel"; text = "Deutsch"; ObjectID = "2sC-DY-gCg"; */
+"2sC-DY-gCg.text" = "German";
 
 /* Class = "UIButton"; normalTitle = "image source"; ObjectID = "4JL-Fe-fqi"; */
 "4JL-Fe-fqi.normalTitle" = "image source";
@@ -20,17 +26,23 @@
 /* Class = "UIButton"; normalTitle = "Show quote"; ObjectID = "5b1-Ds-bPA"; */
 "5b1-Ds-bPA.normalTitle" = "Show quote";
 
+/* Class = "UILabel"; text = "➡️"; ObjectID = "A0q-Px-otP"; */
+"A0q-Px-otP.text" = "➡️";
+
 /* Class = "UIButton"; normalTitle = "(Wikipedia)"; ObjectID = "Ab3-4V-I8q"; */
 "Ab3-4V-I8q.normalTitle" = "(Wikipedia)";
 
-/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "Lo3-Y5-WRJ"; */
-"Lo3-Y5-WRJ.title" = "About";
+/* Class = "UILabel"; text = "⬅️"; ObjectID = "NAP-5b-Njt"; */
+"NAP-5b-Njt.text" = "⬅️";
 
 /* Class = "UIButton"; normalTitle = "Done"; ObjectID = "P7f-wL-m2b"; */
 "P7f-wL-m2b.normalTitle" = "Done";
 
 /* Class = "UILabel"; text = "Time"; ObjectID = "SYl-cG-yr4"; */
 "SYl-cG-yr4.text" = "Time";
+
+/* Class = "UIButton"; normalTitle = " 🔄"; ObjectID = "WRI-XZ-oxb"; */
+"WRI-XZ-oxb.normalTitle" = " 🔄";
 
 /* Class = "UILabel"; text = "Author"; ObjectID = "WhQ-gn-gju"; */
 "WhQ-gn-gju.text" = "Author";
@@ -42,16 +54,28 @@
 "ix5-RE-YdJ.title" = "Settings";
 
 /* Class = "UILabel"; text = "Select any date to see what happend on a specific date in world literature."; ObjectID = "k49-G2-HHA"; */
-"k49-G2-HHA.text" = "What happened when in world literature?";
+"k49-G2-HHA.text" = "Select any date to see what happend on a specific date in world literature.";
 
 /* Class = "UIBarButtonItem"; title = "Settings"; ObjectID = "oDs-Re-rVs"; */
 "oDs-Re-rVs.title" = "Settings";
 
+/* Class = "UILabel"; text = "Zitatsprache"; ObjectID = "pgx-r1-727"; */
+"pgx-r1-727.text" = "Quote language";
+
 /* Class = "UILabel"; text = "Story ojln jn  jk kjnk kj kj kj sdf sdfl  as he saw it"; ObjectID = "qAs-h2-gsU"; */
 "qAs-h2-gsU.text" = "Story ojln jn  jk kjnk kj kj kj sdf sdfl  as he saw it";
+
+/* Class = "UISegmentedControl"; tQT-Cp-htE.segmentTitles[0] = "Deutsch"; ObjectID = "tQT-Cp-htE"; */
+"tQT-Cp-htE.segmentTitles[0]" = "German";
+
+/* Class = "UISegmentedControl"; tQT-Cp-htE.segmentTitles[1] = "Englisch"; ObjectID = "tQT-Cp-htE"; */
+"tQT-Cp-htE.segmentTitles[1]" = "English";
 
 /* Class = "UILabel"; text = "Daily notifications"; ObjectID = "tuC-2w-Fhy"; */
 "tuC-2w-Fhy.text" = "Daily notifications";
 
 /* Class = "UILabel"; text = "sfsdfsdfsdfsdf"; ObjectID = "tv0-eg-fYn"; */
 "tv0-eg-fYn.text" = "sfsdfsdfsdfsdf";
+
+/* Class = "UIButton"; normalTitle = "Zitatsprache: Englisch 🔄"; ObjectID = "yFf-yx-Wg7"; */
+"yFf-yx-Wg7.normalTitle" = "Quotation language: English 🔄";

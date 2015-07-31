@@ -12,16 +12,26 @@ protocol Shareable {
     func pressedShared(presentingVC: UIViewController)
 }
 
-class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate, UIPickerViewDelegate, UIPickerViewDataSource {
+class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageViewControllerDelegate, UIPickerViewDelegate, UIPickerViewDataSource, LanguageButtonHandler {
 
     @IBOutlet weak var pickerBar: UIView!
 
     var quotesPerDayDE: [String: JSON]? // = ["1201": 10]
     var quotesPerDayEN: [String: JSON]? // = ["":0]
-    var sortedIndizes = [String]()
+    
+    
+    var currentQuotesPerDay: [String: JSON]?
+    var currentQuotations: [String: JSON]?
+    
+    var sortedIndizesDE = [String]()
+    var sortedIndizesEN = [String]()
+    var currentSortedIndices = [String]()
+    
     var pageViewController: UIPageViewController?;
     var delegate: Shareable?
     var currentId = "null"
+    var displayedId = "null"
+    
     var quotationsDE: [String: JSON]?
     var quotationsEN: [String: JSON]?
     
@@ -32,44 +42,45 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
     
     @IBOutlet weak var currentLanguageLabel: UILabel!
     
-    
-    
-    func readNumberOfQuotes(fileName: String, target: [String: JSON]?)  {
-        if let path = NSBundle.mainBundle().pathForResource("date-to-number-of-quotes", ofType: "json") {
+    // MARK: - Data loading and initialization
+
+    // load index for number of quotes per day (day -> number of quotes)
+    func readNumberOfQuotes(fileName: String, inout target: [String: JSON]?)  {
+        if let path = NSBundle.mainBundle().pathForResource(fileName, ofType: "json") {
             if let data = NSData(contentsOfFile: path) {
             let json = JSON(data: data, options: NSJSONReadingOptions.AllowFragments, error: nil)
-                self.quotesPerDayDE = json.dictionary!
+                target = json.dictionary!
             }
         }
     }
     
-    
+    // Load quotations
     func loadDataThreaded() {
-        self.loadData("quotations-de", varquoteDict: self.quotationsDE!)
-        self.loadData("quotations-en", varquoteDict: self.quotationsEN!)
-        self.readNumberOfQuotes("date-to-number-of-quotes-de")
+        self.loadData("quotations-de", varquoteDict: &self.quotationsDE, indices: &self.sortedIndizesDE)
+        self.loadData("quotations-en", varquoteDict: &self.quotationsEN, indices: &self.sortedIndizesEN)
+        self.readNumberOfQuotes("date-to-number-of-quotes", target: &self.quotesPerDayDE)
+        self.readNumberOfQuotes("date-to-number-of-quotes-en", target: &self.quotesPerDayEN)
     }
     
-    func loadData(quoteFile: String, var varquoteDict: [String: JSON]) {
-        if let path = NSBundle.mainBundle().pathForResource("quotations-de", ofType: "json") {
+    func loadData(quoteFile: String, inout varquoteDict: [String: JSON]?, inout indices: [String]) {
+        if let path = NSBundle.mainBundle().pathForResource(quoteFile, ofType: "json") {
             if let data = NSData(contentsOfFile: path) {
-                _ = NSDate()
                 
                 varquoteDict = JSON(data: data, options: NSJSONReadingOptions.AllowFragments, error: nil).dictionary!
-                
                     var indizes = [String]()
-                    for key in varquoteDict.keys {
+                    for key in varquoteDict!.keys {
                         indizes.append(key)
                     }
                     indizes.sortInPlace()
-                    self.sortedIndizes = indizes
-                
+                    indices = indizes
             }
         }
     }
     
     override func viewDidLoad() {
-        NSThread.detachNewThreadSelector(Selector("loadDataThreaded"), toTarget: self, withObject: nil)
+        // load quotations from files in threaded mode
+        //NSThread.detachNewThreadSelector(Selector("loadDataThreaded"), toTarget: self, withObject: nil)
+        self.loadDataThreaded()
         
         self.automaticallyAdjustsScrollViewInsets = false
         self.datePicker.dataSource = self
@@ -79,13 +90,22 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
         self.segment.selectedSegmentIndex = 0
         self.segment.sendActionsForControlEvents(UIControlEvents.ValueChanged)
         self.segment.selectedSegmentIndex = -1
-    
+
+        // load current language from settings
+        let quotationLanguage = NSUserDefaults.standardUserDefaults().stringForKey("quotatationLanguage")
+        if let quotationLanguage = quotationLanguage {
+            self.currentLanguage = Languages(rawValue: quotationLanguage)!
+        } else {
+            self.currentLanguage = Languages.English;
+        }
+        self.changeCurrentLanguageLabel()
+        self.changeCurrentLanguageDictionaries()
 
         super.viewDidLoad()
     }
     
     override func viewDidAppear(animated: Bool) {
-                if self.currentId != "null" {
+        if self.currentId != "null" {
                     let dateString = self.currentId.componentsSeparatedByString("-")[0]
                     let month = Int(dateString.substringToIndex(advance(dateString.startIndex, 2)))
                     let day = Int(dateString.substringFromIndex(advance(dateString.startIndex, 2)))
@@ -95,12 +115,15 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
         super.viewDidAppear(animated)
     }
     
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
     
     
+    // MARK: - User interaction
     
     @IBAction func dateSelectionClicked(sender: UISegmentedControl) {
         if sender.selectedSegmentIndex == 0 {
@@ -118,17 +141,18 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
         let days = UInt32(self.datePicker.numberOfRowsInComponent(1))
         let day = Int(arc4random_uniform(days))
         self.datePicker.selectRow(day, inComponent: 1, animated: true)
+        print(self.datePicker.selectedRowInComponent(0))
         self.currentId = "null"
     }
     
     @IBAction func pressedShowQuote(sender: AnyObject) {
         let month = String(format: "%02d", self.datePicker.selectedRowInComponent(0)+1)
         let day = String(format: "%02d", self.datePicker.selectedRowInComponent(1)+1)
-        
+  
         let dateString = "\(month)\(day)"
-
         let id = "\(dateString)-0"
-        let index =  self.sortedIndizes.indexOf(id)
+        
+        let index =  self.currentSortedIndices.indexOf(id)
 
         self.currentId = id
         
@@ -193,19 +217,11 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
         storyBoard.instantiateViewControllerWithIdentifier("QuotationDisplayViewController") as! QuotationDisplayViewController
         
         let dateId = id.componentsSeparatedByString("-")[0]
-        var quoteEnumerator = Int(id.componentsSeparatedByString("-")[1])! + 1
-        var numberOfQuotes = self.quotesPerDay![dateId]?.intValue
+        let quoteEnumerator = Int(id.componentsSeparatedByString("-")[1])! + 1
+        let numberOfQuotes = self.currentQuotesPerDay![dateId]?.intValue
         
-        var quotations: [String: JSON];
-        switch self.currentLanguage {
-        case .English:
-            quotations = self.quotationsEN!;
-        case .German:
-            quotations = self.quotationsDE!;
-            
-        }
-        
-        if let quotationJson = quotations[id] {
+        print(self.currentLanguage)
+        if let quotationJson = currentQuotations![id] {
             if let  quote = quotationJson.dictionary {
                 nextQuote.quoteString = (quote["quote"]?.string!)!
                 nextQuote.quoteAuthorString = quote["author"]!.string!
@@ -214,21 +230,21 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
                 nextQuote.sourceString = quote["source"]!.string!
                 nextQuote.picSourceString = quote["picSource"]!.string!
                 nextQuote.imageString = quote["authorPic"]!.string!
+                nextQuote.currentLanguage = self.currentLanguage;
             }
         }
-   
+        nextQuote.languageChangeHandler = self
 
-            let dateString = getDateForId(id)
-            nextQuote.headlineString = NSLocalizedString("quoteHeading", comment: "comment") + "\(dateString)"
-            if let numberOfQuotes = numberOfQuotes {
-                
-                nextQuote.headlineString = nextQuote.headlineString! + " [\(quoteEnumerator)/\(numberOfQuotes+1)]"
+        let dateString = getDateForId(id)
+        nextQuote.headlineString = NSLocalizedString("quoteHeading", comment: "comment") + "\(dateString)"
+        if let numberOfQuotes = numberOfQuotes {
+            nextQuote.headlineString = nextQuote.headlineString! + " [\(quoteEnumerator)/\(numberOfQuotes+1)]"
 
-            }
+        }
             
-            self.delegate = nextQuote
-            nextQuote.currentIndex = index
-        
+        self.delegate = nextQuote
+        nextQuote.currentIndex = index
+        nextQuote.currentDateId = dateId;
         
         return nextQuote
     }
@@ -244,7 +260,7 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
                 if idx == 0 {
                     return nil
                 }
-                let newId = self.sortedIndizes[idx-1]
+                let newId = self.currentSortedIndices[idx-1]
                 //self.currentId = newId
                 return self.viewControllerAtIndex(newId, index: idx-1)
             } else {
@@ -258,10 +274,10 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
             let quoteViewController = viewController as! QuotationDisplayViewController
             if let idx = quoteViewController.currentIndex {
                 var newId: String
-                if idx > self.sortedIndizes.count-2 {
+                if idx > self.currentSortedIndices.count-2 {
                     return nil
                 } else {
-                    newId = self.sortedIndizes[idx+1]
+                    newId = self.currentSortedIndices[idx+1]
                 }
                 //self.currentId = newId
                 return self.viewControllerAtIndex(newId, index: idx+1)
@@ -289,6 +305,7 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
     /*
         Date picker 
     */
+    // MARK: - Date picker
     func numberOfComponentsInPickerView(pickerView: UIPickerView) -> Int {
         return 2;
     }
@@ -319,12 +336,25 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
         }
     }
     
+    // MARK: - Changing language
+    
+    
     func changeCurrentLanguageLabel() {
+        let languageString = NSLocalizedString(self.currentLanguage.rawValue, comment: "comment")
+        self.currentLanguageLabel.text = languageString;
+    }
+    
+    // perform post-processing
+    func changeCurrentLanguageDictionaries() {
         switch self.currentLanguage {
         case .English:
-            self.currentLanguageLabel.text = "English";
+            self.currentQuotations = self.quotationsEN;
+            self.currentQuotesPerDay = self.quotesPerDayEN;
+            self.currentSortedIndices = self.sortedIndizesEN;
         case .German:
-            self.currentLanguageLabel.text = "German";
+            self.currentQuotations = self.quotationsDE;
+            self.currentQuotesPerDay = self.quotesPerDayDE;
+            self.currentSortedIndices = self.sortedIndizesDE;
         }
     }
     
@@ -337,14 +367,37 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
             self.currentLanguage = Languages.English;
         }
         self.changeCurrentLanguageLabel();
+        self.changeCurrentLanguageDictionaries();
     }
     
-    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String! {
+    func pickerView(pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         if component == 0 {
-            return  NSDateFormatter().monthSymbols[row] as! String
+            return  NSDateFormatter().monthSymbols[row] as String
         } else {
             return "\(row+1)."
         }
+    }
+    
+    // MARK: - language change protocol
+
+    func pressedChangeLanguage(quotationViewController: QuotationDisplayViewController) {
+        switch self.currentLanguage {
+        case .English:
+            self.currentLanguage = Languages.German;
+        case .German:
+            self.currentLanguage = Languages.English;
+        }
+        self.changeCurrentLanguageLabel();
+        self.changeCurrentLanguageDictionaries();
+
+        let index =  self.currentSortedIndices.indexOf(quotationViewController.currentDateId + "-0")
+        
+        let nextQuote = self.viewControllerAtIndex(quotationViewController.currentDateId + "-0", index: index!)
+        
+        var startingViewControllers = [QuotationDisplayViewController]()
+        startingViewControllers.append(nextQuote)
+        
+        pageViewController!.setViewControllers(startingViewControllers, direction: UIPageViewControllerNavigationDirection.Forward, animated: true, completion: nil)
     }
     
 }

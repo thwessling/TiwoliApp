@@ -7,6 +7,7 @@
 //
 
 
-enum Languages {
-    case German, English
+enum Languages : String {
+    case German = "German"
+    case English = "English"
 }

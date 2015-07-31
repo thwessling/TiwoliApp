@@ -6,6 +6,7 @@
   Copyright (c) 2015 thb. All rights reserved.
 */
 "quoteHeading" = "Zitat für den ";
+"quoteLanguage" = "Zitatsprache ";
 
 "shareHeading" = "Was soll geteilt werden?";
 "shareQuote" = "Zitat teilen";
@@ -16,3 +17,7 @@
 "notificationBody" = "Neuer Tag, neues Zitat!";
 "notificationAction" = "Starte Tiwoli!";
 "notificationTitle" = "Tiwoli - today in world literature";
+
+// languages
+"German" = "Deutsch";
+"English" = "Englisch";

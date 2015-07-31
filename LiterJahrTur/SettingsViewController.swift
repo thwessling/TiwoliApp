@@ -14,6 +14,22 @@ class SettingsViewController: UIViewController {
     
     @IBOutlet weak var timeLabel: UILabel!
     @IBOutlet weak var datePicker: UIDatePicker!
+    @IBOutlet weak var languageSegmentControl: UISegmentedControl!
+    
+    @IBAction func languageToggleChange(sender: AnyObject) {
+        print(Languages.German.rawValue)
+        switch languageSegmentControl.selectedSegmentIndex {
+        case 0:
+            NSUserDefaults.standardUserDefaults().setObject(Languages.German.rawValue, forKey: "quotatationLanguage")
+        case 1:
+            NSUserDefaults.standardUserDefaults().setObject(Languages.English.rawValue, forKey: "quotatationLanguage");
+        default:
+            NSUserDefaults.standardUserDefaults().setObject(Languages.German.rawValue, forKey: "quotatationLanguage")
+        }
+        
+    }
+    
+    
     
     @IBAction func notificationToggleChange(sender: AnyObject) {
        if notificationToggle.on {
@@ -50,6 +66,21 @@ class SettingsViewController: UIViewController {
         } else {
             self.notificationToggle.setOn(false, animated: true)
         }
+        
+        let languageString = NSUserDefaults.standardUserDefaults().stringForKey("quotatationLanguage");
+        print(languageString)
+        if let languageString = languageString {
+            let language = Languages(rawValue: languageString)
+            switch language!  {
+            case Languages.English:
+                self.languageSegmentControl.selectedSegmentIndex = 1
+            case Languages.German:
+                self.languageSegmentControl.selectedSegmentIndex = 0
+            }
+        } else {
+            self.languageSegmentControl.selectedSegmentIndex = -1
+        }
+
         
 
         // Do any additional setup after loading the view.

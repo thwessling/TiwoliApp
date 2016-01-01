@@ -33,11 +33,10 @@ class SettingsViewController: UIViewController {
     
     @IBAction func notificationToggleChange(sender: AnyObject) {
        if notificationToggle.on {
-            UIApplication.sharedApplication().registerUserNotificationSettings(UIUserNotificationSettings(forTypes: [UIUserNotificationType.Sound,UIUserNotificationType.Alert], categories: nil))
+        UIApplication.sharedApplication().registerUserNotificationSettings(UIUserNotificationSettings(forTypes: [UIUserNotificationType.Sound, UIUserNotificationType.Alert], categories: nil))
             self.datePicker.hidden = false
             self.timeLabel.hidden = false
        } else {
-        print("Local notifications cancelled")
         UIApplication.sharedApplication().cancelAllLocalNotifications()
         self.datePicker.hidden = true
         self.timeLabel.hidden = true
@@ -113,8 +112,12 @@ class SettingsViewController: UIViewController {
             notification.fireDate = datePicker.date
             notification.timeZone = NSTimeZone.systemTimeZone()
             let bodyString = NSLocalizedString("notificationBody", comment: "")
+
             notification.alertBody = bodyString
             notification.alertAction = NSLocalizedString("notificationAction", comment: "")
+            NSCalendar.currentCalendar().components([NSCalendarUnit.Day,NSCalendarUnit.Month], fromDate: NSDate())
+            
+
             notification.alertTitle = NSLocalizedString("notificationTitle", comment: "")
             notification.repeatInterval = NSCalendarUnit.Day
             notification.soundName = UILocalNotificationDefaultSoundName

@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F7410BFC1AE570FB00E2105E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F7410BFE1AE570FB00E2105E /* Localizable.strings */; };
-		F75885AB1B4D65BE00FE6278 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F75885AA1B4D65BE00FE6278 /* SwiftyJSON.swift */; };
+		F774EBAD1BA4264B00746123 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = F774EBAC1BA4264B00746123 /* SwiftyJSON.swift */; settings = {ASSET_TAGS = (); }; };
 		F78B57F71AE613EB00C9A759 /* date-to-number-of-quotes.json in Resources */ = {isa = PBXBuildFile; fileRef = F78B57F61AE613EB00C9A759 /* date-to-number-of-quotes.json */; };
 		F78B57F91AE6144F00C9A759 /* quotations-de.json in Resources */ = {isa = PBXBuildFile; fileRef = F78B57F81AE6144F00C9A759 /* quotations-de.json */; };
 		F798D3321ADC3849006121B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F798D3311ADC3849006121B8 /* AppDelegate.swift */; };
@@ -320,7 +320,7 @@
 		F7410BFD1AE570FB00E2105E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F7410BFF1AE5711100E2105E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F7410C001AE5711200E2105E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
-		F75885AA1B4D65BE00FE6278 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		F774EBAC1BA4264B00746123 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		F78B57F61AE613EB00C9A759 /* date-to-number-of-quotes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "date-to-number-of-quotes.json"; sourceTree = "<group>"; };
 		F78B57F81AE6144F00C9A759 /* quotations-de.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "quotations-de.json"; sourceTree = "<group>"; };
 		F798D32C1ADC3849006121B8 /* Tiwoli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tiwoli.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -345,6 +345,9 @@
 		F7BB9D121ADEB0BA00BCA23E /* StartingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartingView.swift; sourceTree = "<group>"; };
 		F7D77F101ADEFBCE0083E490 /* ic_launcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_launcher.png; sourceTree = "<group>"; };
 		F7D77F111ADEFBCE0083E490 /* literjahrtur512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = literjahrtur512.png; sourceTree = "<group>"; };
+		F7E6EF381BA7508C00ED42A2 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Main.strings; sourceTree = "<group>"; };
+		F7E6EF391BA7508C00ED42A2 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		F7E6EF3A1BA7508C00ED42A2 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
 		F7ED90431B6B6EBF00C1B2D6 /* date-to-number-of-quotes-en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "date-to-number-of-quotes-en.json"; sourceTree = "<group>"; };
 		F7ED90441B6B6EBF00C1B2D6 /* quotations-en.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "quotations-en.json"; sourceTree = "<group>"; };
 		F7ED90481B6B9D2000C1B2D6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
@@ -960,10 +963,10 @@
 		F798D32E1ADC3849006121B8 /* Tiwoli */ = {
 			isa = PBXGroup;
 			children = (
+				F774EBAC1BA4264B00746123 /* SwiftyJSON.swift */,
 				F7A67B491B6A54D90049ACD2 /* Languages.swift */,
 				F75E18D91ADFF4C4007F1011 /* images */,
 				F798D3311ADC3849006121B8 /* AppDelegate.swift */,
-				F75885AA1B4D65BE00FE6278 /* SwiftyJSON.swift */,
 				F798D3351ADC3849006121B8 /* Main.storyboard */,
 				F798D3381ADC3849006121B8 /* Images.xcassets */,
 				F798D33A1ADC3849006121B8 /* LaunchScreen.xib */,
@@ -1108,6 +1111,7 @@
 				en,
 				Base,
 				de,
+				es,
 			);
 			mainGroup = F798D3231ADC3849006121B8;
 			productRefGroup = F798D32D1ADC3849006121B8 /* Products */;
@@ -1439,9 +1443,9 @@
 				F7AB6B081B691CC900978867 /* LanguageTableViewController.swift in Sources */,
 				F7A67B4A1B6A54D90049ACD2 /* Languages.swift in Sources */,
 				F7ADFDE71AE406230035F15D /* ImpressumViewController.swift in Sources */,
+				F774EBAD1BA4264B00746123 /* SwiftyJSON.swift in Sources */,
 				F7BB9D131ADEB0BA00BCA23E /* StartingView.swift in Sources */,
 				F7BB9D111ADEAFEC00BCA23E /* QuotationDisplayViewController.swift in Sources */,
-				F75885AB1B4D65BE00FE6278 /* SwiftyJSON.swift in Sources */,
 				F798D3321ADC3849006121B8 /* AppDelegate.swift in Sources */,
 				F79C53211AE152E100DB5D95 /* SettingsViewController.swift in Sources */,
 			);
@@ -1480,6 +1484,7 @@
 				F7410BFD1AE570FB00E2105E /* Base */,
 				F7410BFF1AE5711100E2105E /* de */,
 				F7410C001AE5711200E2105E /* en */,
+				F7E6EF3A1BA7508C00ED42A2 /* es */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
@@ -1490,6 +1495,7 @@
 				F798D3361ADC3849006121B8 /* Base */,
 				F7ED90481B6B9D2000C1B2D6 /* en */,
 				F7ED904A1B6B9D6100C1B2D6 /* de */,
+				F7E6EF381BA7508C00ED42A2 /* es */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1498,6 +1504,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				F798D33B1ADC3849006121B8 /* Base */,
+				F7E6EF391BA7508C00ED42A2 /* es */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -1542,10 +1549,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos8.4;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -1580,9 +1587,9 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
-				SDKROOT = iphoneos;
+				SDKROOT = iphoneos8.4;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -1600,6 +1607,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "thb.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Tiwoli;
 				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -1617,6 +1625,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "thb.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = Tiwoli;
 				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;

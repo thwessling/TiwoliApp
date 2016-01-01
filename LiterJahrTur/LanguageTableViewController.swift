@@ -29,7 +29,7 @@ class LanguageTableViewController:  UIViewController, UITableViewDelegate, UITab
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell:UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("cell")! as UITableViewCell
+        let cell:UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("cell")! 
         
         cell.textLabel?.text = self.items[indexPath.row]
         if (indexPath.row == self.selectedRow) {

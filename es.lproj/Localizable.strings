@@ -1,0 +1,25 @@
+/* 
+  Localizable.strings
+  Tiwoli
+
+  Created by thb on 20/04/15.
+  Copyright (c) 2015 thb. All rights reserved.
+*/
+"quoteHeading" = "Cita para ";
+"quoteLanguage" = "Lengua";
+
+// share menu strings
+"shareHeading" = "Compartir";
+"shareQuote" = "Compartir cita";
+"shareWebsite" = "Compartir el enlace de Tiwoli";
+"cancelButton" = "Vale";
+
+
+// notification strings
+"notificationBody" = "¡Nuevo día, nueva cita!";
+"notificationAction" = "Tiwoli";
+"notificationTitle" = "Tiwoli - today in world literature";
+
+// languages
+"German" = "Alemán";
+"English" = "Inglés";

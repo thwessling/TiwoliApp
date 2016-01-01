@@ -1,6 +1,6 @@
 
 /* Class = "UILabel"; text = "Standardsprache für Zitate"; ObjectID = "1GG-Uy-1Aj"; */
-"1GG-Uy-1Aj.text" = "Standardsprache für Zitate";
+"1GG-Uy-1Aj.text" = "Zitatsprache";
 
 /* Class = "UISegmentedControl"; 1Te-G5-QM0.segmentTitles[0] = "Today"; ObjectID = "1Te-G5-QM0"; */
 "1Te-G5-QM0.segmentTitles[0]" = "Heute";
@@ -30,10 +30,10 @@
 "Ab3-4V-I8q.normalTitle" = "(Wikipedia)";
 
 /* Class = "UILabel"; text = "➡️"; ObjectID = "A0q-Px-otP"; */
-"A0q-Px-otP.text" = "➡️";
+"A0q-Px-otP.text" = "⇨";
 
 /* Class = "UILabel"; text = "⬅️"; ObjectID = "NAP-5b-Njt"; */
-"NAP-5b-Njt.text" = "⬅️";
+"NAP-5b-Njt.text" = "⇦";
 
 /* Class = "UIButton"; normalTitle = "Done"; ObjectID = "P7f-wL-m2b"; */
 "P7f-wL-m2b.normalTitle" = "Zurück";
@@ -42,7 +42,7 @@
 "SYl-cG-yr4.text" = "Uhrzeit";
 
 /* Class = "UIButton"; normalTitle = " 🔄"; ObjectID = "WRI-XZ-oxb"; */
-"WRI-XZ-oxb.normalTitle" = " 🔄";
+"WRI-XZ-oxb.normalTitle" = "ändern";
 
 /* Class = "UILabel"; text = "Author"; ObjectID = "WhQ-gn-gju"; */
 "WhQ-gn-gju.text" = "Autor";

@@ -40,6 +40,8 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
     @IBOutlet weak var segment: UISegmentedControl!
     @IBOutlet weak var datePicker: UIPickerView!
     
+    @IBOutlet weak var showQuoteButton: UIButton!
+    
     @IBOutlet weak var currentLanguageLabel: UILabel!
     
     // MARK: - Data loading and initialization
@@ -101,17 +103,20 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
         self.changeCurrentLanguageLabel()
         self.changeCurrentLanguageDictionaries()
 
+        // handle notifications
+        NSNotificationCenter.defaultCenter().addObserver(self, selector: "showQuote", name: "showQuote", object: nil)
+        
         super.viewDidLoad()
     }
     
     override func viewDidAppear(animated: Bool) {
         if self.currentId != "null" {
                     let dateString = self.currentId.componentsSeparatedByString("-")[0]
-                    let month = Int(dateString.substringToIndex(advance(dateString.startIndex, 2)))
-                    let day = Int(dateString.substringFromIndex(advance(dateString.startIndex, 2)))
+                    let month = Int(dateString.substringToIndex(dateString.startIndex.advancedBy(2)))
+                    let day = Int(dateString.substringFromIndex(dateString.startIndex.advancedBy(2)))
                     self.datePicker.selectRow(month!-1, inComponent: 0, animated: true)
                     self.datePicker.selectRow(day!-1, inComponent: 1, animated: true)
-                }
+        }
         super.viewDidAppear(animated)
     }
     
@@ -143,6 +148,11 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
         self.datePicker.selectRow(day, inComponent: 1, animated: true)
         print(self.datePicker.selectedRowInComponent(0))
         self.currentId = "null"
+    }
+    
+    func showQuote() {
+        self.pressedToday()
+        showQuoteButton.sendActionsForControlEvents(UIControlEvents.TouchUpInside)
     }
     
     @IBAction func pressedShowQuote(sender: AnyObject) {
@@ -185,7 +195,7 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
     
     
     func pressedToday() {
-        let components = NSCalendar.currentCalendar().components([NSCalendarUnit.Day,NSCalendarUnit.Month], fromDate: NSDate())
+        let components = NSCalendar.currentCalendar().components([NSCalendarUnit.Day, NSCalendarUnit.Month], fromDate: NSDate())
         self.datePicker.selectRow(components.month-1, inComponent: 0, animated: true)
         self.datePicker.selectRow(components.day-1, inComponent: 1, animated: true)
         self.currentId = "null"
@@ -195,8 +205,8 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
     
     func getDateForId(id: String) -> String {
         let dateString = id.componentsSeparatedByString("-")[0]
-        let month = dateString.substringToIndex(advance(dateString.startIndex, 2))
-        let day = dateString.substringFromIndex(advance(dateString.startIndex, 2))
+        let month = dateString.substringToIndex(dateString.startIndex.advancedBy(2))
+        let day = dateString.substringFromIndex(dateString.startIndex.advancedBy(2))
         let dateFormatter = NSDateFormatter()
         dateFormatter.dateFormat = "MM dd"
         let date = dateFormatter.dateFromString("\(month) \(day)")
@@ -217,7 +227,8 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
         storyBoard.instantiateViewControllerWithIdentifier("QuotationDisplayViewController") as! QuotationDisplayViewController
         
         let dateId = id.componentsSeparatedByString("-")[0]
-        let quoteEnumerator = Int(id.componentsSeparatedByString("-")[1])! + 1
+        let enumeratorId = id.componentsSeparatedByString("-")[1]
+        let quoteEnumerator = Int(enumeratorId)! + 1
         let numberOfQuotes = self.currentQuotesPerDay![dateId]?.intValue
         
         print(self.currentLanguage)
@@ -390,7 +401,7 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
         self.changeCurrentLanguageLabel();
         self.changeCurrentLanguageDictionaries();
 
-        let index =  self.currentSortedIndices.indexOf(quotationViewController.currentDateId + "-0")
+        let index = self.currentSortedIndices.indexOf(quotationViewController.currentDateId + "-0")
         
         let nextQuote = self.viewControllerAtIndex(quotationViewController.currentDateId + "-0", index: index!)
         

@@ -14,16 +14,15 @@ class ImpressumViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         let htmlFile = NSBundle.mainBundle().pathForResource("impressum_de", ofType:"html");
-        var htmlString: String? = nil
-
-    do {
-        htmlString = try String(contentsOfFile: htmlFile!, encoding: NSUTF8StringEncoding)
-    } catch _ as NSError {
-        return
-    }
-        self.webView.loadHTMLString(htmlString!, baseURL: nil)
-       
+        let htmlString : String
+        do {
+            htmlString = try String(contentsOfFile: htmlFile!, encoding: NSUTF8StringEncoding)
+        } catch {
+            htmlString = "No quote."
+        }
+        self.webView.loadHTMLString(htmlString, baseURL: nil)
     }
 
     override func didReceiveMemoryWarning() {
@@ -33,7 +32,6 @@ class ImpressumViewController: UIViewController {
     
     @IBAction func doneClicked(sender: AnyObject) {
         self.dismissViewControllerAnimated(true, completion: nil)
-
     }
 
     /*

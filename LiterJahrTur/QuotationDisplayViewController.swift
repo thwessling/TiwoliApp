@@ -65,8 +65,8 @@ class QuotationDisplayViewController: UIViewController, Shareable {
 
         
         let languageString = NSLocalizedString(self.currentLanguage.rawValue, comment: "comment")
-        
-        self.quotationLanguageButton.setTitle(quoteLanguageString + languageString +  " 🔄", forState: UIControlState.Normal)
+        let languageChangeString = NSLocalizedString("quoteLanguageChange", comment: "comment")
+        self.quotationLanguageButton.setTitle(quoteLanguageString + languageString +  " (" + languageChangeString + ")", forState: UIControlState.Normal)
         print(currentDateId)
         super.viewDidLoad()
         

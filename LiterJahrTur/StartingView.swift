@@ -212,7 +212,7 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
         let date = dateFormatter.dateFromString("\(month) \(day)")
         if let date = date {
             dateFormatter.locale = NSLocale.currentLocale()
-            let dateString = NSDateFormatter.dateFormatFromTemplate("MMMM dd", options: 0, locale: NSLocale.currentLocale())
+            let dateString = NSDateFormatter.dateFormatFromTemplate("MM dd", options: 0, locale: NSLocale.currentLocale())
             dateFormatter.dateFormat = dateString
             return dateFormatter.stringFromDate(date)
         } else {

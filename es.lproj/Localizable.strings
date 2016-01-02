@@ -7,6 +7,8 @@
 */
 "quoteHeading" = "Cita para ";
 "quoteLanguage" = "Lengua";
+"quoteLanguageChange" = "variar";
+
 
 // share menu strings
 "shareHeading" = "Compartir";

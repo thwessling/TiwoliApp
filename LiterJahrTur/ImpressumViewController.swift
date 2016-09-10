@@ -15,10 +15,10 @@ class ImpressumViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let htmlFile = NSBundle.mainBundle().pathForResource("impressum_de", ofType:"html");
+        let htmlFile = Bundle.main.path(forResource: "impressum_de", ofType:"html");
         let htmlString : String
         do {
-            htmlString = try String(contentsOfFile: htmlFile!, encoding: NSUTF8StringEncoding)
+            htmlString = try String(contentsOfFile: htmlFile!, encoding: String.Encoding.utf8)
         } catch {
             htmlString = "No quote."
         }
@@ -30,8 +30,8 @@ class ImpressumViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    @IBAction func doneClicked(sender: AnyObject) {
-        self.dismissViewControllerAnimated(true, completion: nil)
+    @IBAction func doneClicked(_ sender: AnyObject) {
+        self.dismiss(animated: true, completion: nil)
     }
 
     /*

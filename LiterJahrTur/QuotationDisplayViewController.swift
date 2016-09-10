@@ -15,7 +15,7 @@ protocol NavigationButtonHandler {
 }
 
 protocol LanguageButtonHandler {
-    func pressedChangeLanguage(quotationViewController: QuotationDisplayViewController)
+    func pressedChangeLanguage(_ quotationViewController: QuotationDisplayViewController)
 }
 
 class QuotationDisplayViewController: UIViewController, Shareable {
@@ -66,35 +66,35 @@ class QuotationDisplayViewController: UIViewController, Shareable {
         
         let languageString = NSLocalizedString(self.currentLanguage.rawValue, comment: "comment")
         let languageChangeString = NSLocalizedString("quoteLanguageChange", comment: "comment")
-        self.quotationLanguageButton.setTitle(quoteLanguageString + languageString +  " (" + languageChangeString + ")", forState: UIControlState.Normal)
+        self.quotationLanguageButton.setTitle(quoteLanguageString + languageString +  " (" + languageChangeString + ")", for: UIControlState())
         print(currentDateId)
         super.viewDidLoad()
         
     }
     
-    @IBAction func wpClicked(sender: UIButton) {
-        let escpaedUrl = self.authorWPString.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)
-        let url = NSURL(string: escpaedUrl!)
-        UIApplication.sharedApplication().openURL(url!)
+    @IBAction func wpClicked(_ sender: UIButton) {
+        let escpaedUrl = self.authorWPString.addingPercentEscapes(using: String.Encoding.utf8)
+        let url = URL(string: escpaedUrl!)
+        UIApplication.shared.openURL(url!)
     }
     
-    @IBAction func pressedImage(sender: UITapGestureRecognizer) {
+    @IBAction func pressedImage(_ sender: UITapGestureRecognizer) {
         self.quoteSourceClicked(sender)
     }
   
-    @IBAction func quoteSourceClicked(sender: AnyObject) {
-        let escpaedUrl = self.sourceString.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)
-        let url = NSURL(string: escpaedUrl!)
+    @IBAction func quoteSourceClicked(_ sender: AnyObject) {
+        let escpaedUrl = self.sourceString.addingPercentEscapes(using: String.Encoding.utf8)
+        let url = URL(string: escpaedUrl!)
         if let url = url {
-            UIApplication.sharedApplication().openURL(url)
+            UIApplication.shared.openURL(url)
         }
     }
     
     
-    @IBAction func picSourceClicked(sender: AnyObject) {
-        let escpaedUrl = self.picSourceString.stringByAddingPercentEscapesUsingEncoding(NSUTF8StringEncoding)
-        let url = NSURL(string: escpaedUrl!)
-        UIApplication.sharedApplication().openURL(url!)
+    @IBAction func picSourceClicked(_ sender: AnyObject) {
+        let escpaedUrl = self.picSourceString.addingPercentEscapes(using: String.Encoding.utf8)
+        let url = URL(string: escpaedUrl!)
+        UIApplication.shared.openURL(url!)
     }
     
     
@@ -113,7 +113,7 @@ class QuotationDisplayViewController: UIViewController, Shareable {
     
     
     func shareQuote() {
-        let pageString = self.quoteText?.stringByEvaluatingJavaScriptFromString("document.documentElement.textContent")
+        let pageString = self.quoteText?.stringByEvaluatingJavaScript(from: "document.documentElement.textContent")
         let author = self.quoteAuthor!.text
         let book = self.book!.text
         let stringToShare = "\"\(pageString!)\" -- \(author!) (\(book!))"
@@ -124,9 +124,9 @@ class QuotationDisplayViewController: UIViewController, Shareable {
         shareString("http://literjahrtur.wannauchimmer.de/")
     }
     
-    func shareString(message: String) {
+    func shareString(_ message: String) {
         let activityView = UIActivityViewController(activityItems: [message], applicationActivities: nil)
-        self.presentViewController(activityView, animated: true, completion: nil)
+        self.present(activityView, animated: true, completion: nil)
     }
     
     
@@ -138,22 +138,22 @@ class QuotationDisplayViewController: UIViewController, Shareable {
    //     }
    // }
     
-    @IBAction func quotationLanguageChanged(sender: AnyObject) {
+    @IBAction func quotationLanguageChanged(_ sender: AnyObject) {
         self.languageChangeHandler?.pressedChangeLanguage(self);
     }
     
     
-    func pressedShared(presentingVC: UIViewController) {
-        let actionSheet = UIAlertController(title: NSLocalizedString("shareHeading", comment:""), message: nil, preferredStyle: UIAlertControllerStyle.ActionSheet)
+    func pressedShared(_ presentingVC: UIViewController) {
+        let actionSheet = UIAlertController(title: NSLocalizedString("shareHeading", comment:""), message: nil, preferredStyle: UIAlertControllerStyle.actionSheet)
         
-        let quoteAction = UIAlertAction(title: NSLocalizedString("shareQuote", comment:""), style: UIAlertActionStyle.Default) {
+        let quoteAction = UIAlertAction(title: NSLocalizedString("shareQuote", comment:""), style: UIAlertActionStyle.default) {
             (action) in self.shareQuote()
         }
-        let cancelAction = UIAlertAction(title: NSLocalizedString("cancelButton", comment: ""), style: UIAlertActionStyle.Cancel) {
-            (action) in actionSheet.dismissViewControllerAnimated(true, completion: nil)
+        let cancelAction = UIAlertAction(title: NSLocalizedString("cancelButton", comment: ""), style: UIAlertActionStyle.cancel) {
+            (action) in actionSheet.dismiss(animated: true, completion: nil)
         }
         
-        let websiteQuoteAction = UIAlertAction(title: NSLocalizedString("shareWebsite", comment:""), style: UIAlertActionStyle.Default) {
+        let websiteQuoteAction = UIAlertAction(title: NSLocalizedString("shareWebsite", comment:""), style: UIAlertActionStyle.default) {
             (action) in self.shareWebsite()
         }
         
@@ -162,7 +162,7 @@ class QuotationDisplayViewController: UIViewController, Shareable {
         actionSheet.addAction(cancelAction)
 //        self.navigationController!.presentViewController(actionSheet, animated: true, completion: nil)
         //self.presentViewController(actionSheet, animated: true, completion: nil)
-        presentingVC.presentViewController(actionSheet, animated: true, completion: nil)
+        presentingVC.present(actionSheet, animated: true, completion: nil)
     }
     
 }

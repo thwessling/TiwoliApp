@@ -10,4 +10,5 @@
 enum Languages : String {
     case German = "German"
     case English = "English"
+    case Spanish = "Spanish"
 }

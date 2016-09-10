@@ -71,6 +71,10 @@
 /* Class = "UISegmentedControl"; tQT-Cp-htE.segmentTitles[1] = "Englisch"; ObjectID = "tQT-Cp-htE"; */
 "tQT-Cp-htE.segmentTitles[1]" = "English";
 
+/* Class = "UISegmentedControl"; tQT-Cp-htE.segmentTitles[2] = "Spanish"; ObjectID = "tQT-Cp-htE"; */
+"tQT-Cp-htE.segmentTitles[2]" = "Spanish";
+
+
 /* Class = "UILabel"; text = "Daily notifications"; ObjectID = "tuC-2w-Fhy"; */
 "tuC-2w-Fhy.text" = "Daily notifications";
 

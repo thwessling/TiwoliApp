@@ -72,6 +72,10 @@
 /* Class = "UISegmentedControl"; tQT-Cp-htE.segmentTitles[1] = "Englisch"; ObjectID = "tQT-Cp-htE"; */
 "tQT-Cp-htE.segmentTitles[1]" = "Inglés";
 
+
+/* Class = "UISegmentedControl"; tQT-Cp-htE.segmentTitles[2] = "Spanish"; ObjectID = "tQT-Cp-htE"; */
+"tQT-Cp-htE.segmentTitles[2]" = "Español";
+
 /* Class = "UILabel"; text = "Daily notifications"; ObjectID = "tuC-2w-Fhy"; */
 "tuC-2w-Fhy.text" = "Alarma Tiwoli";
 

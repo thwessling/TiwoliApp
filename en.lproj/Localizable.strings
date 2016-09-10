@@ -7,7 +7,7 @@
 */
 "quoteHeading" = "Quote for ";
 "quoteLanguage" = "Quote language ";
-"quoteLanguageChange" = "ändern";
+"quoteLanguageChange" = "change";
 
 
 // share menu strings
@@ -24,3 +24,4 @@
 // languages
 "German" = "German";
 "English" = "English";
+"Spanish" = "Spanish";

@@ -16,47 +16,48 @@ class SettingsViewController: UIViewController {
     @IBOutlet weak var datePicker: UIDatePicker!
     @IBOutlet weak var languageSegmentControl: UISegmentedControl!
     
-    @IBAction func languageToggleChange(sender: AnyObject) {
-        print(Languages.German.rawValue)
+    @IBAction func languageToggleChange(_ sender: AnyObject) {
         switch languageSegmentControl.selectedSegmentIndex {
         case 0:
-            NSUserDefaults.standardUserDefaults().setObject(Languages.German.rawValue, forKey: "quotatationLanguage")
+            UserDefaults.standard.set(Languages.German.rawValue, forKey: "quotatationLanguage")
         case 1:
-            NSUserDefaults.standardUserDefaults().setObject(Languages.English.rawValue, forKey: "quotatationLanguage");
+            UserDefaults.standard.set(Languages.English.rawValue, forKey: "quotatationLanguage");
+        case 2:
+            UserDefaults.standard.set(Languages.Spanish.rawValue, forKey: "quotatationLanguage");
         default:
-            NSUserDefaults.standardUserDefaults().setObject(Languages.German.rawValue, forKey: "quotatationLanguage")
+            UserDefaults.standard.set(Languages.German.rawValue, forKey: "quotatationLanguage")
         }
         
     }
     
     
     
-    @IBAction func notificationToggleChange(sender: AnyObject) {
-       if notificationToggle.on {
-        UIApplication.sharedApplication().registerUserNotificationSettings(UIUserNotificationSettings(forTypes: [UIUserNotificationType.Sound, UIUserNotificationType.Alert], categories: nil))
-            self.datePicker.hidden = false
-            self.timeLabel.hidden = false
+    @IBAction func notificationToggleChange(_ sender: AnyObject) {
+       if notificationToggle.isOn {
+        UIApplication.shared.registerUserNotificationSettings(UIUserNotificationSettings(types: [UIUserNotificationType.sound, UIUserNotificationType.alert], categories: nil))
+            self.datePicker.isHidden = false
+            self.timeLabel.isHidden = false
        } else {
-        UIApplication.sharedApplication().cancelAllLocalNotifications()
-        self.datePicker.hidden = true
-        self.timeLabel.hidden = true
+        UIApplication.shared.cancelAllLocalNotifications()
+        self.datePicker.isHidden = true
+        self.timeLabel.isHidden = true
 
         }
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if NSUserDefaults.standardUserDefaults().boolForKey("enableNotifications") {
+        if UserDefaults.standard.bool(forKey: "enableNotifications") {
             // user setting: enable notif
             self.notificationToggle.setOn(true, animated: true)
-            self.datePicker.hidden = false
-            self.timeLabel.hidden = false
+            self.datePicker.isHidden = false
+            self.timeLabel.isHidden = false
 
-            let dateString = NSUserDefaults.standardUserDefaults().stringForKey("notificationTime")
+            let dateString = UserDefaults.standard.string(forKey: "notificationTime")
             if let dateString = dateString {
-                let formatter = NSDateFormatter()
+                let formatter = DateFormatter()
                 formatter.setLocalizedDateFormatFromTemplate("YYYY-MM-DD HH:mm")
-                let dateObj = formatter.dateFromString(dateString)
+                let dateObj = formatter.date(from: dateString)
                 if let dateObj = dateObj {
                     print("Retrieved date obj: \(dateObj)")
                     self.datePicker.setDate(dateObj, animated: true)
@@ -66,11 +67,13 @@ class SettingsViewController: UIViewController {
             self.notificationToggle.setOn(false, animated: true)
         }
         
-        let languageString = NSUserDefaults.standardUserDefaults().stringForKey("quotatationLanguage");
+        let languageString = UserDefaults.standard.string(forKey: "quotatationLanguage");
         print(languageString)
         if let languageString = languageString {
             let language = Languages(rawValue: languageString)
             switch language!  {
+            case Languages.Spanish:
+                self.languageSegmentControl.selectedSegmentIndex = 2
             case Languages.English:
                 self.languageSegmentControl.selectedSegmentIndex = 1
             case Languages.German:
@@ -95,36 +98,36 @@ class SettingsViewController: UIViewController {
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        if notificationToggle.on {
-            NSUserDefaults.standardUserDefaults().setBool(true, forKey: "enableNotifications")
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if notificationToggle.isOn {
+            UserDefaults.standard.set(true, forKey: "enableNotifications")
 
-            let formatter = NSDateFormatter()
+            let formatter = DateFormatter()
             formatter.setLocalizedDateFormatFromTemplate("YYYY-MM-DD HH:mm")
-            let dateString = formatter.stringFromDate(self.datePicker.date)
+            let dateString = formatter.string(from: self.datePicker.date)
             print("date:  + \(dateString)")
-            NSUserDefaults.standardUserDefaults().setObject(dateString, forKey: "notificationTime")
+            UserDefaults.standard.set(dateString, forKey: "notificationTime")
             
             print("Local notification at \(datePicker.date)")
-            UIApplication.sharedApplication().cancelAllLocalNotifications()
+            UIApplication.shared.cancelAllLocalNotifications()
             let notification =  UILocalNotification()
             
             notification.fireDate = datePicker.date
-            notification.timeZone = NSTimeZone.systemTimeZone()
+            notification.timeZone = TimeZone.current
             let bodyString = NSLocalizedString("notificationBody", comment: "")
 
             notification.alertBody = bodyString
             notification.alertAction = NSLocalizedString("notificationAction", comment: "")
-            NSCalendar.currentCalendar().components([NSCalendarUnit.Day,NSCalendarUnit.Month], fromDate: NSDate())
+            (Calendar.current as NSCalendar).components([NSCalendar.Unit.day,NSCalendar.Unit.month], from: Date())
             
 
             notification.alertTitle = NSLocalizedString("notificationTitle", comment: "")
-            notification.repeatInterval = NSCalendarUnit.Day
+            notification.repeatInterval = NSCalendar.Unit.day
             notification.soundName = UILocalNotificationDefaultSoundName
-            UIApplication.sharedApplication().scheduleLocalNotification(notification)
+            UIApplication.shared.scheduleLocalNotification(notification)
             print("Schedulded for \(notification.fireDate)")
         } else {
-            NSUserDefaults.standardUserDefaults().setBool(false, forKey: "enableNotifications")
+            UserDefaults.standard.set(false, forKey: "enableNotifications")
         }
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.

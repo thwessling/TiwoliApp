@@ -25,3 +25,6 @@
 "German" = "German";
 "English" = "English";
 "Spanish" = "Spanish";
+
+// widget
+"widgetHeading" = "Quote by ";

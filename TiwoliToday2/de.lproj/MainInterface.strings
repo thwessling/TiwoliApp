@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Zitat für heute:"; ObjectID = "JjM-jo-IXu"; */
+"JjM-jo-IXu.text" = "Zitat für heute:";
+
+/* Class = "UIViewController"; title = "Tiwoli - Zitat für heute"; ObjectID = "M4Y-Lb-cyx"; */
+"M4Y-Lb-cyx.title" = "Tiwoli - Zitat für heute";
+
+/* Class = "UILabel"; text = "Dies ist ein Zitat welches länger als eine Zeile ist"; ObjectID = "W2c-N3-Eit"; */
+"W2c-N3-Eit.text" = "Dies ist ein Zitat welches länger als eine Zeile ist";

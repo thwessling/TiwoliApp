@@ -23,3 +23,6 @@
 "German" = "Deutsch";
 "English" = "Englisch";
 "Spanish" = "Spanisch";
+
+// widget
+"widgetHeading" = "Zitat von ";

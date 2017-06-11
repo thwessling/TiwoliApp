@@ -26,3 +26,6 @@
 "German" = "Alemán";
 "English" = "Inglés";
 "Spanish" = "Español";
+
+// widget
+"widgetHeading" = "cita de ";

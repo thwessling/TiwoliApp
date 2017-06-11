@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Tiwoli.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>TiwoliToday2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>F732B9EF1D84666500710A17</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F798D32B1ADC3849006121B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F798D3401ADC3849006121B8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>F7B6535A1AE8C91F00834A94</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

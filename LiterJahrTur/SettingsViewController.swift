@@ -19,13 +19,13 @@ class SettingsViewController: UIViewController {
     @IBAction func languageToggleChange(_ sender: AnyObject) {
         switch languageSegmentControl.selectedSegmentIndex {
         case 0:
-            UserDefaults.standard.set(Languages.German.rawValue, forKey: "quotatationLanguage")
+            UserDefaults.init(suiteName: "group.tiwoli")?.set(Languages.German.rawValue, forKey: "quotatationLanguage")
         case 1:
-            UserDefaults.standard.set(Languages.English.rawValue, forKey: "quotatationLanguage");
+            UserDefaults.init(suiteName: "group.tiwoli")?.set(Languages.English.rawValue, forKey: "quotatationLanguage");
         case 2:
-            UserDefaults.standard.set(Languages.Spanish.rawValue, forKey: "quotatationLanguage");
+            UserDefaults.init(suiteName: "group.tiwoli")?.set(Languages.Spanish.rawValue, forKey: "quotatationLanguage");
         default:
-            UserDefaults.standard.set(Languages.German.rawValue, forKey: "quotatationLanguage")
+            UserDefaults.init(suiteName: "group.tiwoli")?.set(Languages.German.rawValue, forKey: "quotatationLanguage")
         }
         
     }
@@ -47,13 +47,13 @@ class SettingsViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if UserDefaults.standard.bool(forKey: "enableNotifications") {
+        if (UserDefaults.init(suiteName: "group.tiwoli")?.bool(forKey: "enableNotifications"))! {
             // user setting: enable notif
             self.notificationToggle.setOn(true, animated: true)
             self.datePicker.isHidden = false
             self.timeLabel.isHidden = false
 
-            let dateString = UserDefaults.standard.string(forKey: "notificationTime")
+            let dateString = UserDefaults.init(suiteName: "group.tiwoli")?.string(forKey: "notificationTime")
             if let dateString = dateString {
                 let formatter = DateFormatter()
                 formatter.setLocalizedDateFormatFromTemplate("YYYY-MM-DD HH:mm")
@@ -67,7 +67,7 @@ class SettingsViewController: UIViewController {
             self.notificationToggle.setOn(false, animated: true)
         }
         
-        let languageString = UserDefaults.standard.string(forKey: "quotatationLanguage");
+        let languageString = UserDefaults.init(suiteName: "group.tiwoli")?.string(forKey: "quotatationLanguage");
         print(languageString)
         if let languageString = languageString {
             let language = Languages(rawValue: languageString)
@@ -100,13 +100,13 @@ class SettingsViewController: UIViewController {
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if notificationToggle.isOn {
-            UserDefaults.standard.set(true, forKey: "enableNotifications")
+            UserDefaults.init(suiteName: "group.tiwoli")?.set(true, forKey: "enableNotifications")
 
             let formatter = DateFormatter()
             formatter.setLocalizedDateFormatFromTemplate("YYYY-MM-DD HH:mm")
             let dateString = formatter.string(from: self.datePicker.date)
             print("date:  + \(dateString)")
-            UserDefaults.standard.set(dateString, forKey: "notificationTime")
+            UserDefaults.init(suiteName: "group.tiwoli")?.set(dateString, forKey: "notificationTime")
             
             print("Local notification at \(datePicker.date)")
             UIApplication.shared.cancelAllLocalNotifications()
@@ -127,7 +127,7 @@ class SettingsViewController: UIViewController {
             UIApplication.shared.scheduleLocalNotification(notification)
             print("Schedulded for \(notification.fireDate)")
         } else {
-            UserDefaults.standard.set(false, forKey: "enableNotifications")
+            UserDefaults.init(suiteName: "group.tiwoli")?.set(false, forKey: "enableNotifications")
         }
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.

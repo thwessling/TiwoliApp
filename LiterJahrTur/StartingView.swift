@@ -53,7 +53,8 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
     func readNumberOfQuotes(_ fileName: String, target: inout [String: JSON]?)  {
         if let path = Bundle.main.path(forResource: fileName, ofType: "json") {
             if let data = try? Data(contentsOf: URL(fileURLWithPath: path)) {
-            let json = JSON(data: data, options: JSONSerialization.ReadingOptions.allowFragments, error: nil)
+            let json = JSON(data: data)
+                //, options: JSONSerialization.ReadingOptions.allowFragments, error: nil)
                 target = json.dictionary!
             }
         }
@@ -73,7 +74,8 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
         if let path = Bundle.main.path(forResource: quoteFile, ofType: "json") {
             if let data = try? Data(contentsOf: URL(fileURLWithPath: path)) {
                 
-                varquoteDict = JSON(data: data, options: JSONSerialization.ReadingOptions.allowFragments, error: nil).dictionary!
+                varquoteDict = JSON(data: data).dictionary!
+                //, options: JSONSerialization.ReadingOptions.allowFragments, error: nil)
                     var indizes = [String]()
                     for key in varquoteDict!.keys {
                         indizes.append(key)
@@ -99,7 +101,7 @@ class StartingView: UIViewController, UIPageViewControllerDataSource, UIPageView
         self.segment.selectedSegmentIndex = -1
 
         // load current language from settings
-        let quotationLanguage = UserDefaults.standard.string(forKey: "quotatationLanguage")
+        let quotationLanguage = UserDefaults.init(suiteName: "group.tiwoli")?.string(forKey: "quotatationLanguage")
         if let quotationLanguage = quotationLanguage {
             self.currentLanguage = Languages(rawValue: quotationLanguage)!
         } else {

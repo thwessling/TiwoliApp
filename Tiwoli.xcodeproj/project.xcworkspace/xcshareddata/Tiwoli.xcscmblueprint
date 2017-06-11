@@ -1,0 +1,24 @@
+{
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "8ebde636-9be9-4d24-8a03-ec15ce108370++3264" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8ebde636-9be9-4d24-8a03-ec15ce108370++3264" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "DFC0090F-DDD9-4F47-876B-DB8C08D7AFD0",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8ebde636-9be9-4d24-8a03-ec15ce108370++3264" : "..\/..\/development\/workspace\/Tiwoli"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Tiwoli",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Tiwoli.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn+ssh:\/\/svn-dbs.ifi.uni-heidelberg.de",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8ebde636-9be9-4d24-8a03-ec15ce108370++3264"
+    }
+  ]
+}
